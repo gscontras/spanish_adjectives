@@ -6,7 +6,7 @@
 //		]
 
 var adjectives = _.shuffle([
-		{"Predicate":"red", "Class":"color"},
+		{"Predicate":"red", "Class":"color","FemPredicate":"roja"},
 		{"Predicate":"yellow", "Class":"color"},
 		{"Predicate":"green", "Class":"color"},
 		{"Predicate":"blue", "Class":"color"},
@@ -35,7 +35,7 @@ var adjectives = _.shuffle([
 ]);
 
 var nouns = [
-		{"Noun":"apple", "NounClass":"food"},
+		{"Noun":"apple", "NounClass":"food", "Gender": "feminine"},
 		{"Noun":"banana", "NounClass":"food"},
 		{"Noun":"carrot", "NounClass":"food"},
 		{"Noun":"cheese", "NounClass":"food"},
