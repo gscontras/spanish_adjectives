@@ -11,15 +11,15 @@ var adjectives = _.shuffle([
 		{"Predicate":"verde", "Class":"color","FemPredicate":"verde"},
 		{"Predicate":"azul", "Class":"color","FemPredicate":"azul"},
 		{"Predicate":"morado", "Class":"color","FemPredicate":"morado"},
-		{"Predicate":"marrón", "Class":"color","FemPredicate":"marrón"},											
+		{"Predicate":"marr&oacute;n", "Class":"color","FemPredicate":"marr&oacute;n"},											
 		{"Predicate":"grande", "Class":"size","FemPredicate":"grande"},
 		{"Predicate":"pequeño", "Class":"size","FemPredicate":"pequeña"},					
 		{"Predicate":"enorme", "Class":"size","FemPredicate":"enorme"},					
-		{"Predicate":"minúsculo", "Class":"size","FemPredicate":"minúscula"},					
+		{"Predicate":"min&uacute;sculo", "Class":"size","FemPredicate":"min&uacute;scula"},					
 		{"Predicate":"corto", "Class":"size","FemPredicate":"corto"},					
 		{"Predicate":"largo", "Class":"size","FemPredicate":"larga"},							
 		{"Predicate":"de madera", "Class":"material","FemPredicate":"de madera"},
-		{"Predicate":"plástico", "Class":"material","FemPredicate":"plástico"},
+		{"Predicate":"pl&aacute;stico", "Class":"material","FemPredicate":"pl&aacute;stico"},
 		{"Predicate":"metal", "Class":"material","FemPredicate":"metal"},
 		{"Predicate":"liso", "Class":"texture","FemPredicate":"lisa"},
 		{"Predicate":"duro", "Class":"texture","FemPredicate":"dura"},
@@ -36,14 +36,14 @@ var adjectives = _.shuffle([
 
 var nouns = [
 		{"Noun":"manzana", "NounClass":"food", "Gender": "feminine"},
-		{"Noun":"plátano", "NounClass":"food", "Gender":"masculine"}, 
+		{"Noun":"pl&aacute;tano", "NounClass":"food", "Gender":"masculine"}, 
 		{"Noun":"zanahoria", "NounClass":"food", "Gender": "feminine"},
 		{"Noun":"queso", "NounClass":"food", "Gender":"masculine"},
 		{"Noun":"tomate", "NounClass":"food", "Gender": "masculine"},								
 		{"Noun":"silla", "NounClass":"furniture", "Gender": "feminine"},								
-		{"Noun":"sofá ", "NounClass":"furniture", "Gender": "masculine"},								
+		{"Noun":"sof&aacute; ", "NounClass":"furniture", "Gender": "masculine"},								
 		{"Noun":"ventilador", "NounClass":"furniture", "Gender": "masculine"},								
-		{"Noun":"televisión ", "NounClass":"furniture", "Gender": "feminine"},								
+		{"Noun":"televisi&oacute;n ", "NounClass":"furniture", "Gender": "feminine"},								
 		{"Noun":"escritorio", "NounClass":"furniture", "Gender": "masculine"}								
 ];
 
@@ -59,12 +59,13 @@ function makeStims() {
 		if (pred1.Class!=pred2.Class) {
 			stims.push(
 				{
-					"Predicate1":pred1.Predicate,
+					"Predicate1":pred1,
 					"Class1":pred1.Class,	
-					"Predicate2":pred2.Predicate,
+					"Predicate2":pred2,
 					"Class2":pred2.Class,			
 					"Noun":noun.Noun,
-					"NounClass":noun.NounClass
+					"NounClass":noun.NounClass,
+					"NounGender":noun.Gender
 				}			
 			);
 		}

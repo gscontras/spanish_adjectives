@@ -47,15 +47,31 @@ function make_slides(f) {
 
       $(".man2").html(man2);
 
-      $(".noun").html(stim.Noun);
+      if (gender == "masculine") {
+        $(".noun").html("el " + stim.Noun);
+      } else {
+        $(".noun").html("la " + stim.Noun);
+      }
 
       //$(".woman1").html(woman1);
 
       //$(".woman2").html(man2);
 
-      $(".low").html("\"the "+ stim.Predicate2 + " " + stim.Predicate1 + " " + stim.Noun + "\"");
+      var gender = stim.NounGender
 
-      $(".high").html("\"the "+ stim.Predicate1 + " " + stim.Predicate2 + " " + stim.Noun + "\"");
+      if (gender == "masculine") {
+      $(".low").html("\"el "+ stim.Noun + " " + stim.Predicate2.Predicate + " y " + stim.Predicate1.Predicate + "\"");
+
+      $(".high").html("\"el "+ stim.Noun + " " + stim.Predicate1.Predicate + " y " + stim.Predicate2.Predicate + "\"");
+
+      } else {
+      $(".low").html("\"la "+ stim.Noun + " " + stim.Predicate2.FemPredicate + " y " + stim.Predicate1.FemPredicate + "\"");
+
+      $(".high").html("\"la "+ stim.Noun + " " + stim.Predicate1.FemPredicate + " y " + stim.Predicate2.FemPredicate + "\"");
+
+      }
+
+
 
       // $(".utterance1").html("\"That "+ stim.Noun + " " + this.verbs[0] + " " + stim.Predicate + ".\"");
 
@@ -105,10 +121,11 @@ function make_slides(f) {
     log_responses : function() {
         exp.data_trials.push({
           "response" : exp.sliderPost,
-          "noun" : this.stim.Noun,  
+          "noun" : this.stim.Noun,
+          "gender" : this.stim.NounGender,  
           "nounclass" : this.stim.NounClass,        
-          "predicate1" : this.stim.Predicate1,
-          "predicate2" : this.stim.Predicate2,
+          "predicate1" : this.stim.Predicate1.Predicate,
+          "predicate2" : this.stim.Predicate2.Predicate,
           "class1" : this.stim.Class1,
           "class2" : this.stim.Class2,                     
           "slide_number" : exp.phase
