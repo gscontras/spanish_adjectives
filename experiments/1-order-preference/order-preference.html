@@ -49,22 +49,22 @@
 </head>
 
 <body onload="init();">
-  <noscript>This task requires JavaScript.</noscript>
+  <noscript>Esta tarea requiere Javascript.</noscript>
 
   <div class="slide" id="i0" >
     <img src="../_shared/images/cocologo.png" alt="Stanford CoCoLab" id="cocologo"></img>
     <p id="cocolab">Stanford CoCoLab</p>
-    <p id="instruct-text">This HIT involves interpreting sentences of English. The task should take about six minutes. Please pay attention. Thanks!</p>
-    <button id="start_button" type="button">Start Experiment</button>
+    <p id="instruct-text">Este HIT implica la interpretación de oraciones de español. La tarea debería tomar alrededor de seis minutos. Por favor ponga atención. ¡Gracias!</p>
+    <button id="start_button" type="button">Comenzar Experimento</button>
     <p id="legal">Legal information: By answering the following questions, you are participating in a study being performed by cognitive scientists in the Stanford Department of Psychology. If you have questions about this research, please contact Greg Scontras at <a href="mailto://scontras@stanford.edu">scontras@stanford.edu</a> or Noah Goodman, at ngoodman@stanford.edu. You must be  at least 18 years old to participate. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you.</p>
   </div>
 
   <div class="slide" id="instructions1">
-    <h3>Instructions</h3>
-    <p> You will see 26 pairs of short object descriptions.<br>
-    Your task is to decide which description sounds better.</p>
+    <h3>Instrucciones</h3>
+    <p> Verá 26 pares de descripciones cortas de objetos.
+Su tarea es decidir qué descripción suena mejor.</p>
     <!-- <p class="instruction_condition">{{}}</p> -->
-    <button onclick="_s.button()">Continue</button>
+    <button onclick="_s.button()">Continuar</button>
   </div>
 
   <div class="slide" id="multi_slider">
@@ -89,7 +89,7 @@
  -->
     <br>
 
-    <p>Which description of the <span class="noun">{{}}</span> sounds more natural?</p>
+    <p>¿Qué descripción de <span class="noun">{{}}</span> suena más natural?</p>
 
     <table id="multi_slider_table" class="slider_table">
 <!--      <tr><td class="left">No, somebody must be wrong.</td><td class="right">Yes, it's a matter of opinion.</td></tr> -->
@@ -98,33 +98,33 @@
       </td><td><span class="high">{{}}</span></td></tr>
     </table>
 
-    <p>Adjust the slider to indicate your preference.</p><br>
+    <p>Ajuste el control deslizante para indicar su preferencia.</p><br>
 
-    <button onclick="_s.button()">Continue</button>
-    <div class="err">Please adjust the slider before continuing.</div>
+    <button onclick="_s.button()">Continuar</button>
+    <div class="err">Ajuste el control deslizante antes de continuar</div>
   </div>
 
   <div class="slide"  id="subj_info">
     <div class="long_form">
-      <div class="subj_info_title">Additional information</div>
-      <p class="info">Answering these questions is optional, but will help us understand your answers.</p>
-      <p>Did you read the instructions and do you think you did the HIT correctly?</p>
+      <div class="subj_info_title">Información adicional</div>
+      <p class="info">Responder a estas preguntas es opcional, pero nos ayudará a entender sus respuestas.</p>
+      <p>¿Leíste las instrucciones y crees que hiciste el HIT correctamente?</p>
       <label><input type="radio"  name="assess" value="No"/>No</label>
-      <label><input type="radio"  name="assess" value="Yes"/>Yes</label>
-      <label><input type="radio"  name="assess" value="Confused"/>I was confused</label>
+      <label><input type="radio"  name="assess" value="Yes"/>Sí</label>
+      <label><input type="radio"  name="assess" value="Confused"/>Me confundí</label>
 
-      <p>Gender:
+      <p>Género:
         <select id="gender">
           <label><option value=""/></label>
-          <label><option value="Male"/>Male</label>
-          <label><option value="Female"/>Female</label>
-          <label><option value="Other"/>Other</label>
+          <label><option value="Male"/>Masculino</label>
+          <label><option value="Female"/>Hembra</label>
+          <label><option value="Other"/>Otro</label>
         </select>
       </p>
 
-      <p>Age: <input type="text" id="age"/></p>
+      <p>Edad: <input type="text" id="age"/></p>
 
-      <p>Level Of Education:
+      <p>Nivel de educación:
         <select id="education">
           <label><option value="-1"/></label>
           <label><option value="0"/>Some High School</label>
@@ -135,30 +135,30 @@
         </select>
       </p>
 
-      <p>Native Language: <input type="text" id="language"/></p>
-      <label>(the language(s) spoken at home when you were a child)</label>
+      <p>Lengua materna: <input type="text" id="language"/></p>
+      <label>(los idiomas hablados en casa cuando era un niño)</label>
 
-      <p>Did you enjoy the hit?</p>
+      <p>¿Disfrutaste el HIT?</p>
       <select id="enjoyment">
         <label><option value="-1"></option></label>
-        <label><option value="0">Worse than the Average HIT</option></label>
-        <label><option value="1" >An Average HIT</option></label>
-        <label><option value="2">Better than average HIT</option></label>
+        <label><option value="0">Peor que el promedio</option></label>
+        <label><option value="1" >Promedio</option></label>
+        <label><option value="2">Mejor que el promedio</option></label>
       </select>
 
-      <p>We would be interested in any comments you have about this experiment. Please type them here:</p>
+      <p>Nos interesa los comentarios que tenga sobre este experimento. Por favor escríbalos aquí:</p>
       <textarea id="comments" rows="3" cols="50"></textarea>
       <br/>
-      <button onclick="_s.submit()">Submit</button>
+      <button onclick="_s.submit()">Enviar</button>
     </div>
   </div>
 
   <div id="thanks" class="slide js" >
-    <p  class="big">Thanks for your time!</p>
+    <p  class="big">¡Gracias por su tiempo!</p>
   </div>
 
   <div class="progress">
-    <span>Progress:</span>
+    <span>Progreso:</span>
     <div class="bar-wrapper">
       <div class="bar" width="0%">
       </div>
