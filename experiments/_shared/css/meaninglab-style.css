@@ -22,7 +22,7 @@ table {
     text-align: center;
 
     border: 1px solid #04abe3;
-    width: 800px;
+    width: 700px;
     /*height: 600px;*/
 
     /*could explicitly set the following, but these are the defaults for me (chrome, linux)*/
@@ -32,7 +32,7 @@ table {
 
 /* start slide */
 
-#cocolab {
+#meaningLab {
 	font-weight: bold;
 }
 
@@ -102,14 +102,14 @@ textarea {
 	background: transparent;
 }
 
-#cocologo {
-    width: 200px;
-    margin: 10px;
+#meaningLabLogo {
+    width: 700px;
+    margin-top: 10px;
 }
 
 .slider {
 	width: 400;
-	margin: 10px;
+	margin: 100px;
 }
 
 /* Progress Bar */
