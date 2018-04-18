@@ -178,6 +178,16 @@ function make_slides(f) {
 
 /// init ///
 function init() {
+  repeatWorker = false;
+  (function(){
+      var ut_id = "spanish-ordering";
+      if (UTWorkerLimitReached(ut_id)) {
+        $('.slide').empty();
+        repeatWorker = true;
+        alert("You have already completed the maximum number of HITs allowed by this requester. Please click 'Return HIT' to avoid any impact on your approval rating.");
+      }
+  })();
+
   exp.trials = [];
   exp.catch_trials = [];
   exp.instruction = _.sample(["instruction1","instruction2"]);
