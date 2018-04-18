@@ -47,6 +47,8 @@ function make_slides(f) {
 
       $(".man2").html(man2);
 
+      var gender = stim.NounGender
+
       if (gender == "masculine") {
         $(".noun").html("el " + stim.Noun);
       } else {
@@ -56,8 +58,6 @@ function make_slides(f) {
       //$(".woman1").html(woman1);
 
       //$(".woman2").html(man2);
-
-      var gender = stim.NounGender
 
       if (gender == "masculine") {
       $(".low").html("\"el "+ stim.Noun + " " + stim.Predicate2.Predicate + " y " + stim.Predicate1.Predicate + "\"");
