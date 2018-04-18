@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <title>Oraciones de espa&ntilde;ol</title>
 
     <!--JS-->
 
@@ -27,6 +28,7 @@
 
     <!--CSS-->
     <link href="../_shared/full-projects/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../_shared/css/meaninglab-style.css" rel="stylesheet" type="text/css"/>
     <link href="css/local-style.css" rel="stylesheet" type="text/css"/>
 
     <!-- experiment file -->
@@ -34,15 +36,6 @@
     <script src="expt-files/corpus.js"></script>
     <script src="expt-files/names.js"></script>
 
-    <script> 
-      var myimages=new Array("../expt-files/images/context1.1.png","../expt-files/images/context1.3.png","../expt-files/images/context1.3reg.png","../expt-files/images/context2.1.png","../expt-files/images/context2.3.png","../expt-files/images/context2.3reg.png","../expt-files/images/context3.1.png","../expt-files/images/context3.3.png","../expt-files/images/context3.3reg.png","../expt-files/images/context4.1.png","../expt-files/images/context4.3.png","../expt-files/images/context4.3reg.png","../expt-files/images/contextX.2.png")
-      function preloadimages(){
-        for (i=0;i<preloadimages.arguments.length;i++){
-          myimages[i]=new Image()
-          myimages[i].src=preloadimages.arguments[i]
-          }
-          }
-    </script>
     
 </head>
 
@@ -50,8 +43,7 @@
   <noscript>Esta tarea requiere Javascript.</noscript>
 
   <div class="slide" id="i0" >
-    <img src="../_shared/images/cocologo.png" alt="UCI meaning lab" id="cocologo"></img>
-    <p id="cocolab">UCI meaning lab</p>
+    <img src="../_shared/images/meaningLab.png" alt="UCI meaning lab" id="meaningLabLogo"></img>
     <p id="instruct-text">Este HIT implica la interpretaci&oacute;n de oraciones de espa&ntilde;ol. La tarea deber&iacute;a tomar alrededor de seis minutos. Por favor ponga atenci&oacute;n. &#161;Gracias!</p>
     <button id="start_button" type="button">Comenzar Experimento</button>
     <p id="legal">Informaci&oacute;n legal: Al contestar a las siguientes preguntas, participa en un estudio realizado por cient&iacute;ficos cognitivos de la Universidad de California, Irvine. Si tiene preguntas sobre esta investigaci&oacute;n, comun&iacute;quese con Cesar Manuel Rosales Jr. en cesarmr@uci.edu o Greg Scontras en g.scontras@uci.edu. Debe tener al menos 18 a&ntilde;os para participar. Su participaci&oacute;n en esta investigaci&oacute;n es voluntaria. Puede negar a responder a una o a todas las siguientes preguntas. Puede dejar de participar en cualquier momento sin consecuencias adversas. Su anonimato est&aacute; asegurado; los investigadores que han solicitado su participaci&oacute;n no recibir&aacute;n informaci&oacute;n personal sobre usted.</p>
@@ -139,6 +131,95 @@ Su tarea es decidir qu&eacute; descripci&oacute;n suena mejor.</p>
 <<<<<<< HEAD
       <p>&#191;Disfrut&oacute; el HIT?</p>
 =======
+      <p>
+        &#191;Cu&aacute;l de los siguientes mejor te describe?<br>
+        <select id="describe">
+          <label><option value=""/></label>
+          <label><option value="SpanEng"/>  Crec&iacute; hablando espa&ntilde;ol y ahora hablo mayormente en ingl&eacute;s</label>
+          <label><option value="SpanSpan"/> Crec&iacute; hablando espa&ntilde;ol y todav&iacute;a hablo mayormente en espa&ntilde;ol</label>
+          <label><option value="L2"/> Crec&iacute; hablando ingl&eacute;s y aprend&iacute; espa&ntilde;ol</label>
+          <label><option value="otherL2"/>  Crec&iacute; hablando un idioma que no era espa&ntilde;ol ni ingl&eacute;s, y aprend&iacute;  espa&ntilde;ol</label>
+      </select>
+      </p>
+
+      <p>
+        Si tom&oacute; usted clases de espa&ntilde;ol en la escuela, &#191;cu&aacute;ntos a&ntilde;os de espa&ntilde;ol tom&oacute;?<br>
+        <select id="school">
+          <label><option value=""/></label>
+          <label><option value="none"/> Nunca he tomado clases de espa&ntilde;ol en la escuela</label>
+          <label><option value="small"/>  1-2 a&ntilde;os</label>
+          <label><option value="mid"/>  3-4 a&ntilde;os</label>
+          <label><option value="most"/> mas de 4 a&ntilde;os</label>
+       </select>
+      </p>
+
+      <p>
+        &#191;Tom&oacute; usted clases de espa&ntilde;ol despu&eacute;s de la escuela secundaria  (high school)?<br>
+        <select id="classes">
+          <label><option value=""/></label>
+          <label><option value="yes"/> s&iacute;</label>
+          <label><option value="no"/>  no</label>
+          <label><option value="noclasses"/> no se aplica </label>
+        </select>
+      </p>
+
+      <p>
+        Si tom&oacute; clases de espa&ntilde;ol en la universidad, &#191;cu&aacute;ntos semestres ha tomado?<br>
+        <select id="college">
+          <label><option value=""/></label>
+          <label><option value="nocollege"/> no se aplica</label>
+          <label><option value="onesem"/>  1 semestre</label>
+          <label><option value="midsem"/>  2-4 semestres</label>
+          <label><option value="mostsem"/> mas de 4 semestres</label>
+        </select>
+      </p>
+
+      <p>
+        &#191;Ha vivido usted en un pa&iacute;s hispanohablante?<br>
+        <select id="lived">
+          <label><option value=""/></label>
+          <label><option value="neverlived"/>  no, nunca he vivido en un pa&iacute;s hispanohablante</label>
+          <label><option value="under8"/>  s&iacute;, cuando ten&iacute;a MENOS de 8 a&ntilde;os</label>
+          <label><option value="over8"/> s&iacute;, cuando ten&iacute;a MAS de 8 a&ntilde;os</label>
+          <label><option value="both8"/> s&iacute;, cuando ten&iacute;a MENOS de 8 a&ntilde;os y cuando ten&iacute;a MAS de 8 a&ntilde;os</label>
+        </select>
+      </p>
+
+      <p>
+        &#191;Cu&aacute;ntos a&ntilde;os vivi&oacute; en un pa&iacute;s hispanohablante?<br>
+        <select id="years">
+          <label><option value=""/></label>
+          <label><option value="neverlived"/>  nunca he vivido en un pa&iacute;s hispanohablante</label>
+          <label><option value="shortlive"/> menos de un a&ntilde;o</label>
+          <label><option value="midlive"/> 1-5 a&ntilde;os</label>
+          <label><option value="mostlive"/>  mas de 5 a&ntilde;os</label>
+        </select>
+      </p>
+
+      <p>
+        &#191;Qu&eacute; idioma habla con su familia?<br>
+        <select id="family">
+          <label><option value=""/></label>
+          <label><option value="eng"/>  ingl&eacute;s</label>
+          <label><option value="span"/> espa&ntilde;ol</label>
+          <label><option value="spaneng"/>  espa&ntilde;ol e ingl&eacute;s</label>
+          <label><option value="other"/>  otro idioma</label>
+        </select>
+      </p>
+
+      <p>
+        &#191;C&oacute;mo evaluar&iacute;a su nivel de proficiencia en espa&ntilde;ol?<br>
+        <select id="level">
+          <label><option value=""/></label>
+          <label><option value="basic"/> b&aacute;sico</label>
+          <label><option value="int"/> intermedio</label>
+          <label><option value="fluent"/>  con fluidez</label>
+          <label><option value="native"/>  nativo</label>
+          <label><option value="none"/>  prefiero no responder</label>
+        </select>
+      </p>
+
+      <p>&#191;Disfrutaste el HIT?</p>
 >>>>>>> 5a088bf9dd3e294090f4b3462001759c9bb0980e
       <select id="enjoyment">
         <label><option value="-1"></option></label>
