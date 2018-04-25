@@ -50,9 +50,9 @@ function make_slides(f) {
       var gender = stim.NounGender
 
       if (gender == "masculine") {
-        $(".noun").html("el " + stim.Noun);
+        $(".noun").html("del " + stim.Noun);
       } else {
-        $(".noun").html("la " + stim.Noun);
+        $(".noun").html("de la " + stim.Noun);
       }
 
       //$(".woman1").html(woman1);
