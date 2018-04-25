@@ -13,7 +13,7 @@ var adjectives = _.shuffle([
 		{"Predicate":"morado", "Class":"color","FemPredicate":"morado"},
 		{"Predicate":"marr&oacute;n", "Class":"color","FemPredicate":"marr&oacute;n"},											
 		{"Predicate":"grande", "Class":"size","FemPredicate":"grande"},
-		{"Predicate":"pequeño", "Class":"size","FemPredicate":"pequeña"},					
+		{"Predicate":"peque&ntilde;o", "Class":"size","FemPredicate":"peque&ntilde;a"},					
 		{"Predicate":"enorme", "Class":"size","FemPredicate":"enorme"},					
 		{"Predicate":"min&uacute;sculo", "Class":"size","FemPredicate":"min&uacute;scula"},					
 		{"Predicate":"corto", "Class":"size","FemPredicate":"corto"},					
