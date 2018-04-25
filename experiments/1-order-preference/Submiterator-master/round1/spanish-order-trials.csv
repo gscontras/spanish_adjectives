@@ -1,0 +1,27 @@
+workerid,noun,gender,nounclass,slide_number,predicate2,predicate1,class2,response,class1
+0,sof&aacute; ,masculine,furniture,3,redondo,pl&aacute;stico,shape,0.68,material
+0,tomate,masculine,food,4,amarillo,cuadrado,color,0.87,shape
+0,ventilador,masculine,furniture,5,metal,malo,material,0.5,quality
+0,queso,masculine,food,6,cuadrado,nuevo,shape,0.75,age
+0,ventilador,masculine,furniture,7,podrido,verde,age,0.56,color
+0,queso,masculine,food,8,fresco,rojo,age,0.81,color
+0,sof&aacute; ,masculine,furniture,9,duro,amarillo,texture,0.75,color
+0,queso,masculine,food,10,metal,redondo,material,0.61,shape
+0,queso,masculine,food,11,corto,redondo,size,0.68,shape
+0,sof&aacute; ,masculine,furniture,12,duro,viejo,texture,0.71,age
+0,zanahoria,feminine,food,13,peque&ntilde;o,bueno,size,0.96,quality
+0,ventilador,masculine,furniture,14,corto,cuadrado,size,0.33,shape
+0,silla,feminine,furniture,15,corto,duro,size,0.43,texture
+0,sof&aacute; ,masculine,furniture,16,malo,pl&aacute;stico,quality,0.54,material
+0,queso,masculine,food,17,pl&aacute;stico,morado,material,0.37,color
+0,pl&aacute;tano,masculine,food,18,cuadrado,pl&aacute;stico,shape,0.56,material
+0,queso,masculine,food,19,duro,pl&aacute;stico,texture,0.6,material
+0,ventilador,masculine,furniture,20,liso,marr&oacute;n,texture,0.51,color
+0,sof&aacute; ,masculine,furniture,21,morado,largo,color,0.36,size
+0,zanahoria,feminine,food,22,rojo,cuadrado,color,0.61,shape
+0,sof&aacute; ,masculine,furniture,23,viejo,suave,age,0.33,texture
+0,zanahoria,feminine,food,24,peque&ntilde;o,de madera,size,0.54,material
+0,silla,feminine,furniture,25,enorme,cuadrado,size,0.59,shape
+0,zanahoria,feminine,food,26,bueno,enorme,quality,0.46,size
+0,manzana,feminine,food,27,bueno,redondo,quality,0.64,shape
+0,manzana,feminine,food,28,metal,grande,material,0.6,size
