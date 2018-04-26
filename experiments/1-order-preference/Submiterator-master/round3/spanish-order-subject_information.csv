@@ -1,1 +1,12 @@
 workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,most,both8,spaneng,Espanol,native,1,Male,33,SpanSpan,"
+",mostlive,Yes,yes,nocollege,4
+1,small,over8,span,Bilinguismo,basic,0,Male,26,SpanEng,NILL,shortlive,Yes,no,onesem,1
+2,small,under8,span, Ingles,near native,0,Female,25,L2,,midlive,Yes,yes,onesem,1
+3,most,neverlived,span,Espanol,native,2,Male,21,SpanEng,Muchas gracias!,neverlived,Yes,yes,nocollege,1
+4,small,under8,span,,basic,0,Female,84,SpanSpan,intresting one to understand to be,neverlived,Yes,yes,onesem,1
+5,most,both8,span,espanol,native,2,Female,42,SpanSpan,me encanta el experimento claro algunas oraciones no tienen mucho sentido pero di mi mejor apreciacion acorde a las opciones,mostlive,Yes,yes,midsem,3
+6,small,over8,span,TAMIL,int,2,Male,26,otherL2,"
+ENCUESTA MUY BONITA",midlive,Yes,yes,onesem,3
+7,most,both8,span,espanol,native,1,Female,53,SpanSpan,Tendrian que incluir oraciones que tuvieran algun sentido para que el hit fuera mas interesante.,mostlive,Yes,yes,nocollege,3
+8,most,neverlived,eng,INGLES,int,1,Female,MICHELLE,SpanEng,,neverlived,Yes,yes,onesem,1

@@ -1,2 +1,10 @@
 workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
 0,mid,over8,eng,,native,1,Female,26,L2,no,mostlive,Yes,yes,midsem,2
+1,none,both8,span,Espanol,native,2,Male,41,SpanSpan,"Estuvo interesante, gracias.",mostlive,Yes,no,nocollege,1
+2,small,under8,eng,Ingles,advanced,1,Female,25,SpanSpan,Hermosa encuesta,shortlive,Yes,yes,onesem,3
+3,mid,over8,other,Portugues,advanced,2,Male,40,otherL2,,midlive,Yes,yes,nocollege,3
+4,,,,,,-1,Female,,,,,Yes,,,-1
+5,small,under8,eng,MALAYALAM,basic,2,Male,26,SpanEng,BUENA ENCUESTA.,midlive,Yes,yes,midsem,2
+6,small,under8,eng,MALAYALAM,basic,2,Male,27,SpanEng,BUENA ENCUESTA.,midlive,Yes,yes,midsem,2
+7,mid,over8,span,ENGLISH,near native,1,Female,28,L2,,midlive,Yes,yes,mostsem,3
+8,,,other,portugues,advanced,1,Female,27,otherL2,,,Yes,,,-1
