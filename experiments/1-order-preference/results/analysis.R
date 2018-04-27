@@ -18,13 +18,18 @@ d = subset(df, select=c("workerid","noun","gender","nounclass","slide_number", "
 # re-factorize
 d[] <- lapply( d, factor) 
 
+
+# only look at "español" as the native language
 t = d[d$language=="Espanol"|d$language=="espanol"|d$language=="espanol ",]
+
+# only look at "both8" for lived
+t = t[t$lived=="both8",]
 
 t$response = as.numeric(as.character(t$response))
 
 summary(t) # 11 indicated "spanish" as native language
 
-#write.csv(t,"~/Documents/git/tagalog_adjectives/experiments/1-order-preference/results/order-preference-tagalog-only.csv")
+#write.csv(t,"~/Documents/git/spanish_adjectives/experiments/1-order-preference/results/order-preference-spanish-only.csv")
 
 #####
 ## duplicate observations by first predicate
@@ -48,7 +53,7 @@ agr$response = NULL
 agr$rightresponse = NULL
 agr$class1 = NULL
 agr$class2 = NULL
-nrow(agr) #572
+nrow(agr) #416
 #write.csv(agr,"~/Documents/git/spanish_adjectives/experiments/1-order-preference/results/naturalness-duplicated.csv")
 
 adj_agr = aggregate(correctresponse~predicate*correctclass,FUN=mean,data=agr)
