@@ -1,0 +1,27 @@
+workerid,noun,gender,nounclass,slide_number,predicate2,predicate1,class2,response,class1
+0,sof&aacute; ,masculine,furniture,3,largo,viejo,size,0.71,age
+0,queso,masculine,food,4,grande,fresco,size,0.27,age
+0,zanahoria,feminine,food,5,americano,cuadrado,nationality,0.63,shape
+0,sof&aacute; ,masculine,furniture,6,cuadrado,rojo,shape,0.39,color
+0,manzana,feminine,food,7,americano,corto,nationality,0.68,size
+0,zanahoria,feminine,food,8,cuadrado,podrido,shape,0.56,age
+0,manzana,feminine,food,9,duro,enorme,texture,0.85,size
+0,zanahoria,feminine,food,10,largo,espa&ntilde;ol,size,0.33,nationality
+0,sof&aacute; ,masculine,furniture,11,largo,americano,size,0.77,nationality
+0,zanahoria,feminine,food,12,grande,espa&ntilde;ol,size,0.23,nationality
+0,escritorio,masculine,furniture,13,fresco,verde,age,0.8,color
+0,escritorio,masculine,furniture,14,cuadrado,azul,shape,0.76,color
+0,sof&aacute; ,masculine,furniture,15,marr&oacute;n,liso,color,0.64,texture
+0,ventilador,masculine,furniture,16,peque&ntilde;o,amarillo,size,0.66,color
+0,silla,feminine,furniture,17,redondo,largo,shape,0.71,size
+0,escritorio,masculine,furniture,18,fresco,americano,age,0.17,nationality
+0,sof&aacute; ,masculine,furniture,19,largo,viejo,size,0.73,age
+0,queso,masculine,food,20,enorme,espa&ntilde;ol,size,0.17,nationality
+0,televisi&oacute;n ,feminine,furniture,21,corto,podrido,size,0.82,age
+0,silla,feminine,furniture,22,grande,mexicano,size,0.22,nationality
+0,zanahoria,feminine,food,23,malo,marr&oacute;n,quality,0.67,color
+0,manzana,feminine,food,24,marr&oacute;n,fresco,color,0.68,age
+0,queso,masculine,food,25,marr&oacute;n,grande,color,0.73,size
+0,escritorio,masculine,furniture,26,corto,viejo,size,0.18,age
+0,tomate,masculine,food,27,enorme,fresco,size,0.84,age
+0,queso,masculine,food,28,marr&oacute;n,liso,color,0.81,texture
