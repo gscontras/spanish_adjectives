@@ -1,3 +1,4 @@
 workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
 0,small,over8,span,,near native,1,Female,25,SpanSpan,,shortlive,Yes,yes,onesem,3
 1,none,under8,span,NICE,int,0,Male,NICE,SpanSpan,,midlive,No,yes,onesem,1
+2,small,under8,span,NOTHING,basic,1,Female,NOTHING,SpanSpan,NOTHING,shortlive,Yes,yes,onesem,0

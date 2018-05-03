@@ -1,2 +1,3 @@
-workerid
-0
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,mid,neverlived,spaneng,english,native,0,Male,27,L2,,neverlived,Yes,no,nocollege,2
+1,small,neverlived,eng, inglés,basic,0,Male,32,SpanEng,,neverlived,Confused,yes,nocollege,3

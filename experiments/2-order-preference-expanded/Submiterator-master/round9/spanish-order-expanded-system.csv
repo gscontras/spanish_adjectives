@@ -1,2 +1,4 @@
-workerid
-0
+workerid,OS,screenH,screenW,Browser
+0,Windows,1050,1680,Chrome
+1,Mac,900,1440,Chrome
+2,Windows,1024,1280,Chrome

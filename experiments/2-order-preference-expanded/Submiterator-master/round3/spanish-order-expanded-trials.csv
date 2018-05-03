@@ -1,2 +1,27 @@
-workerid
-0
+workerid,noun,gender,nounclass,slide_number,predicate2,predicate1,class2,response,class1
+0,silla,feminine,furniture,3,mexicano,peque&ntilde;o,nationality,0.03,size
+0,zanahoria,feminine,food,4,espa&ntilde;ol,min&uacute;sculo,nationality,0.03,size
+0,pl&aacute;tano,masculine,food,5,verde,cuadrado,color,0.05,shape
+0,sof&aacute; ,masculine,furniture,6,espa&ntilde;ol,podrido,nationality,0.04,age
+0,queso,masculine,food,7,fresco,peque&ntilde;o,age,0.03,size
+0,silla,feminine,furniture,8,fresco,malo,age,0.08,quality
+0,televisi&oacute;n ,feminine,furniture,9,duro,espa&ntilde;ol,texture,0.98,nationality
+0,pl&aacute;tano,masculine,food,10,verde,liso,color,0.03,texture
+0,sof&aacute; ,masculine,furniture,11,cuadrado,fresco,shape,0.03,age
+0,tomate,masculine,food,12,min&uacute;sculo,malo,size,0.04,quality
+0,pl&aacute;tano,masculine,food,13,enorme,amarillo,size,0.04,color
+0,queso,masculine,food,14,espa&ntilde;ol,marr&oacute;n,nationality,0,color
+0,silla,feminine,furniture,15,americano,liso,nationality,0.04,texture
+0,queso,masculine,food,16,americano,peque&ntilde;o,nationality,0.95,size
+0,silla,feminine,furniture,17,suave,fresco,texture,0.98,age
+0,televisi&oacute;n ,feminine,furniture,18,suave,redondo,texture,0.87,shape
+0,tomate,masculine,food,19,liso,largo,texture,0.88,size
+0,ventilador,masculine,furniture,20,cuadrado,enorme,shape,0.97,size
+0,sof&aacute; ,masculine,furniture,21,bueno,corto,quality,0.9,size
+0,zanahoria,feminine,food,22,mexicano,amarillo,nationality,0.94,color
+0,ventilador,masculine,furniture,23,enorme,liso,size,0.02,texture
+0,televisi&oacute;n ,feminine,furniture,24,verde,largo,color,0.95,size
+0,televisi&oacute;n ,feminine,furniture,25,viejo,bueno,age,0.02,quality
+0,zanahoria,feminine,food,26,grande,liso,size,0.08,texture
+0,zanahoria,feminine,food,27,azul,grande,color,0.94,size
+0,zanahoria,feminine,food,28,rojo,corto,color,0.92,size

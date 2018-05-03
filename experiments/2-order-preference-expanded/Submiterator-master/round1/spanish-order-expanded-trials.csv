@@ -51,3 +51,29 @@ workerid,noun,gender,nounclass,slide_number,predicate2,predicate1,class2,respons
 1,pl&aacute;tano,masculine,food,26,amarillo,bueno,color,0.74,quality
 1,silla,feminine,furniture,27,enorme,americano,size,0.59,nationality
 1,sof&aacute; ,masculine,furniture,28,redondo,morado,shape,0.77,color
+2,manzana,feminine,food,3,redondo,grande,shape,0.37,size
+2,ventilador,masculine,furniture,4,min&uacute;sculo,malo,size,0.42,quality
+2,zanahoria,feminine,food,5,azul,podrido,color,0.39,age
+2,ventilador,masculine,furniture,6,rojo,espa&ntilde;ol,color,0.52,nationality
+2,manzana,feminine,food,7,nuevo,suave,age,0.56,texture
+2,pl&aacute;tano,masculine,food,8,espa&ntilde;ol,cuadrado,nationality,0.44,shape
+2,silla,feminine,furniture,9,azul,americano,color,0.57,nationality
+2,tomate,masculine,food,10,malo,largo,quality,0.51,size
+2,pl&aacute;tano,masculine,food,11,nuevo,redondo,age,0.61,shape
+2,queso,masculine,food,12,amarillo,suave,color,0.47,texture
+2,tomate,masculine,food,13,viejo,morado,age,0.71,color
+2,escritorio,masculine,furniture,14,bueno,largo,quality,0.71,size
+2,sof&aacute; ,masculine,furniture,15,redondo,viejo,shape,0.67,age
+2,silla,feminine,furniture,16,cuadrado,morado,shape,0.51,color
+2,escritorio,masculine,furniture,17,rojo,duro,color,0.75,texture
+2,ventilador,masculine,furniture,18,peque&ntilde;o,rojo,size,0.52,color
+2,pl&aacute;tano,masculine,food,19,redondo,peque&ntilde;o,shape,0.69,size
+2,escritorio,masculine,furniture,20,rojo,americano,color,0.74,nationality
+2,escritorio,masculine,furniture,21,mexicano,min&uacute;sculo,nationality,0.59,size
+2,tomate,masculine,food,22,malo,cuadrado,quality,0.51,shape
+2,escritorio,masculine,furniture,23,enorme,americano,size,0.73,nationality
+2,televisi&oacute;n ,feminine,furniture,24,duro,cuadrado,texture,0.57,shape
+2,pl&aacute;tano,masculine,food,25,corto,nuevo,size,0.77,age
+2,zanahoria,feminine,food,26,suave,amarillo,texture,0.58,color
+2,zanahoria,feminine,food,27,azul,min&uacute;sculo,color,0.69,size
+2,ventilador,masculine,furniture,28,corto,redondo,size,0.75,shape

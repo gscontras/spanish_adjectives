@@ -4,13 +4,13 @@ library(hydroGOF)
 library(dplyr)
 #library(tidyr)
 
-setwd("~/Documents/git/spanish_adjectives/experiments/1-order-preference/Submiterator-master")
-setwd("~/git/spanish_adjectives/experiments/1-order-preference/Submiterator-master")
+setwd("~/Documents/git/spanish_adjectives/experiments/2-order-preference-expanded/Submiterator-master")
+setwd("~/git/spanish_adjectives/experiments/2-order-preference-expanded/Submiterator-master")
 
-num_round_dirs = 4
+num_round_dirs = 5
 df = do.call(rbind, lapply(1:num_round_dirs, function(i) {
   return (read.csv(paste(
-    'round', i, '/spanish-order.csv', sep=''),stringsAsFactors=FALSE) %>% 
+    'round', i, '/spanish-order-expanded.csv', sep=''),stringsAsFactors=FALSE) %>% 
       mutate(workerid = (workerid + (i-1)*9)))}))
 
 d = subset(df, select=c("workerid","noun","gender","nounclass","slide_number", "predicate1", "predicate2", "class1","class2","response","language","school","age","assess","education","lived","level","family","years","describe","classes"))
@@ -18,11 +18,15 @@ d = subset(df, select=c("workerid","noun","gender","nounclass","slide_number", "
 # re-factorize
 d[] <- lapply( d, factor) 
 
+# only look at "español" as the native language
 t = d[d$language=="Espanol"|d$language=="espanol"|d$language=="espanol ",]
+
+# only look at "both8" for lived
+t = t[t$lived=="both8",]
 
 t$response = as.numeric(as.character(t$response))
 
-summary(t) # 11 indicated "spanish" as native language
+summary(d) # XXX indicated "spanish" as native language ## 28
 
 #write.csv(t,"~/Documents/git/tagalog_adjectives/experiments/1-order-preference/results/order-preference-tagalog-only.csv")
 

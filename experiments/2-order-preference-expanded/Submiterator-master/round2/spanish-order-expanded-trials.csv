@@ -25,3 +25,29 @@ workerid,noun,gender,nounclass,slide_number,predicate2,predicate1,class2,respons
 0,escritorio,masculine,furniture,26,corto,viejo,size,0.18,age
 0,tomate,masculine,food,27,enorme,fresco,size,0.84,age
 0,queso,masculine,food,28,marr&oacute;n,liso,color,0.81,texture
+1,escritorio,masculine,furniture,3,duro,grande,texture,0.62,size
+1,ventilador,masculine,furniture,4,corto,amarillo,size,0.8,color
+1,escritorio,masculine,furniture,5,malo,mexicano,quality,0.2,nationality
+1,manzana,feminine,food,6,enorme,americano,size,0.13,nationality
+1,manzana,feminine,food,7,duro,enorme,texture,0.17,size
+1,televisi&oacute;n ,feminine,furniture,8,bueno,rojo,quality,0.06,color
+1,sof&aacute; ,masculine,furniture,9,redondo,podrido,shape,0,age
+1,manzana,feminine,food,10,espa&ntilde;ol,cuadrado,nationality,0.02,shape
+1,ventilador,masculine,furniture,11,fresco,min&uacute;sculo,age,0.95,size
+1,manzana,feminine,food,12,malo,grande,quality,0.11,size
+1,escritorio,masculine,furniture,13,corto,podrido,size,0.13,age
+1,sof&aacute; ,masculine,furniture,14,nuevo,bueno,age,0.63,quality
+1,ventilador,masculine,furniture,15,redondo,peque&ntilde;o,shape,0.21,size
+1,manzana,feminine,food,16,liso,malo,texture,0.52,quality
+1,queso,masculine,food,17,malo,liso,quality,0.54,texture
+1,sof&aacute; ,masculine,furniture,18,min&uacute;sculo,duro,size,0.83,texture
+1,ventilador,masculine,furniture,19,liso,corto,texture,0.75,size
+1,silla,feminine,furniture,20,nuevo,redondo,age,0.8,shape
+1,tomate,masculine,food,21,bueno,azul,quality,0.14,color
+1,televisi&oacute;n ,feminine,furniture,22,rojo,viejo,color,0.92,age
+1,ventilador,masculine,furniture,23,suave,verde,texture,0.05,color
+1,manzana,feminine,food,24,bueno,azul,quality,0.48,color
+1,escritorio,masculine,furniture,25,largo,nuevo,size,0.89,age
+1,ventilador,masculine,furniture,26,cuadrado,liso,shape,0.68,texture
+1,escritorio,masculine,furniture,27,suave,azul,texture,0.45,color
+1,pl&aacute;tano,masculine,food,28,fresco,enorme,age,0.35,size
