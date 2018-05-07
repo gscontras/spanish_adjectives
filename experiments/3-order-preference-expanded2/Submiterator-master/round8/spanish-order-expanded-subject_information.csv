@@ -1,0 +1,11 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,small,over8,span,español,near native,2,Male,28,L2,estudio genial,shortlive,Yes,yes,onesem,3
+1,,,,,,-1,,,,,,Yes,,,-1
+2,mid,neverlived,eng,Inglés,none,1,Male,23,L2,,neverlived,Yes,yes,nocollege,3
+3,small,under8,spaneng,Espanol,native,1,Female,64,SpanSpan,,midlive,Yes,yes,onesem,3
+4,mid,under8,eng,spanish,near native,1,Female,29,SpanSpan,"bonito
+",shortlive,Confused,yes,midsem,3
+5,mid,under8,span,,near native,2,Female,,SpanSpan,,shortlive,Yes,no,onesem,3
+6,none,both8,span,Español,native,2,Male,43,SpanSpan,,mostlive,Yes,noclasses,nocollege,3
+7,mid,over8,spaneng,,near native,2,Male,N a,L2,,midlive,Yes,noclasses,midsem,2
+8,most,neverlived,eng,Inglés,advanced,2,Female,35,SpanEng,Este fue un HIT interesante.,neverlived,Yes,yes,mostsem,3

@@ -1,0 +1,9 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,small,neverlived,span,Ingles,int,1,Male,19,SpanSpan,,neverlived,Yes,yes,onesem,2
+1,most,both8,span,Español,native,2,Male,33,SpanSpan,Interesante y curioso,mostlive,Yes,yes,onesem,3
+2,most,both8,span,Castellano,advanced,1,Male,43,SpanSpan,,mostlive,Yes,noclasses,nocollege,4
+3,most,over8,spaneng,Espanol,native,2,Male,47,SpanEng,,mostlive,Yes,yes,onesem,3
+4,mid,under8,spaneng,ingles y español ,int,2,Female,21,SpanEng,,midlive,Yes,no,nocollege,2
+5,small,under8,span,ENGLISH,int,0,Female,26,SpanEng,GOOD,neverlived,Yes,yes,onesem,3
+6,most,both8,span,español,native,2,Female,mleviday@gmail.com,SpanSpan,,mostlive,Yes,yes,mostsem,3
+7,small,,span,Español,native,2,Male,41,SpanSpan,"Algunas de las descripciones parecíann no tener un sentido lógico, por ejemplo en una de ellas se hablaba de tomates azules, lo cual creo que no existe (a menos que existan tomates modificados genéticamente para que sean de color azul).",mostlive,Yes,yes,,3
