@@ -4,10 +4,10 @@ library(hydroGOF)
 library(dplyr)
 #library(tidyr)
 
-setwd("~/Documents/git/spanish_adjectives/experiments/2-order-preference-expanded/Submiterator-master")
-setwd("~/git/spanish_adjectives/experiments/2-order-preference-expanded/Submiterator-master")
+setwd("~/Documents/git/spanish_adjectives/experiments/3-order-preference-expanded2/Submiterator-master")
+setwd("~/git/spanish_adjectives/experiments/3-order-preference-expanded2/Submiterator-master")
 
-num_round_dirs = 5
+num_round_dirs = 22
 df = do.call(rbind, lapply(1:num_round_dirs, function(i) {
   return (read.csv(paste(
     'round', i, '/spanish-order-expanded.csv', sep=''),stringsAsFactors=FALSE) %>% 
@@ -19,8 +19,11 @@ d = subset(df, select=c("workerid","noun","gender","nounclass","slide_number", "
 d[] <- lapply( d, factor) 
 
 # only look at "español" as the native language
-t = d[d$language=="Espanol"|d$language=="espanol"|d$language=="espanol ",]
-
+t = d[d$language=="Espanol"|d$language=="espanol"|d$language=="espanol "|
+        d$language==" Español"|d$language=="Española"|d$language=="spanish"|d$language=="Castellano"|
+        d$language=="Español, de España"|d$language=="SPANISH"|d$language=="castellano"|
+        d$language=="Español, Catalan"|d$language=="espanol, vasco"|d$language=="Español e italiano"|
+        d$language=="ESPAÑOL E ITALIANO",]
 # only look at "both8" for lived
 t = t[t$lived=="both8",]
 
