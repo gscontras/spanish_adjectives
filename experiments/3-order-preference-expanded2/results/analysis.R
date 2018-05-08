@@ -4,13 +4,13 @@ library(hydroGOF)
 library(dplyr)
 #library(tidyr)
 
-setwd("~/Documents/git/spanish_adjectives/experiments/1-order-preference/Submiterator-master")
-setwd("~/git/spanish_adjectives/experiments/1-order-preference/Submiterator-master")
+setwd("~/Documents/git/spanish_adjectives/experiments/3-order-preference-expanded2/Submiterator-master")
+setwd("~/git/spanish_adjectives/experiments/3-order-preference-expanded2/Submiterator-master")
 
-num_round_dirs = 4
+num_round_dirs = 22
 df = do.call(rbind, lapply(1:num_round_dirs, function(i) {
   return (read.csv(paste(
-    'round', i, '/spanish-order.csv', sep=''),stringsAsFactors=FALSE) %>% 
+    'round', i, '/spanish-order-expanded.csv', sep=''),stringsAsFactors=FALSE) %>% 
       mutate(workerid = (workerid + (i-1)*9)))}))
 
 d = subset(df, select=c("workerid","noun","gender","nounclass","slide_number", "predicate1", "predicate2", "class1","class2","response","language","school","age","assess","education","lived","level","family","years","describe","classes"))
@@ -18,18 +18,20 @@ d = subset(df, select=c("workerid","noun","gender","nounclass","slide_number", "
 # re-factorize
 d[] <- lapply( d, factor) 
 
-
 # only look at "español" as the native language
-t = d[d$language=="Espanol"|d$language=="espanol"|d$language=="espanol ",]
-
+t = d[d$language=="Espanol"|d$language=="espanol"|d$language=="espanol "|
+        d$language==" Español"|d$language=="Española"|d$language=="spanish"|d$language=="Castellano"|
+        d$language=="Español, de España"|d$language=="SPANISH"|d$language=="castellano"|
+        d$language=="Español, Catalan"|d$language=="espanol, vasco"|d$language=="Español e italiano"|
+        d$language=="ESPAÑOL E ITALIANO",]
 # only look at "both8" for lived
 t = t[t$lived=="both8",]
 
 t$response = as.numeric(as.character(t$response))
 
-summary(t) # 11 indicated "spanish" as native language
+summary(t) # XXX indicated "spanish" as native language
 
-#write.csv(t,"~/Documents/git/spanish_adjectives/experiments/1-order-preference/results/order-preference-spanish-only.csv")
+#write.csv(t,"~/Documents/git/tagalog_adjectives/experiments/1-order-preference/results/order-preference-tagalog-only.csv")
 
 #####
 ## duplicate observations by first predicate
@@ -53,7 +55,7 @@ agr$response = NULL
 agr$rightresponse = NULL
 agr$class1 = NULL
 agr$class2 = NULL
-nrow(agr) #416
+nrow(agr) #572
 #write.csv(agr,"~/Documents/git/spanish_adjectives/experiments/1-order-preference/results/naturalness-duplicated.csv")
 
 adj_agr = aggregate(correctresponse~predicate*correctclass,FUN=mean,data=agr)

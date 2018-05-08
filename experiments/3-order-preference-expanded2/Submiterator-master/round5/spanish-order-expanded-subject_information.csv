@@ -1,0 +1,10 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,none,both8,span,espanol,native,2,Female,29,SpanEng,,mostlive,Yes,no,nocollege,4
+1,most,over8,other,"Afrikaans, Español, Gallego",native,1,Male,32,SpanSpan,,mostlive,Yes,yes,nocollege,4
+2,none,both8,span,Español,native,2,Female,30,SpanSpan,Me parecia que era gente que se quejaba de un producto.,mostlive,Yes,noclasses,nocollege,2
+3,small,over8,span,,native,1,Female,,L2,,shortlive,Yes,yes,midsem,3
+4,most,under8,span,"espanol, vasco",native,2,Female,36,SpanSpan,,mostlive,Yes,yes,nocollege,2
+5,mid,neverlived,spaneng,español,advanced,1,Female,31,SpanEng,,neverlived,Yes,yes,nocollege,3
+6,most,under8,span,Espanol,native,2,Female,25,SpanEng,,mostlive,Yes,yes,onesem,4
+7,small,neverlived,eng,Spanish,basic,1,Male,34,SpanEng,ninguna,neverlived,Yes,yes,nocollege,2
+8,small,under8,spaneng,Ingles/Español,native,1,Male,26,L2,,midlive,Yes,yes,nocollege,3

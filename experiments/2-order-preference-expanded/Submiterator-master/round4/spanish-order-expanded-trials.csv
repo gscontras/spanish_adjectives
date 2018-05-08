@@ -1,0 +1,27 @@
+workerid,noun,gender,nounclass,slide_number,predicate2,predicate1,class2,response,class1
+0,manzana,feminine,food,3,bueno,corto,quality,0.45,size
+0,escritorio,masculine,furniture,4,peque&ntilde;o,liso,size,0.63,texture
+0,escritorio,masculine,furniture,5,fresco,liso,age,0.46,texture
+0,queso,masculine,food,6,largo,viejo,size,0.67,age
+0,ventilador,masculine,furniture,7,azul,mexicano,color,0.3,nationality
+0,tomate,masculine,food,8,bueno,redondo,quality,0.6,shape
+0,televisi&oacute;n ,feminine,furniture,9,enorme,viejo,size,0.65,age
+0,tomate,masculine,food,10,fresco,azul,age,0.44,color
+0,escritorio,masculine,furniture,11,azul,grande,color,0.27,size
+0,pl&aacute;tano,masculine,food,12,redondo,mexicano,shape,0.35,nationality
+0,queso,masculine,food,13,espa&ntilde;ol,malo,nationality,0.26,quality
+0,queso,masculine,food,14,verde,peque&ntilde;o,color,0.69,size
+0,tomate,masculine,food,15,liso,morado,texture,0.16,color
+0,sof&aacute; ,masculine,furniture,16,cuadrado,viejo,shape,0.54,age
+0,televisi&oacute;n ,feminine,furniture,17,morado,peque&ntilde;o,color,0.75,size
+0,zanahoria,feminine,food,18,amarillo,suave,color,0.25,texture
+0,manzana,feminine,food,19,viejo,enorme,age,0.68,size
+0,escritorio,masculine,furniture,20,min&uacute;sculo,rojo,size,0.69,color
+0,escritorio,masculine,furniture,21,duro,fresco,texture,0.29,age
+0,zanahoria,feminine,food,22,duro,espa&ntilde;ol,texture,0.73,nationality
+0,silla,feminine,furniture,23,largo,suave,size,0.57,texture
+0,escritorio,masculine,furniture,24,marr&oacute;n,viejo,color,0.38,age
+0,televisi&oacute;n ,feminine,furniture,25,redondo,morado,shape,0.36,color
+0,ventilador,masculine,furniture,26,fresco,azul,age,0.67,color
+0,zanahoria,feminine,food,27,azul,bueno,color,0.41,quality
+0,ventilador,masculine,furniture,28,duro,amarillo,texture,0.61,color

@@ -1,0 +1,27 @@
+workerid,noun,gender,nounclass,slide_number,predicate2,predicate1,class2,response,class1
+0,ventilador,masculine,furniture,3,min&uacute;sculo,viejo,size,0.65,age
+0,zanahoria,feminine,food,4,corto,redondo,size,0.13,shape
+0,queso,masculine,food,5,espa&ntilde;ol,amarillo,nationality,0.74,color
+0,televisi&oacute;n ,feminine,furniture,6,nuevo,min&uacute;sculo,age,0.46,size
+0,pl&aacute;tano,masculine,food,7,mexicano,enorme,nationality,0.75,size
+0,queso,masculine,food,8,mexicano,verde,nationality,0.55,color
+0,sof&aacute; ,masculine,furniture,9,corto,cuadrado,size,0.24,shape
+0,manzana,feminine,food,10,marr&oacute;n,nuevo,color,0.93,age
+0,sof&aacute; ,masculine,furniture,11,marr&oacute;n,mexicano,color,0.6,nationality
+0,televisi&oacute;n ,feminine,furniture,12,enorme,suave,size,0.26,texture
+0,manzana,feminine,food,13,liso,viejo,texture,0.69,age
+0,queso,masculine,food,14,mexicano,verde,nationality,0.43,color
+0,televisi&oacute;n ,feminine,furniture,15,fresco,espa&ntilde;ol,age,0.89,nationality
+0,ventilador,masculine,furniture,16,fresco,grande,age,0.19,size
+0,pl&aacute;tano,masculine,food,17,rojo,corto,color,0.8,size
+0,sof&aacute; ,masculine,furniture,18,corto,americano,size,0.59,nationality
+0,queso,masculine,food,19,marr&oacute;n,redondo,color,0.34,shape
+0,tomate,masculine,food,20,liso,rojo,texture,0.85,color
+0,televisi&oacute;n ,feminine,furniture,21,podrido,morado,age,0.19,color
+0,tomate,masculine,food,22,fresco,amarillo,age,0.9,color
+0,pl&aacute;tano,masculine,food,23,cuadrado,corto,shape,0.69,size
+0,manzana,feminine,food,24,verde,liso,color,0.41,texture
+0,tomate,masculine,food,25,viejo,morado,age,0.65,color
+0,queso,masculine,food,26,amarillo,grande,color,0.12,size
+0,queso,masculine,food,27,largo,liso,size,0.67,texture
+0,sof&aacute; ,masculine,furniture,28,nuevo,morado,age,0.32,color

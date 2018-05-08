@@ -1,0 +1,10 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,small,neverlived,span,TAMIL,advanced,1,Male,20,SpanEng,NICE,neverlived,Yes,yes,onesem,1
+1,none,both8,spaneng,Espanol,native,1,Male,23,SpanSpan,"Los adjetivos a veces no correspondian al genero de los sustantivos, pero se entienden por contexto.",mostlive,Yes,noclasses,nocollege,3
+2,most,both8,span,Espanol,native,1,Male,27,SpanSpan,,mostlive,Yes,yes,nocollege,2
+3,small,under8,eng,MALAYALAM,basic,2,Male,28,SpanEng,BUENA ENCUESTA.,midlive,Yes,yes,midsem,2
+4,small,under8,eng,TAMIL,basic,2,Male,24,SpanEng,BUENA ENCUESTA,midlive,Yes,yes,midsem,0
+5,small,under8,eng,MALAYALAM,basic,2,Female,26,SpanEng,BUENA ENCUESTA,midlive,Yes,yes,midsem,2
+6,,neverlived,eng,engles,near native,2,Male,29,SpanEng,,neverlived,Yes,no,nocollege,3
+7,mid,over8,eng,"english,spanish",near native,1,Female,34,L2,,shortlive,Yes,yes,nocollege,3
+8,mid,neverlived,spaneng,english and spanish ,near native,2,Male,22,L2,me gusto la manera en que realizaron el hit. me gustaria que me llamaran en los siguientes hit de este tipo para ayudarlos.,neverlived,Yes,yes,nocollege,1

@@ -1,0 +1,10 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,most,neverlived,eng,Ingles,int,1,Female,47,SpanEng,,neverlived,Yes,yes,midsem,4
+1,most,over8,span,Español,native,2,Male,24,SpanSpan,,mostlive,Yes,yes,mostsem,2
+2,most,over8,span,francés,near native,2,Male,41,otherL2,,midlive,Yes,yes,midsem,4
+3,none,over8,eng,SPANISH,int,1,Female,48,SpanEng,I DO NOT HAVE COMMENT,mostlive,Confused,no,nocollege,2
+4,most,both8,span,Español,native,2,Male,43,SpanSpan,"Es un experimento divertido, tengo curiosidad por saber qué estudia. Algunas frases no sonaban bien ni de una forma ni de otra",mostlive,Yes,yes,mostsem,4
+5,most,both8,span,español,native,2,Male,26,SpanSpan,"Los adjetivos atribuidos a cada nombre en español son absurdos, deberían de sustituirlos por otros más adecuados",mostlive,Yes,noclasses,nocollege,4
+6,most,neverlived,spaneng,ingles,near native,2,Male,23,L2,te amo,mostlive,Yes,yes,onesem,3
+7,most,both8,span,"Español, de España",native,2,Male,24,SpanSpan,Ha sido facil como hablante de castellano,mostlive,Yes,yes,mostsem,4
+8,most,,span,Español,native,2,Male,50,SpanSpan,"Me gustó mucho el HIT, espero seguir participando.",mostlive,Yes,,,3

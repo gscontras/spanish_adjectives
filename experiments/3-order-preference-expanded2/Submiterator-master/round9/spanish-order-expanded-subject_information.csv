@@ -1,0 +1,10 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,most,neverlived,eng,Ingles,advanced,2,Female,36,L2,,neverlived,Yes,no,mostsem,3
+1,small,neverlived,eng,Ingles,int,1,Female,26,SpanEng,,neverlived,Yes,no,nocollege,1
+2,none,under8,span,Espanol,native,1,Male,23,SpanEng,,mostlive,Yes,no,nocollege,3
+3,most,,,,,2,Male,41,SpanEng,,,Yes,,,4
+4,most,neverlived,other,Italiano,advanced,2,Female,19,otherL2,,neverlived,Yes,yes,nocollege,3
+5,most,neverlived,eng,English,advanced,1,Male,21,L2,"Pensaba que fueron un patrón, pero como el experimento avanzó, fui menos seguro.",neverlived,Yes,yes,midsem,2
+6,small,over8,eng,Inglés,int,1,Female,19,L2,,midlive,Yes,yes,midsem,1
+7,most,neverlived,eng,Ingles,int,2,Male,32,SpanEng,¡Gracias para la trabajar!,neverlived,Yes,no,nocollege,2
+8,most,over8,eng,ingles,int,2,Female,32,L2,,shortlive,Yes,no,mostsem,4

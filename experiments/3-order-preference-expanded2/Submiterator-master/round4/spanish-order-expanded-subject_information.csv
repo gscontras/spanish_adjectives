@@ -1,0 +1,11 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,none,under8,span,Espanol,native,2,Male,21,SpanEng,,mostlive,Yes,no,nocollege,3
+1,most,both8,span,Español,native,2,Female,44,SpanSpan,"Si tomó clases de español en la escuela, ¿cuántos años de español tomó?
+Estudie en un pais latinoamericano, el curso se llamaba Lenguaje",mostlive,Yes,noclasses,nocollege,4
+2,most,neverlived,eng,ingles,advanced,2,Female,37,L2,,neverlived,Yes,no,mostsem,2
+3,most,over8,eng,"ingles, espanol",advanced,2,Female,30,SpanEng,gracias,midlive,Yes,yes,mostsem,4
+4,most,neverlived,other,Português,int,1,Male,26,otherL2,,neverlived,Yes,no,mostsem,3
+5,mid,over8,span,English,int,1,Female,Ann,L2,,shortlive,Yes,noclasses,midsem,2
+6,none,over8,eng,Ingles y Español,none,1,Female,40,SpanEng,,mostlive,Confused,noclasses,nocollege,3
+7,mid,both8,spaneng,gbhj,int,1,Female,djdjf,SpanSpan,djcjdsnc vjndc ncn n jsc jmsa,mostlive,Confused,no,mostsem,1
+8,most,under8,spaneng,Español,native,2,Male,26,SpanEng,,mostlive,Yes,yes,nocollege,3

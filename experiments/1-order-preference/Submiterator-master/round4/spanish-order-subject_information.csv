@@ -1,0 +1,10 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,small,neverlived,span,Espanol,int,1,Male,35,SpanSpan,Bueno!,neverlived,No,yes,nocollege,3
+1,most,both8,span,espanol ,native,2,Male,36,SpanSpan,gracias,mostlive,Yes,yes,nocollege,3
+2,small,over8,spaneng,Ingles y Espanol,native,2,Female,48,SpanEng,"Some of the adjectives did not correspond in gender to the noun. For example, it should be ""manzana roja"" and not ""manzana rojo"".",mostlive,Yes,yes,nocollege,3
+3,mid,neverlived,eng,Ingles,advanced,1,Male,34,L2,No tengo mas comentarios,neverlived,Yes,yes,midsem,2
+4,most,neverlived,span,Espanol,native,1,Male,24,SpanEng,,neverlived,Yes,yes,midsem,3
+5,,,,,,-1,Male,,,,,No,,,2
+6,small,under8,span,English,int,2,Male,35,SpanSpan,,shortlive,Yes,yes,onesem,3
+7,most,neverlived,eng,Ingles,advanced,1,Female,27,SpanEng,"Soy de Estados Unidos pero mi esposo es de Honduras, por eso yo fui a las clases de Espanol en mi colegio antes. La verdad yo puedo leer mejor que puedo escribir. Pero gracias, porque esto habia muy divertido para mi!",neverlived,Yes,no,midsem,3
+8,most,both8,span,espanol,native,2,Female,25,SpanEng,,mostlive,Yes,yes,nocollege,3
