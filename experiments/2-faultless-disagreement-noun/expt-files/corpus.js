@@ -6,40 +6,40 @@
 //		]
 
 var adjectives = _.shuffle([
-		{"Predicate":"red", "Class":"color"},
-		{"Predicate":"yellow", "Class":"color"},
-		{"Predicate":"green", "Class":"color"},
-		{"Predicate":"blue", "Class":"color"},
-		{"Predicate":"purple", "Class":"color"},
-		{"Predicate":"brown", "Class":"color"},											
-		{"Predicate":"big", "Class":"size"},
-		{"Predicate":"small", "Class":"size"},					
-		{"Predicate":"huge", "Class":"size"},					
-		{"Predicate":"tiny", "Class":"size"},					
-		{"Predicate":"short", "Class":"size"},					
-		{"Predicate":"long", "Class":"size"},							
-		{"Predicate":"wooden", "Class":"material"},
-		{"Predicate":"plastic", "Class":"material"},
-		{"Predicate":"metal", "Class":"material"},
-		{"Predicate":"smooth", "Class":"texture"},
-		{"Predicate":"hard", "Class":"texture"},
-		{"Predicate":"soft", "Class":"texture"},
-		{"Predicate":"old", "Class":"age"},
-		{"Predicate":"new", "Class":"age"},
-		{"Predicate":"rotten", "Class":"age"},
-		{"Predicate":"fresh", "Class":"age"},
-		{"Predicate":"good", "Class":"quality"},
-		{"Predicate":"bad", "Class":"quality"},
-		{"Predicate":"round", "Class":"shape"},						
-		{"Predicate":"square", "Class":"shape"}
+		{"Predicate":"rojo", "Class":"color","FemPredicate":"roja"},
+		{"Predicate":"amarillo", "Class":"color","FemPredicate":"amarilla"},
+		{"Predicate":"verde", "Class":"color","FemPredicate":"verde"},
+		{"Predicate":"azul", "Class":"color","FemPredicate":"azul"},
+		{"Predicate":"morado", "Class":"color","FemPredicate":"morado"},
+		{"Predicate":"marr&oacute;n", "Class":"color","FemPredicate":"marr&oacute;n"},											
+		{"Predicate":"grande", "Class":"size","FemPredicate":"enorme"},
+		{"Predicate":"peque&ntilde;o", "Class":"size","FemPredicate":"peque&ntilde;a"},					
+		{"Predicate":"enorme", "Class":"size","FemPredicate":"enorme"},					
+		{"Predicate":"min&uacute;sculo", "Class":"size","FemPredicate":"min&uacute;scula"},					
+		{"Predicate":"corto", "Class":"size","FemPredicate":"corto"},					
+		{"Predicate":"largo", "Class":"size","FemPredicate":"larga"},							
+		{"Predicate":"de madera", "Class":"material","FemPredicate":"de madera"},
+		{"Predicate":"pl&aacute;stico", "Class":"material","FemPredicate":"pl&aacute;stico"},
+		{"Predicate":"metal", "Class":"material","FemPredicate":"metal"},
+		{"Predicate":"liso", "Class":"texture","FemPredicate":"lisa"},
+		{"Predicate":"duro", "Class":"texture","FemPredicate":"dura"},
+		{"Predicate":"suave", "Class":"texture","FemPredicate":"suave"},
+		{"Predicate":"viejo", "Class":"age","FemPredicate":"vieja"},
+		{"Predicate":"nuevo", "Class":"age","FemPredicate":"nueva"},
+		{"Predicate":"podrido", "Class":"age","FemPredicate":"podrida"},
+		{"Predicate":"fresco", "Class":"age","FemPredicate":"fresca"},
+		{"Predicate":"bueno", "Class":"quality","FemPredicate":"buena"},
+		{"Predicate":"malo", "Class":"quality","FemPredicate":"mala"},
+		{"Predicate":"redondo", "Class":"shape","FemPredicate":"redonda"},						
+		{"Predicate":"cuadrado", "Class":"shape","FemPredicate":"cuadrada"}
 ]);
 
 var nouns = [
-		{"Noun":"apple", "NounClass":"food"},
-		{"Noun":"cheese", "NounClass":"food"},
-		{"Noun":"hair", "NounClass":"body"},				
-		{"Noun":"eyes", "NounClass":"body"},
-		{"Noun":"thing", "NounClass":"thing"}									
+		{"Noun":"manzana", "NounClass":"food", "Gender": "feminine"},
+		{"Noun":"queso", "NounClass":"food", "Gender": "masculine"},
+		{"Noun":"cabello", "NounClass":"body", "Gender": "masculine"},				
+		{"Noun":"ojos", "NounClass":"body", "Gender": "masculine"},
+		{"Noun":"cosa", "NounClass":"thing", "Gender": "feminine"}									
 ];
 
 var stimuli =  makeStims();
