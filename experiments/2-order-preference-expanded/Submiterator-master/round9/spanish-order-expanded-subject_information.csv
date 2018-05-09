@@ -1,4 +1,2 @@
 workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
-0,most,both8,span,Español,native,2,Male,43,SpanSpan,"Gracias, ha sido interesante, a veces es complicado pero he respondido de forma natural",mostlive,Yes,yes,mostsem,4
-1,most,both8,spaneng,español,native,2,Female,37,SpanSpan,,mostlive,Yes,yes,nocollege,2
-2,most,both8,span,esp,native,1,Female,33,SpanSpan,,mostlive,Yes,noclasses,nocollege,3
+0,most,,span,,native,1,Male,,SpanSpan,,,Yes,yes,nocollege,3
