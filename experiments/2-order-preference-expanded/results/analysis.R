@@ -7,7 +7,7 @@ library(dplyr)
 setwd("~/Documents/git/spanish_adjectives/experiments/2-order-preference-expanded/Submiterator-master")
 setwd("~/git/spanish_adjectives/experiments/2-order-preference-expanded/Submiterator-master")
 
-num_round_dirs = 5
+num_round_dirs = 14
 df = do.call(rbind, lapply(1:num_round_dirs, function(i) {
   return (read.csv(paste(
     'round', i, '/spanish-order-expanded.csv', sep=''),stringsAsFactors=FALSE) %>% 
@@ -19,14 +19,14 @@ d = subset(df, select=c("workerid","noun","gender","nounclass","slide_number", "
 d[] <- lapply( d, factor) 
 
 # only look at "español" as the native language
-t = d[d$language=="Espanol"|d$language=="espanol"|d$language=="espanol ",]
+t = d[d$language=="Español"|d$language=="español"|d$language=="esp",]
 
 # only look at "both8" for lived
 t = t[t$lived=="both8",]
 
 t$response = as.numeric(as.character(t$response))
 
-summary(d) # XXX indicated "spanish" as native language ## 28
+summary(t) # 5 participants
 
 #write.csv(t,"~/Documents/git/tagalog_adjectives/experiments/1-order-preference/results/order-preference-tagalog-only.csv")
 

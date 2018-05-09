@@ -1,2 +1,5 @@
-workerid
-0
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,small,over8,span,,near native,1,Male,,SpanSpan,,shortlive,No,no,onesem,2
+1,none,under8,span,NO,advanced,2,Other,SI EL HIT CORRECTAMENTE,L2,NO COMENTARIOS.EL HIT FAVORESCRIBALOS AQUI.,shortlive,No,no,nocollege,2
+2,none,neverlived,eng,espanol,int,1,Female,,L2,,shortlive,Yes,no,nocollege,1
+3,most,under8,span,spanish,native,2,Male,28,SpanSpan,bonito,mostlive,Yes,yes,midsem,3

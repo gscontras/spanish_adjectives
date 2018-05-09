@@ -1,2 +1,53 @@
-workerid
-0
+workerid,noun,gender,nounclass,slide_number,predicate2,predicate1,class2,response,class1
+0,pl&aacute;tano,masculine,food,3,mexicano,nuevo,nationality,0.96,age
+0,escritorio,masculine,furniture,4,suave,cuadrado,texture,0.96,shape
+0,zanahoria,feminine,food,5,espa&ntilde;ol,corto,nationality,0.06,size
+0,televisi&oacute;n ,feminine,furniture,6,liso,grande,texture,0.97,size
+0,sof&aacute; ,masculine,furniture,7,bueno,nuevo,quality,0.99,age
+0,ventilador,masculine,furniture,8,rojo,malo,color,0,quality
+0,pl&aacute;tano,masculine,food,9,min&uacute;sculo,azul,size,0.94,color
+0,zanahoria,feminine,food,10,suave,mexicano,texture,0.99,nationality
+0,televisi&oacute;n ,feminine,furniture,11,duro,morado,texture,0.97,color
+0,televisi&oacute;n ,feminine,furniture,12,malo,min&uacute;sculo,quality,0.98,size
+0,escritorio,masculine,furniture,13,duro,viejo,texture,0.99,age
+0,ventilador,masculine,furniture,14,americano,enorme,nationality,0.01,size
+0,pl&aacute;tano,masculine,food,15,americano,suave,nationality,0.04,texture
+0,ventilador,masculine,furniture,16,peque&ntilde;o,fresco,size,0.98,age
+0,zanahoria,feminine,food,17,marr&oacute;n,min&uacute;sculo,color,0,size
+0,televisi&oacute;n ,feminine,furniture,18,viejo,corto,age,0.08,size
+0,escritorio,masculine,furniture,19,americano,morado,nationality,0.04,color
+0,queso,masculine,food,20,azul,redondo,color,0.04,shape
+0,queso,masculine,food,21,podrido,amarillo,age,0.97,color
+0,queso,masculine,food,22,duro,verde,texture,0.99,color
+0,sof&aacute; ,masculine,furniture,23,malo,duro,quality,0.02,texture
+0,tomate,masculine,food,24,azul,duro,color,0.02,texture
+0,tomate,masculine,food,25,nuevo,mexicano,age,0.95,nationality
+0,ventilador,masculine,furniture,26,mexicano,podrido,nationality,0.02,age
+0,escritorio,masculine,furniture,27,mexicano,azul,nationality,0.08,color
+0,escritorio,masculine,furniture,28,malo,nuevo,quality,1,age
+1,silla,feminine,furniture,3,cuadrado,marr&oacute;n,shape,0.39,color
+1,tomate,masculine,food,4,rojo,espa&ntilde;ol,color,0.17,nationality
+1,tomate,masculine,food,5,redondo,liso,shape,0.24,texture
+1,queso,masculine,food,6,enorme,viejo,size,0.28,age
+1,zanahoria,feminine,food,7,espa&ntilde;ol,liso,nationality,0.55,texture
+1,manzana,feminine,food,8,rojo,enorme,color,0.8,size
+1,manzana,feminine,food,9,fresco,redondo,age,0.8,shape
+1,silla,feminine,furniture,10,corto,duro,size,0.48,texture
+1,silla,feminine,furniture,11,morado,suave,color,0.74,texture
+1,ventilador,masculine,furniture,12,grande,amarillo,size,0.87,color
+1,sof&aacute; ,masculine,furniture,13,verde,largo,color,0.8,size
+1,ventilador,masculine,furniture,14,redondo,podrido,shape,0.42,age
+1,manzana,feminine,food,15,espa&ntilde;ol,duro,nationality,0.84,texture
+1,queso,masculine,food,16,amarillo,cuadrado,color,0.33,shape
+1,zanahoria,feminine,food,17,mexicano,rojo,nationality,0.78,color
+1,escritorio,masculine,furniture,18,redondo,mexicano,shape,0.13,nationality
+1,manzana,feminine,food,19,marr&oacute;n,cuadrado,color,0.49,shape
+1,televisi&oacute;n ,feminine,furniture,20,duro,mexicano,texture,0.19,nationality
+1,sof&aacute; ,masculine,furniture,21,fresco,peque&ntilde;o,age,0.84,size
+1,silla,feminine,furniture,22,fresco,liso,age,0.55,texture
+1,tomate,masculine,food,23,malo,redondo,quality,0.37,shape
+1,televisi&oacute;n ,feminine,furniture,24,espa&ntilde;ol,viejo,nationality,0.86,age
+1,manzana,feminine,food,25,peque&ntilde;o,duro,size,0.86,texture
+1,ventilador,masculine,furniture,26,largo,azul,size,0.23,color
+1,sof&aacute; ,masculine,furniture,27,peque&ntilde;o,mexicano,size,0.23,nationality
+1,pl&aacute;tano,masculine,food,28,suave,largo,texture,0.72,size
