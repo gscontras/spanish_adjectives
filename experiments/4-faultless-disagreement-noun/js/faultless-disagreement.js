@@ -36,24 +36,17 @@ function make_slides(f) {
       //var noun = noun_data.noun;
       //var animacy = noun_data.animacy;
 
-      this.verbs = _.shuffle(["","not"])
+      this.verbs = _.shuffle(["est&aacute;","no est&aacute;"])
 
-     if (/eyes/.test(stim.Noun)) {
-          det = "Those ";
-          cop = "are ";
-        } else {
-          det = "That ";
-          cop = "is ";
-        };
 
       var names_list = _.shuffle(names);
 
-      var man1 = names_list[0];
-      var man2 = names_list[1];
+      var person1 = names_list[0] ;
+      var person2 = names_list[1] ;
 
-      $(".man1").html(man1);
+      $(".person1").html(person1.name);
 
-      $(".man2").html(man2);
+      $(".person2").html(person2.name);
 
       $(".noun").html(stim.Noun);
 
@@ -61,9 +54,34 @@ function make_slides(f) {
 
       //$(".woman2").html(man2);
 
-      $(".utterance1").html("\""+ det + stim.Noun + " " + cop + this.verbs[0] + " " + stim.Predicate + ".\"");
+      if (person1.gender == "feminine" & person2.gender == "feminine") {
+        $(".both").html("las dos")
+        $(".correct").html("correctas")
+      } else {
+        $(".both").html("los dos")
+        $(".correct").html("correctos")
+      }
 
-      $(".utterance2").html("\"You're wrong. " + det + stim.Noun + " " + cop + this.verbs[1] + " "  + stim.Predicate + ".\"");
+
+      var gender = stim.NounGender
+
+      if (gender == "masculine") {
+        $(".noun").html("el mismo " + stim.Noun);
+      } else {
+        $(".noun").html("la misma " + stim.Noun);
+      }
+
+      if (gender == "masculine") {
+      $(".utterance1").html("\"El " + stim.Noun + " " +  this.verbs[0] + " " + stim.Predicate1.Predicate + ".\"");
+
+      $(".utterance2").html("\"Est&aacute;s equivocado. El " + stim.Noun + " "+ this.verbs[1] + " "  + stim.Predicate1.Predicate + ".\"");
+
+      } else {
+      $(".utterance1").html("\"La " + stim.Noun + " " +  this.verbs[0] + " " + stim.Predicate1.FemPredicate + ".\"");
+
+      $(".utterance2").html("\"Est&aacute;s equivocado. La " + stim.Noun + " "+ this.verbs[1] + " "  + stim.Predicate1.FemPredicate + ".\"");
+
+      }
 
 //      this.sentence_types = _.shuffle(["yes","no"]);
 //      this.sentence_types = ["no","yes"];

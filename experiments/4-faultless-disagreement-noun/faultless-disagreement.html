@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Corpus-based faultless disagreement</title>
+    <title>Oraciones de espa&ntilde;ol</title>
 
     <!--JS-->
 
@@ -28,7 +28,7 @@
 
     <!--CSS-->
     <link href="../_shared/full-projects/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
-    <link href="../_shared/css/cocolab-style.css" rel="stylesheet" type="text/css"/>
+    <link href="../_shared/css/meaninglab-style.css" rel="stylesheet" type="text/css"/>
     <link href="css/local-style.css" rel="stylesheet" type="text/css"/>
 
     <!-- experiment file -->
@@ -36,15 +36,6 @@
     <script src="expt-files/corpus.js"></script>
     <script src="expt-files/names.js"></script>
 
-    <script> 
-      var myimages=new Array("../expt-files/images/context1.1.png","../expt-files/images/context1.3.png","../expt-files/images/context1.3reg.png","../expt-files/images/context2.1.png","../expt-files/images/context2.3.png","../expt-files/images/context2.3reg.png","../expt-files/images/context3.1.png","../expt-files/images/context3.3.png","../expt-files/images/context3.3reg.png","../expt-files/images/context4.1.png","../expt-files/images/context4.3.png","../expt-files/images/context4.3reg.png","../expt-files/images/contextX.2.png")
-      function preloadimages(){
-        for (i=0;i<preloadimages.arguments.length;i++){
-          myimages[i]=new Image()
-          myimages[i].src=preloadimages.arguments[i]
-          }
-          }
-    </script>
     
 </head>
 
@@ -52,8 +43,7 @@
   <noscript>Se requiere JavaScript.</noscript>
 
   <div class="slide" id="i0" >
-    <img src="../_shared/images/cocologo.png" alt="Stanford CoCoLab" id="cocologo"></img>
-    <p id="cocolab">Stanford CoCoLab</p>
+    <img src="../_shared/images/meaningLab.png" alt="UCI meaning lab" id="meaningLabLogo"></img>
     <p id="instruct-text">Este HIT implica la interpretaci&oacute;n de oraciones de espa&ntilde;ol. Deber&iacute;a tomar alrededor de seis minutos. Favor de poner atenci&oacute;n. &#161;Gracias!</p>
     <button id="start_button" type="button">Comenzar Experimento</button>
     <p id="legal">Informaci&oacute;n legal: Al contestar a las siguientes preguntas, participa en un estudio realizado por cient&iacute;ficos cognitivos de la Universidad de California, Irvine. Si tiene preguntas sobre esta investigaci&oacute;n, comun&iacute;quese con Cesar Manuel Rosales Jr. al cesarmr@uci.edu o Greg Scontras al g.scontras@uci.edu. Debe tener al menos 18 a&ntilde;os para participar. Su participaci&oacute;n en esta investigaci&oacute;n es voluntaria. Puede negar a responder a una o a todas las siguientes preguntas. Puede dejar de participar en cualquier momento sin consecuencias adversas. Su anonimato est&aacute; asegurado. Los investigadores que han solicitado su participaci&oacute;n no recibir&aacute;n informaci&oacute;n personal sobre usted.</p>
@@ -76,20 +66,27 @@
 
     <p><span class="man1">{{}}</span> entered <span class = "woman">{{}}</span>'s store, noticed the <span class="noun">{{}}</span>, and said:</p>
     -->
-    <p><span class="man1">{{}}</span> y <span class="man2">{{}}</span> ven la misma <span class="noun">{{}}</span>.</p> 
-    <p><span class="man1">{{}}</span> dice: <b><span class="utterance1">{{}}</span></b></p>
+    <p><span class="person1">{{}}</span> y <span class="person2">{{}}</span> ven <span class="noun">{{}}</span>.</p> 
+    <p><span class="person1">{{}}</span> dice: <b><span class="utterance1">{{}}</span></b></p>
 
-    <p><span class="man2">{{}}</span> responde: <b><span class="utterance2">{{}}</span></b></p>
+    <p><span class="person2">{{}}</span> responde: <b><span class="utterance2">{{}}</span></b></p>
 
 <!--     <p>Do the statements make sense?</p>
     <label><input type="radio"  name="sense" value="Yes"/>Yes</label>
     <label><input type="radio"  name="sense" value="No"/>No</label>
     </br></br>
  -->
+<<<<<<< HEAD
     <p>Es posible que los dos<span class="man1">{{}}</span> y <span class="man2">{{}}</span> tengan raz&oacute;n?</p>
     <table id="multi_slider_table" class="slider_table">
 <!--      <tr><td class="left">No, somebody must be wrong.</td><td class="right">Yes, it's a matter of opinion.</td></tr> -->
       <tr><td>No, alguien se equivoc&oacute;.</td><td><div id="slider0" class="slider"></div></td><td>S&iacute;, los dos pueden tener raz&oacute;n.</td></tr>
+=======
+    <p>Es posible que <span class="both">{{}}</span> est&eacute;n <span class="correct">{{}}</span>?</p>
+    <table id="multi_slider_table" class="slider_table">
+<!--      <tr><td class="left">No, somebody must be wrong.</td><td class="right">Yes, it's a matter of opinion.</td></tr> -->
+      <tr><td>No, alguien se equivoc&oacute;.</td><td><div id="slider0" class="slider"></div></td><td>Si, los dos pueden estar <span class="correct">{{}}</span>.</td></tr>
+>>>>>>> 6af1aeac690999931500c05539ee0ea5fe78f5a7
     </table>
 
     <button onclick="_s.button()">Continuar</button>
