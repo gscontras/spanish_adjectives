@@ -36,9 +36,6 @@ function make_slides(f) {
       //var noun = noun_data.noun;
       //var animacy = noun_data.animacy;
 
-      this.verbs = _.shuffle(["est&aacute;","no est&aacute;"])
-
-
       var names_list = _.shuffle(names);
 
       var person1 = names_list[0] ;
@@ -62,6 +59,12 @@ function make_slides(f) {
         $(".correct").html("correctos")
       }
 
+      if (person1.gender == "feminine") {
+        var equivocado = "equivocada"
+      } else {
+        var equivocado = "equivocado"
+      }
+
 
       var gender = stim.NounGender
 
@@ -71,15 +74,25 @@ function make_slides(f) {
         $(".noun").html("la misma " + stim.Noun);
       }
 
+      var copula = stim.Copula
+
+
+      if (copula == "estar") {
+            this.verbs = _.shuffle(["est&aacute;","no est&aacute;"])
+          } else {
+                this.verbs = _.shuffle(["es","no es"])
+          }
+  
+
       if (gender == "masculine") {
       $(".utterance1").html("\"El " + stim.Noun + " " +  this.verbs[0] + " " + stim.Predicate1.Predicate + ".\"");
 
-      $(".utterance2").html("\"Est&aacute;s equivocado. El " + stim.Noun + " "+ this.verbs[1] + " "  + stim.Predicate1.Predicate + ".\"");
+      $(".utterance2").html("\"Est&aacute;s " + equivocado + ". El " + stim.Noun + " "+ this.verbs[1] + " "  + stim.Predicate1.Predicate + ".\"");
 
       } else {
       $(".utterance1").html("\"La " + stim.Noun + " " +  this.verbs[0] + " " + stim.Predicate1.FemPredicate + ".\"");
 
-      $(".utterance2").html("\"Est&aacute;s equivocado. La " + stim.Noun + " "+ this.verbs[1] + " "  + stim.Predicate1.FemPredicate + ".\"");
+      $(".utterance2").html("\"Est&aacute;s " + equivocado + ". La " + stim.Noun + " "+ this.verbs[1] + " "  + stim.Predicate1.FemPredicate + ".\"");
 
       }
 
@@ -128,10 +141,12 @@ function make_slides(f) {
         exp.data_trials.push({
           "response" : exp.sliderPost,
           "noun" : this.stim.Noun,          
-          "predicate" : this.stim.Predicate,
+          "predicate" : this.stim.Predicate1.Predicate,
           "nounclass" : this.stim.NounClass,
+          "gender" : this.stim.NounGender,  
           "class" : this.stim.Class,                    
           "firstutterance" : this.verbs[0],
+          "copula" : this.stim.Predicate1.copula,
           // "sense" : $('input[name="sense"]:checked').val(),        
           "slide_number" : exp.phase
         });

@@ -6,41 +6,35 @@
 //		]
 
 var adjectives = _.shuffle([
-		{"Predicate":"rojo", "Class":"color","FemPredicate":"roja","copula":"ser"},
-		{"Predicate":"amarillo", "Class":"color","FemPredicate":"amarilla"},
-		{"Predicate":"verde", "Class":"color","FemPredicate":"verde"},
-		{"Predicate":"azul", "Class":"color","FemPredicate":"azul"},
-		{"Predicate":"morado", "Class":"color","FemPredicate":"morado"},
-		{"Predicate":"marr&oacute;n", "Class":"color","FemPredicate":"marr&oacute;n"},											
-		{"Predicate":"grande", "Class":"size","FemPredicate":"grande"},
-		{"Predicate":"peque&ntilde;o", "Class":"size","FemPredicate":"peque&ntilde;a"},					
-		{"Predicate":"enorme", "Class":"size","FemPredicate":"enorme"},					
-		{"Predicate":"min&uacute;sculo", "Class":"size","FemPredicate":"min&uacute;scula"},					
-		{"Predicate":"corto", "Class":"size","FemPredicate":"corto"},					
-		{"Predicate":"largo", "Class":"size","FemPredicate":"larga"},							
-<<<<<<< HEAD
-		{"Predicate":"de madera", "Class":"material","FemPredicate":"de madera"},
-		{"Predicate":"de pl&aacute;stico", "Class":"material","FemPredicate":"de pl&aacute;stico"},
-		{"Predicate":"de metal", "Class":"material","FemPredicate":"de metal"},
-=======
+		{"Predicate":"rojo", "Class":"color","FemPredicate":"roja","copula":"estar"},
+		{"Predicate":"amarillo", "Class":"color","FemPredicate":"amarilla","copula":"estar"},
+		{"Predicate":"verde", "Class":"color","FemPredicate":"verde","copula":"estar"},
+		{"Predicate":"azul", "Class":"color","FemPredicate":"azul","copula":"estar"},
+		{"Predicate":"morado", "Class":"color","FemPredicate":"morado","copula":"estar"},
+		{"Predicate":"marr&oacute;n", "Class":"color","FemPredicate":"marr&oacute;n","copula":"estar"},										
+		{"Predicate":"grande", "Class":"size","FemPredicate":"grande","copula":"estar"},
+		{"Predicate":"peque&ntilde;o", "Class":"size","FemPredicate":"peque&ntilde;a","copula":"estar"},				
+		{"Predicate":"enorme", "Class":"size","FemPredicate":"enorme","copula":"estar"},
+		{"Predicate":"min&uacute;sculo", "Class":"size","FemPredicate":"min&uacute;scula","copula":"estar"},					
+		{"Predicate":"corto", "Class":"size","FemPredicate":"corto","copula":"estar"},
+		{"Predicate":"largo", "Class":"size","FemPredicate":"larga","copula":"estar"},			
 		// {"Predicate":"de madera", "Class":"material","FemPredicate":"de madera"},
 		// {"Predicate":"pl&aacute;stico", "Class":"material","FemPredicate":"pl&aacute;stico"},
 		// {"Predicate":"metal", "Class":"material","FemPredicate":"metal"},
-		{"Predicate":"americano", "Class":"nationality","FemPredicate":"americana"},
-		{"Predicate":"mexicano", "Class":"nationality","FemPredicate":"mexicana"},
-		{"Predicate":"espa&ntilde;ol", "Class":"nationality","FemPredicate":"espa&ntilde;ola"},
->>>>>>> 6af1aeac690999931500c05539ee0ea5fe78f5a7
-		{"Predicate":"liso", "Class":"texture","FemPredicate":"lisa"},
-		{"Predicate":"duro", "Class":"texture","FemPredicate":"dura"},
-		{"Predicate":"suave", "Class":"texture","FemPredicate":"suave"},
-		{"Predicate":"viejo", "Class":"age","FemPredicate":"vieja"},
-		{"Predicate":"nuevo", "Class":"age","FemPredicate":"nueva"},
-		{"Predicate":"podrido", "Class":"age","FemPredicate":"podrida"},
-		{"Predicate":"fresco", "Class":"age","FemPredicate":"fresca"},
-		{"Predicate":"bueno", "Class":"quality","FemPredicate":"buena"},
-		{"Predicate":"malo", "Class":"quality","FemPredicate":"mala"},
-		{"Predicate":"redondo", "Class":"shape","FemPredicate":"redonda"},						
-		{"Predicate":"cuadrado", "Class":"shape","FemPredicate":"cuadrada"}
+		{"Predicate":"americano", "Class":"nationality","FemPredicate":"americana","copula":"ser"},
+		{"Predicate":"mexicano", "Class":"nationality","FemPredicate":"mexicana","copula":"ser"},
+		{"Predicate":"espa&ntilde;ol", "Class":"nationality","FemPredicate":"espa&ntilde;ola","copula":"ser"},
+		{"Predicate":"liso", "Class":"texture","FemPredicate":"lisa","copula":"estar"},
+		{"Predicate":"duro", "Class":"texture","FemPredicate":"dura","copula":"estar"},
+		{"Predicate":"suave", "Class":"texture","FemPredicate":"suave","copula":"estar"},
+		{"Predicate":"viejo", "Class":"age","FemPredicate":"vieja","copula":"estar"},
+		{"Predicate":"nuevo", "Class":"age","FemPredicate":"nueva","copula":"estar"},
+		{"Predicate":"podrido", "Class":"age","FemPredicate":"podrida","copula":"estar"},
+		{"Predicate":"fresco", "Class":"age","FemPredicate":"fresca","copula":"estar"},
+		{"Predicate":"bueno", "Class":"quality","FemPredicate":"buena","copula":"estar"},
+		{"Predicate":"malo", "Class":"quality","FemPredicate":"mala","copula":"estar"},
+		{"Predicate":"redondo", "Class":"shape","FemPredicate":"redonda","copula":"estar"},		
+		{"Predicate":"cuadrado", "Class":"shape","FemPredicate":"cuadrada","copula":"estar"}
 ]);
 
 var nouns = [
@@ -61,24 +55,20 @@ var stimuli =  makeStims();
 function makeStims() {
 	stims = [];
 
-	while (stims.length < 26) {
+	for (var i=0; i<adjectives.length; i++) {
 		noun = _.sample(nouns);
-		pred1 = _.sample(adjectives);
-		pred2 = _.sample(adjectives);
-		if (pred1.Class!=pred2.Class) {
-			stims.push(
-				{
-					"Predicate1":pred1,
-					"Class1":pred1.Class,	
-					"Predicate2":pred2,
-					"Class2":pred2.Class,			
-					"Noun":noun.Noun,
-					"NounClass":noun.NounClass,
-					"NounGender":noun.Gender
-				}			
+		stims.push(
+			{
+				"Predicate1":adjectives[i],
+				"FemPredicate":adjectives[i].FemPredicate,
+				"Class":adjectives[i].Class,	
+				"Copula": adjectives[i].copula,			
+				"Noun":noun.Noun,
+				"NounGender":noun.Gender,
+				"NounClass":noun.NounClass
+			}
 			);
 		}
-	}
 		
 	return stims;
 	
