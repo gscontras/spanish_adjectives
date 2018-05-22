@@ -160,11 +160,19 @@ function make_slides(f) {
       exp.subj_data = {
         language : $("#language").val(),
         enjoyment : $("#enjoyment").val(),
-        asses : $('input[name="assess"]:checked').val(),
+        assess : $('input[name="assess"]:checked').val(),
         age : $("#age").val(),
         gender : $("#gender").val(),
         education : $("#education").val(),
         comments : $("#comments").val(),
+        describe : $("#describe").val(),
+        school : $("#school").val(),
+        classes : $("#classes").val(),
+        college : $("#college").val(),
+        lived : $("#lived").val(),
+        years : $("#years").val(),
+        family : $("#family").val(),
+        level : $("#level").val()
       };
       exp.go(); //use exp.go() if and only if there is no "present" data.
     }
