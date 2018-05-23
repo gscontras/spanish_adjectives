@@ -1,0 +1,10 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,none,both8,span,Español,native,2,Male,29,SpanSpan,Gracias! Muy divertido,mostlive,Yes,no,nocollege,3
+1,none,neverlived,spaneng,español,advanced,1,Male,30,SpanEng,"well, me parecio muy divertido, because, mis padres hablan español nativo y me parecio entretenido, it so good.",neverlived,Yes,no,nocollege,3
+2,most,over8,span,Español,native,2,Male,33,SpanSpan,Gracias por el experimiento. Saludos y tengan un excelente día.,mostlive,Yes,yes,nocollege,3
+3,none,both8,span,espanñol,native,2,Female,21,SpanSpan,,mostlive,Yes,noclasses,nocollege,1
+4,mid,under8,spaneng,,int,1,Male,,SpanSpan,,shortlive,No,no,midsem,0
+5,mid,under8,eng,,advanced,0,Female,,SpanSpan,GOOD,shortlive,No,no,onesem,1
+6,small,neverlived,eng,,int,0,Male,,SpanEng,,neverlived,No,yes,onesem,0
+7,small,under8,span,,int,1,Female,,SpanSpan,GOOD,shortlive,Yes,yes,onesem,1
+8,most,both8,,español,native,2,Female,37,SpanSpan,,mostlive,NA,yes,nocollege,2

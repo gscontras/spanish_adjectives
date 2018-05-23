@@ -1,0 +1,10 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,mid,under8,spaneng,Espanol,native,1,Female,24,SpanSpan,,mostlive,Yes,yes,nocollege,2
+1,mid,neverlived,eng,Inglés,int,2,Male,24,L2,,neverlived,Yes,no,mostsem,4
+2,most,neverlived,spaneng,espanol ingles,near native,2,Female,42,SpanEng,,neverlived,Yes,yes,mostsem,3
+3,small,neverlived,other,Polish,basic,1,Male,43,otherL2,,neverlived,Yes,no,onesem,3
+4,none,both8,span,Español,native,1,Male,25,SpanSpan,"Hay oraciones mal escritas, lo que hizo un poco confuso el como responder a las preguntas",mostlive,Yes,no,nocollege,2
+5,small,neverlived,spaneng,Ingles y Español,native,2,Male,58,SpanEng,,,Yes,yes,,2
+6,none,neverlived,spaneng,Ingles y Espanol,near native,1,Female,39,SpanEng,,neverlived,Yes,no,nocollege,2
+7,most,both8,eng,castellano,native,1,Female,23,SpanEng,,mostlive,Yes,,nocollege,4
+8,none,both8,span,Español,native,2,Female,26,SpanSpan,Interesante el experimento,mostlive,Yes,no,nocollege,3

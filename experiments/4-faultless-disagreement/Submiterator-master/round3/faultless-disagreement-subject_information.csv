@@ -1,0 +1,9 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,none,neverlived,spaneng,Espanol,advanced,1,Male,32,SpanEng,"Well, el hit estuvo muy interesante, nunca habia visto uno en el idioma de mis padres, so, me llamo mucho la atencion.",neverlived,Yes,no,nocollege,3
+1,most,both8,span,Espanol,native,2,Male,37,SpanSpan,"Todas las preguntas que hicieron siempre hay un equivocado, sin embargo, algunas podria manejarse con diferente perspectiva y obtener un resultado diferente",mostlive,Yes,no,nocollege,4
+2,small,over8,eng,,int,0,Male,28,SpanSpan,,mostlive,No,yes,nocollege,2
+3,most,both8,span,Español,native,1,Female,35,SpanSpan,no entendi a que se refieran los ejemplos ,mostlive,Yes,yes,nocollege,4
+4,none,neverlived,span,Espanol,near native,1,Male,43,SpanEng,,neverlived,Yes,no,nocollege,2
+5,most,neverlived,eng,Ingles,near native,-1,Male,18,SpanEng,,neverlived,Yes,yes,midsem,2
+6,small,over8,span,,int,1,Female,,SpanSpan,GOOD,shortlive,Yes,yes,onesem,2
+7,mid,under8,eng,english,int,1,Male,,SpanSpan,nothing,midlive,Yes,yes,onesem,2

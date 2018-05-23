@@ -1,0 +1,10 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,small,neverlived,eng,170,basic,1,Female,29,SpanSpan,,shortlive,Yes,yes,nocollege,1
+1,none,under8,span,español,native,1,Male,32,SpanEng,buen experimento,mostlive,Yes,no,nocollege,3
+2,most,under8,eng,español,advanced,2,Male,33,SpanEng,,midlive,No,yes,onesem,-1
+3,most,neverlived,spaneng,Español,native,1,Female,38,SpanEng,,neverlived,Yes,no,onesem,4
+4,most,neverlived,eng,ingles,advanced,2,Female,1979,L2,,neverlived,Yes,yes,midsem,3
+5,most,over8,span,español,native,1,Male,40,SpanSpan,,mostlive,Yes,yes,mostsem,4
+6,mid,under8,span,TAMIL,basic,0,Male,48,SpanSpan,IT IS VERY USEFUL experimento TO LEARN SOMETHING,shortlive,Yes,yes,onesem,2
+7,small,under8,span,,int,0,Male,,SpanEng,,neverlived,No,yes,nocollege,0
+8,small,under8,spaneng,,advanced,1,Female,,SpanSpan,,shortlive,Yes,yes,onesem,2

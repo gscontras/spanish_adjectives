@@ -1,0 +1,11 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,none,under8,span,espanol,native,2,Male,29,SpanSpan,,mostlive,Yes,no,nocollege,3
+1,small,over8,span,Español,near native,1,Male,28,otherL2,Solamente genial.,shortlive,Yes,yes,midsem,3
+2,small,both8,span,Espanol,native,2,Male,42,SpanSpan,"Muy buen hit, directo al punto y todo facil de entender.",mostlive,Yes,noclasses,nocollege,2
+3,most,under8,span,Espanol,native,2,Male,33,SpanSpan,"No tengo comentarios
+",midlive,Yes,yes,nocollege,2
+4,most,both8,spaneng,Español,native,1,Male,39,SpanSpan,,mostlive,Yes,yes,midsem,4
+5,none,neverlived,eng,,basic,0,Male,25,SpanEng,,neverlived,No,yes,nocollege,0
+6,mid,over8,span,,near native,1,Female,,L2,,midlive,Yes,no,onesem,2
+7,small,both8,spaneng,,advanced,2,Female,,L2,,shortlive,No,no,nocollege,1
+8,most,over8,span,español,native,-1,Female,30,SpanSpan,,mostlive,Yes,no,nocollege,4

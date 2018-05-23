@@ -1,0 +1,8 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,small,,eng,english,basic,1,Female,47,L2,,neverlived,Yes,yes,onesem,2
+1,small,both8,span,español,native,1,Female,27,SpanSpan,,mostlive,Yes,yes,onesem,0
+2,most,both8,span,"ingles, español",none,1,Male,27,SpanSpan,,midlive,Yes,no,nocollege,3
+3,mid,under8,span,espanol,native,1,Female,26,SpanSpan,,mostlive,Yes,yes,onesem,3
+4,small,under8,span,,basic,1,Female,,L2,,neverlived,NA,yes,onesem,0
+5,most,neverlived,eng,Ingles,advanced,1,Male,31,SpanEng,n/a,neverlived,Yes,yes,onesem,3
+6,mid,neverlived,eng,English,near native,1,Male,31,L2,,neverlived,NA,yes,midsem,4

@@ -1,0 +1,10 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,none,both8,spaneng,,native,2,Male,40,SpanEng,"Fue divertido, pero la barra de medida se siente poco precisa",mostlive,NA,noclasses,nocollege,3
+1,most,neverlived,span,English,int,1,Female,43,SpanEng,,neverlived,Yes,yes,mostsem,3
+2,mid,under8,spaneng,ESPAÑOL ,native,2,Female,30,SpanSpan,,midlive,Yes,yes,nocollege,2
+3,mid,under8,span,Español,native,1,Male,23,SpanSpan,Que bueno es hablar en español. Sigan asi,mostlive,Yes,yes,nocollege,3
+4,small,under8,span,yes,int,1,Female,24,SpanSpan,good,neverlived,Yes,yes,onesem,2
+5,most,neverlived,eng,English,advanced,2,Female,34,L2,Good Hit,neverlived,Yes,no,onesem,4
+6,mid,under8,eng,English,int,1,Female,43,L2,,neverlived,Yes,no,mostsem,2
+7,none,both8,span,español,near native,1,Male,24,SpanEng,pues esta un poco raro pero es simple y un poco divertido ,mostlive,Yes,no,nocollege,3
+8,small,under8,span,,advanced,0,Female,,SpanSpan,,midlive,Yes,yes,onesem,1

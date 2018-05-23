@@ -1,0 +1,6 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,mid,over8,span,YES,advanced,1,Female,COMPUTER SCIENCE,L2,YEAH THIS IS A GOOD SURVEY,shortlive,Yes,yes,midsem,3
+1,none,neverlived,eng,tamil,none,2,Female,35,L2,,neverlived,Yes,noclasses,nocollege,2
+2,none,both8,spaneng,Español,native,2,Male,32,SpanSpan,Interesante el experimento sobre paradojas,mostlive,Yes,noclasses,nocollege,3
+3,none,both8,spaneng,Espanol,native,2,Female,43,SpanSpan,,mostlive,No,yes,nocollege,2
+4,none,both8,spaneng,Español,native,1,Female,44,SpanEng,,mostlive,Yes,no,nocollege,3

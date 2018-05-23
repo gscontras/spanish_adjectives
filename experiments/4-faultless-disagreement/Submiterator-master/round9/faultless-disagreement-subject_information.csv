@@ -1,0 +1,10 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,small,neverlived,eng,ENGLISH,advanced,0,Male,30,SpanEng,,shortlive,No,no,midsem,3
+1,none,both8,span,Español,native,2,Male,27,SpanSpan,,mostlive,Yes,no,nocollege,3
+2,small,under8,spaneng,espanol,near native,1,Male,47,SpanEng,,midlive,Yes,yes,nocollege,2
+3,most,neverlived,eng,Ingles,int,2,Female,45,L2,Me encanta este hit.,neverlived,Yes,no,nocollege,2
+4,mid,under8,span,Espanol,near native,2,Male,27,SpanEng,No es necesario tener niveles de los extremos; solo si o no,mostlive,Yes,yes,nocollege,3
+5,none,neverlived,eng,,basic,0,Male,25,SpanEng,,neverlived,No,yes,nocollege,0
+6,small,under8,span,,advanced,1,Female,,SpanSpan,,shortlive,Yes,yes,onesem,1
+7,mid,neverlived,spaneng,N,near native,0,Male,U,L2,Na,shortlive,Confused,no,onesem,2
+8,,both8,span,español,advanced,2,Male,46,SpanSpan,,,Yes,,,4

@@ -1,0 +1,235 @@
+workerid,firstutterance,predicate,noun,gender,class,nounclass,slide_number,copula,response
+0,no es,peque&ntilde;o,escritorio,masculine,size,furniture,3,ser,0.59
+0,no es,suave,sof&aacute; ,masculine,texture,furniture,4,ser,0.55
+0,es,grande,ventilador,masculine,size,furniture,5,ser,0.56
+0,no es,americano,tomate,masculine,nationality,food,6,ser,0.53
+0,es,espa&ntilde;ol,televisi&oacute;n ,feminine,nationality,furniture,7,ser,0.56
+0,no es,nuevo,manzana,feminine,age,food,8,ser,0.51
+0,no es,liso,sof&aacute; ,masculine,texture,furniture,9,ser,0.48
+0,no es,azul,sof&aacute; ,masculine,color,furniture,10,ser,0.5
+0,no es,mexicano,ventilador,masculine,nationality,furniture,11,ser,0.54
+0,es,marr&oacute;n,queso,masculine,color,food,12,ser,0.56
+0,es,malo,tomate,masculine,quality,food,13,ser,0.59
+0,est&aacute;,podrido,zanahoria,feminine,age,food,14,estar,0.61
+0,es,redondo,televisi&oacute;n ,feminine,shape,furniture,15,ser,0.5
+0,no es,amarillo,sof&aacute; ,masculine,color,furniture,16,ser,0.65
+0,no es,corto,silla,feminine,size,furniture,17,ser,0.59
+0,no es,bueno,pl&aacute;tano,masculine,quality,food,18,ser,0.67
+0,no es,rojo,televisi&oacute;n ,feminine,color,furniture,19,ser,0.66
+0,es,verde,televisi&oacute;n ,feminine,color,furniture,20,ser,0.62
+0,es,enorme,silla,feminine,size,furniture,21,ser,0.64
+0,no es,viejo,sof&aacute; ,masculine,age,furniture,22,ser,0.64
+0,es,morado,tomate,masculine,color,food,23,ser,0.65
+0,es,duro,silla,feminine,texture,furniture,24,ser,0.66
+0,no es,largo,tomate,masculine,size,food,25,ser,0.56
+0,no es,min&uacute;sculo,sof&aacute; ,masculine,size,furniture,26,ser,0.57
+0,es,fresco,silla,feminine,age,furniture,27,ser,0.58
+0,no es,cuadrado,manzana,feminine,shape,food,28,ser,0.58
+1,no es,enorme,tomate,masculine,size,food,3,ser,0.9
+1,no es,peque&ntilde;o,ventilador,masculine,size,furniture,4,ser,0.56
+1,no es,viejo,queso,masculine,age,food,5,ser,0.45
+1,es,min&uacute;sculo,tomate,masculine,size,food,6,ser,0.68
+1,no es,espa&ntilde;ol,pl&aacute;tano,masculine,nationality,food,7,ser,0.72
+1,no es,suave,pl&aacute;tano,masculine,texture,food,8,ser,0.67
+1,es,americano,sof&aacute; ,masculine,nationality,furniture,9,ser,0.77
+1,no es,marr&oacute;n,manzana,feminine,color,food,10,ser,0.67
+1,no es,duro,zanahoria,feminine,texture,food,11,ser,0.67
+1,es,mexicano,manzana,feminine,nationality,food,12,ser,0.66
+1,es,morado,pl&aacute;tano,masculine,color,food,13,ser,0.22
+1,no es,largo,tomate,masculine,size,food,14,ser,0.58
+1,no es,malo,ventilador,masculine,quality,furniture,15,ser,0.28
+1,es,verde,ventilador,masculine,color,furniture,16,ser,0.3
+1,est&aacute;,podrido,tomate,masculine,age,food,17,estar,0.63
+1,no es,nuevo,zanahoria,feminine,age,food,18,ser,0.58
+1,es,cuadrado,televisi&oacute;n ,feminine,shape,furniture,19,ser,0.19
+1,es,corto,tomate,masculine,size,food,20,ser,0.65
+1,es,liso,ventilador,masculine,texture,furniture,21,ser,0.53
+1,no es,fresco,televisi&oacute;n ,feminine,age,furniture,22,ser,0.78
+1,no es,amarillo,ventilador,masculine,color,furniture,23,ser,0.23
+1,no es,grande,tomate,masculine,size,food,24,ser,0.68
+1,no es,bueno,tomate,masculine,quality,food,25,ser,0.84
+1,es,rojo,zanahoria,feminine,color,food,26,ser,0.27
+1,es,azul,tomate,masculine,color,food,27,ser,0.36
+1,es,redondo,pl&aacute;tano,masculine,shape,food,28,ser,0.25
+2,no es,peque&ntilde;o,zanahoria,feminine,size,food,3,ser,0.44
+2,no es,malo,televisi&oacute;n ,feminine,quality,furniture,4,ser,1
+2,es,liso,pl&aacute;tano,masculine,texture,food,5,ser,0
+2,es,mexicano,escritorio,masculine,nationality,furniture,6,ser,1
+2,es,verde,silla,feminine,color,furniture,7,ser,0
+2,no es,duro,pl&aacute;tano,masculine,texture,food,8,ser,0
+2,es,viejo,tomate,masculine,age,food,9,ser,0
+2,no es,morado,pl&aacute;tano,masculine,color,food,10,ser,0
+2,no es,espa&ntilde;ol,televisi&oacute;n ,feminine,nationality,furniture,11,ser,0
+2,es,azul,ventilador,masculine,color,furniture,12,ser,0
+2,es,marr&oacute;n,televisi&oacute;n ,feminine,color,furniture,13,ser,0
+2,es,bueno,televisi&oacute;n ,feminine,quality,furniture,14,ser,1
+2,est&aacute;,podrido,tomate,masculine,age,food,15,estar,0
+2,es,fresco,televisi&oacute;n ,feminine,age,furniture,16,ser,0
+2,no es,corto,ventilador,masculine,size,furniture,17,ser,0.67
+2,es,min&uacute;sculo,queso,masculine,size,food,18,ser,0.56
+2,no es,suave,tomate,masculine,texture,food,19,ser,0.81
+2,es,nuevo,ventilador,masculine,age,furniture,20,ser,0.03
+2,es,cuadrado,queso,masculine,shape,food,21,ser,0.76
+2,es,largo,pl&aacute;tano,masculine,size,food,22,ser,0.69
+2,no es,americano,silla,feminine,nationality,furniture,23,ser,0.56
+2,es,amarillo,escritorio,masculine,color,furniture,24,ser,0.04
+2,es,grande,queso,masculine,size,food,25,ser,0.64
+2,es,rojo,televisi&oacute;n ,feminine,color,furniture,26,ser,0.04
+2,es,redondo,zanahoria,feminine,shape,food,27,ser,0
+2,no es,enorme,televisi&oacute;n ,feminine,size,furniture,28,ser,0.57
+3,es,redondo,televisi&oacute;n ,feminine,shape,furniture,3,ser,0.06
+3,no es,min&uacute;sculo,escritorio,masculine,size,furniture,4,ser,0.49
+3,no es,nuevo,silla,feminine,age,furniture,5,ser,0.48
+3,no es,amarillo,queso,masculine,color,food,6,ser,0.04
+3,es,americano,queso,masculine,nationality,food,7,ser,0.51
+3,no es,azul,manzana,feminine,color,food,8,ser,0
+3,no es,malo,sof&aacute; ,masculine,quality,furniture,9,ser,0.96
+3,es,enorme,queso,masculine,size,food,10,ser,0.91
+3,no es,largo,manzana,feminine,size,food,11,ser,0.16
+3,no es,suave,sof&aacute; ,masculine,texture,furniture,12,ser,0.9
+3,es,morado,zanahoria,feminine,color,food,13,ser,0.07
+3,es,marr&oacute;n,televisi&oacute;n ,feminine,color,furniture,14,ser,0.58
+3,no es,duro,sof&aacute; ,masculine,texture,furniture,15,ser,0.72
+3,no es,viejo,pl&aacute;tano,masculine,age,food,16,ser,0.75
+3,es,mexicano,pl&aacute;tano,masculine,nationality,food,17,ser,0.03
+3,no es,cuadrado,manzana,feminine,shape,food,18,ser,0.08
+3,es,corto,escritorio,masculine,size,furniture,19,ser,0.99
+3,no es,verde,zanahoria,feminine,color,food,20,ser,0.06
+3,es,espa&ntilde;ol,zanahoria,feminine,nationality,food,21,ser,0.08
+3,no es,bueno,escritorio,masculine,quality,furniture,22,ser,0.9
+3,no es,grande,silla,feminine,size,furniture,23,ser,0.94
+3,es,rojo,sof&aacute; ,masculine,color,furniture,24,ser,0.96
+3,es,fresco,ventilador,masculine,age,furniture,25,ser,0.9
+3,est&aacute;,podrido,pl&aacute;tano,masculine,age,food,26,estar,0.53
+3,es,liso,manzana,feminine,texture,food,27,ser,0.94
+3,no es,peque&ntilde;o,ventilador,masculine,size,furniture,28,ser,0.93
+4,no es,peque&ntilde;o,sof&aacute; ,masculine,size,furniture,3,ser,0.75
+4,es,americano,sof&aacute; ,masculine,nationality,furniture,4,ser,0.02
+4,es,fresco,tomate,masculine,age,food,5,ser,0.08
+4,es,amarillo,silla,feminine,color,furniture,6,ser,0.15
+4,es,nuevo,pl&aacute;tano,masculine,age,food,7,ser,0.07
+4,es,redondo,sof&aacute; ,masculine,shape,furniture,8,ser,0.09
+4,no es,bueno,televisi&oacute;n ,feminine,quality,furniture,9,ser,0.84
+4,es,morado,escritorio,masculine,color,furniture,10,ser,0.18
+4,no es,viejo,ventilador,masculine,age,furniture,11,ser,0.22
+4,es,liso,ventilador,masculine,texture,furniture,12,ser,0.29
+4,no es,mexicano,tomate,masculine,nationality,food,13,ser,0.02
+4,es,suave,zanahoria,feminine,texture,food,14,ser,0.72
+4,es,malo,ventilador,masculine,quality,furniture,15,ser,0.32
+4,es,marr&oacute;n,manzana,feminine,color,food,16,ser,0.2
+4,es,grande,televisi&oacute;n ,feminine,size,furniture,17,ser,0.8
+4,no es,corto,manzana,feminine,size,food,18,ser,0.05
+4,es,enorme,ventilador,masculine,size,furniture,19,ser,0.78
+4,no es,duro,manzana,feminine,texture,food,20,ser,0.72
+4,est&aacute;,podrido,tomate,masculine,age,food,21,estar,0.1
+4,es,min&uacute;sculo,escritorio,masculine,size,furniture,22,ser,0.29
+4,no es,rojo,ventilador,masculine,color,furniture,23,ser,0.22
+4,es,cuadrado,silla,feminine,shape,furniture,24,ser,0.02
+4,es,azul,queso,masculine,color,food,25,ser,0.07
+4,es,verde,sof&aacute; ,masculine,color,furniture,26,ser,0.12
+4,es,largo,ventilador,masculine,size,furniture,27,ser,0.68
+4,es,espa&ntilde;ol,pl&aacute;tano,masculine,nationality,food,28,ser,0.03
+5,es,viejo,manzana,feminine,age,food,3,ser,0.97
+5,es,cuadrado,pl&aacute;tano,masculine,shape,food,4,ser,0.01
+5,es,morado,silla,feminine,color,furniture,5,ser,0.97
+5,no es,peque&ntilde;o,televisi&oacute;n ,feminine,size,furniture,6,ser,0.97
+5,no es,corto,sof&aacute; ,masculine,size,furniture,7,ser,0.96
+5,es,suave,queso,masculine,texture,food,8,ser,0.92
+5,no es,liso,ventilador,masculine,texture,furniture,9,ser,0.96
+5,no es,enorme,zanahoria,feminine,size,food,10,ser,0.96
+5,no es,espa&ntilde;ol,queso,masculine,nationality,food,11,ser,0.98
+5,no est&aacute;,podrido,ventilador,masculine,age,furniture,12,estar,0
+5,no es,amarillo,sof&aacute; ,masculine,color,furniture,13,ser,0.93
+5,es,grande,silla,feminine,size,furniture,14,ser,0.95
+5,no es,americano,ventilador,masculine,nationality,furniture,15,ser,0.96
+5,no es,bueno,zanahoria,feminine,quality,food,16,ser,0.98
+5,es,malo,silla,feminine,quality,furniture,17,ser,0.99
+5,no es,largo,silla,feminine,size,furniture,18,ser,0.96
+5,es,mexicano,televisi&oacute;n ,feminine,nationality,furniture,19,ser,0.99
+5,no es,verde,tomate,masculine,color,food,20,ser,0.91
+5,no es,fresco,pl&aacute;tano,masculine,age,food,21,ser,1
+5,no es,nuevo,silla,feminine,age,furniture,22,ser,0.98
+5,es,marr&oacute;n,televisi&oacute;n ,feminine,color,furniture,23,ser,0.98
+5,no es,min&uacute;sculo,sof&aacute; ,masculine,size,furniture,24,ser,0.99
+5,es,rojo,tomate,masculine,color,food,25,ser,0.98
+5,no es,azul,silla,feminine,color,furniture,26,ser,0.97
+5,es,redondo,televisi&oacute;n ,feminine,shape,furniture,27,ser,0
+5,no es,duro,tomate,masculine,texture,food,28,ser,0.98
+6,es,rojo,escritorio,masculine,color,furniture,3,ser,0.34
+6,no es,marr&oacute;n,tomate,masculine,color,food,4,ser,0.52
+6,es,fresco,zanahoria,feminine,age,food,5,ser,0.5
+6,es,min&uacute;sculo,escritorio,masculine,size,furniture,6,ser,0.52
+6,es,nuevo,silla,feminine,age,furniture,7,ser,0.59
+6,es,espa&ntilde;ol,manzana,feminine,nationality,food,8,ser,0.25
+6,es,azul,pl&aacute;tano,masculine,color,food,9,ser,0.83
+6,es,morado,ventilador,masculine,color,furniture,10,ser,0.74
+6,no es,americano,pl&aacute;tano,masculine,nationality,food,11,ser,0.75
+6,no es,suave,silla,feminine,texture,furniture,12,ser,0.79
+6,no es,mexicano,escritorio,masculine,nationality,furniture,13,ser,0.81
+6,no es,viejo,manzana,feminine,age,food,14,ser,0.83
+6,no es,malo,zanahoria,feminine,quality,food,15,ser,0.81
+6,no es,corto,ventilador,masculine,size,furniture,16,ser,0.44
+6,es,peque&ntilde;o,queso,masculine,size,food,17,ser,0.62
+6,no es,liso,zanahoria,feminine,texture,food,18,ser,0.24
+6,est&aacute;,podrido,manzana,feminine,age,food,19,estar,0.6
+6,no es,cuadrado,queso,masculine,shape,food,20,ser,0.62
+6,no es,bueno,ventilador,masculine,quality,furniture,21,ser,0.62
+6,es,verde,zanahoria,feminine,color,food,22,ser,0.78
+6,no es,largo,tomate,masculine,size,food,23,ser,0.41
+6,no es,amarillo,escritorio,masculine,color,furniture,24,ser,0.67
+6,no es,duro,pl&aacute;tano,masculine,texture,food,25,ser,0.44
+6,es,redondo,manzana,feminine,shape,food,26,ser,0.65
+6,es,grande,televisi&oacute;n ,feminine,size,furniture,27,ser,0.2
+6,no es,enorme,escritorio,masculine,size,furniture,28,ser,0.74
+7,es,redondo,zanahoria,feminine,shape,food,3,ser,0.52
+7,es,espa&ntilde;ol,silla,feminine,nationality,furniture,4,ser,0.5
+7,es,duro,queso,masculine,texture,food,5,ser,0.57
+7,no es,enorme,escritorio,masculine,size,furniture,6,ser,0.52
+7,no est&aacute;,podrido,queso,masculine,age,food,7,estar,0.53
+7,es,azul,tomate,masculine,color,food,8,ser,0.56
+7,no es,suave,manzana,feminine,texture,food,9,ser,0.56
+7,no es,marr&oacute;n,silla,feminine,color,furniture,10,ser,0.5
+7,es,verde,escritorio,masculine,color,furniture,11,ser,0.47
+7,es,grande,zanahoria,feminine,size,food,12,ser,0.64
+7,es,peque&ntilde;o,tomate,masculine,size,food,13,ser,0.66
+7,es,fresco,escritorio,masculine,age,furniture,14,ser,0.71
+7,no es,viejo,zanahoria,feminine,age,food,15,ser,0.57
+7,no es,cuadrado,televisi&oacute;n ,feminine,shape,furniture,16,ser,0.59
+7,es,liso,sof&aacute; ,masculine,texture,furniture,17,ser,0.6
+7,es,americano,pl&aacute;tano,masculine,nationality,food,18,ser,0.58
+7,no es,nuevo,ventilador,masculine,age,furniture,19,ser,0.57
+7,no es,morado,queso,masculine,color,food,20,ser,0.54
+7,es,largo,sof&aacute; ,masculine,size,furniture,21,ser,0.55
+7,es,bueno,queso,masculine,quality,food,22,ser,0.59
+7,es,malo,pl&aacute;tano,masculine,quality,food,23,ser,0.51
+7,es,amarillo,escritorio,masculine,color,furniture,24,ser,0.52
+7,es,mexicano,manzana,feminine,nationality,food,25,ser,0.57
+7,es,rojo,silla,feminine,color,furniture,26,ser,0.58
+7,no es,corto,zanahoria,feminine,size,food,27,ser,0.59
+7,no es,min&uacute;sculo,zanahoria,feminine,size,food,28,ser,0.6
+8,no es,duro,ventilador,masculine,texture,furniture,3,ser,0.63
+8,no es,mexicano,queso,masculine,nationality,food,4,ser,0.7
+8,no es,viejo,tomate,masculine,age,food,5,ser,0.62
+8,no es,espa&ntilde;ol,sof&aacute; ,masculine,nationality,furniture,6,ser,0.6
+8,no es,fresco,sof&aacute; ,masculine,age,furniture,7,ser,0.73
+8,es,morado,pl&aacute;tano,masculine,color,food,8,ser,0.71
+8,no es,marr&oacute;n,silla,feminine,color,furniture,9,ser,0.66
+8,es,bueno,queso,masculine,quality,food,10,ser,0.73
+8,es,amarillo,silla,feminine,color,furniture,11,ser,0.64
+8,es,americano,televisi&oacute;n ,feminine,nationality,furniture,12,ser,0.68
+8,no es,rojo,ventilador,masculine,color,furniture,13,ser,0.68
+8,es,nuevo,sof&aacute; ,masculine,age,furniture,14,ser,0.61
+8,no es,liso,escritorio,masculine,texture,furniture,15,ser,0.57
+8,es,verde,manzana,feminine,color,food,16,ser,0.57
+8,es,grande,televisi&oacute;n ,feminine,size,furniture,17,ser,0.58
+8,no es,corto,silla,feminine,size,furniture,18,ser,0.64
+8,es,cuadrado,zanahoria,feminine,shape,food,19,ser,0.6
+8,no es,largo,pl&aacute;tano,masculine,size,food,20,ser,0.65
+8,est&aacute;,podrido,queso,masculine,age,food,21,estar,0.52
+8,no es,suave,manzana,feminine,texture,food,22,ser,0.64
+8,no es,malo,televisi&oacute;n ,feminine,quality,furniture,23,ser,0.63
+8,es,azul,manzana,feminine,color,food,24,ser,0.62
+8,no es,redondo,televisi&oacute;n ,feminine,shape,furniture,25,ser,0.61
+8,es,peque&ntilde;o,manzana,feminine,size,food,26,ser,0.62
+8,es,enorme,queso,masculine,size,food,27,ser,0.63
+8,no es,min&uacute;sculo,pl&aacute;tano,masculine,size,food,28,ser,0.67

@@ -1,0 +1,10 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,mid,over8,spaneng,english,int,2,Female,,SpanSpan,,shortlive,Yes,noclasses,onesem,1
+1,most,both8,span,Español,native,2,Male,18,SpanSpan,"Algunos enunciados son un poco confusos, pero pienso que las respuestas dependen de la perspectiva de cada uno. ",mostlive,Yes,yes,nocollege,1
+2,small,under8,,,int,1,Male,,SpanSpan,,midlive,NA,yes,onesem,3
+3,most,over8,span,Español,native,1,Male,36,SpanSpan,,mostlive,Yes,yes,onesem,3
+4,most,over8,span,Español,native,2,Male,32,SpanSpan,Este experimento me gusto; fue corto y facil de entender todo.,midlive,Yes,yes,midsem,4
+5,mid,under8,span,Espanol,advanced,2,Male,47,SpanSpan,Me agradan los hits en espanol,midlive,Yes,yes,onesem,2
+6,none,neverlived,eng,,int,0,Male,25,L2,,neverlived,No,yes,midsem,0
+7,small,over8,spaneng,,near native,0,Male,,SpanSpan,,neverlived,NA,yes,onesem,2
+8,mid,under8,spaneng,,advanced,1,Female,,SpanSpan,,midlive,Yes,yes,onesem,3
