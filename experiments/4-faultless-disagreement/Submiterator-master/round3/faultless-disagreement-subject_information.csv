@@ -7,3 +7,4 @@ workerid,school,lived,family,language,level,enjoyment,gender,age,describe,commen
 5,most,neverlived,eng,Ingles,near native,-1,Male,18,SpanEng,,neverlived,Yes,yes,midsem,2
 6,small,over8,span,,int,1,Female,,SpanSpan,GOOD,shortlive,Yes,yes,onesem,2
 7,mid,under8,eng,english,int,1,Male,,SpanSpan,nothing,midlive,Yes,yes,onesem,2
+8,small,under8,spaneng,Espanol ,near native,2,Male,36,SpanSpan,Gracias ,shortlive,Yes,yes,nocollege,3

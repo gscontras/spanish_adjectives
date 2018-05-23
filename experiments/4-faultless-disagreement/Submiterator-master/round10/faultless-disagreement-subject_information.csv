@@ -4,3 +4,5 @@ workerid,school,lived,family,language,level,enjoyment,gender,age,describe,commen
 2,none,both8,spaneng,Español,native,2,Male,32,SpanSpan,Interesante el experimento sobre paradojas,mostlive,Yes,noclasses,nocollege,3
 3,none,both8,spaneng,Espanol,native,2,Female,43,SpanSpan,,mostlive,No,yes,nocollege,2
 4,none,both8,spaneng,Español,native,1,Female,44,SpanEng,,mostlive,Yes,no,nocollege,3
+5,none,under8,span,Spanish,native,2,Male,42,SpanSpan,,mostlive,Yes,noclasses,nocollege,2
+6,small,under8,eng,English,int,0,Female,33,SpanEng,,shortlive,Yes,yes,midsem,4
