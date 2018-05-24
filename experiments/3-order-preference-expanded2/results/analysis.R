@@ -4,7 +4,7 @@ library(hydroGOF)
 library(dplyr)
 #library(tidyr)
 
-setwd("~/Documents/git/spanish_adjectives/experiments/3-order-preference-expanded2/Submiterator-master")
+#setwd("~/Documents/git/spanish_adjectives/experiments/3-order-preference-expanded2/Submiterator-master")
 setwd("~/git/spanish_adjectives/experiments/3-order-preference-expanded2/Submiterator-master")
 
 #### first run of experiment
@@ -31,10 +31,10 @@ d = rbind(d1,d)
 # re-factorize
 d[] <- lapply( d, factor) 
 
-s = d[d$describe=="SpanSpan",]
+t = d[d$describe=="SpanSpan",]
 
 # only look at "both8" for lived
-t = d[d$lived=="both8",]
+t = t[t$lived=="both8",]
 
 # only look at "español" as the native language
 t = t[t$language!="English"&t$language!="english"&!is.na(t$language)&t$language!=""&t$language!="gbhj",]
@@ -50,7 +50,7 @@ t = t[t$describe!="L2",]
 
 t$response = as.numeric(as.character(t$response))
 
-summary(t) # 55 indicated "spanish" as native language
+summary(t) # 48 indicated "spanish" as native language
 
 #write.csv(t,"~/git/spanish_adjectives/experiments/3-order-preference-expanded2/results/order-preference-spanish-only.csv")
 
@@ -114,15 +114,17 @@ ggplot(data=class_s,aes(x=reorder(correctclass,-correctresponse,mean),y=correctr
 #ggsave("../results/class_distance_jitter.pdf",height=3)
 
 # adjectives plot
-ggplot(data=adj_agr,aes(x=reorder(predicate,-correctresponse,mean),y=correctresponse))+
+adj_s = bootsSummary(data=agr, measurevar="correctresponse", groupvars=c("correctclass","predicate"))
+ggplot(data=adj_s,aes(x=reorder(predicate,-correctresponse,mean),y=correctresponse))+
   geom_bar(stat = "summary", fun.y = "mean",fill="white",color="grey")+
-  #geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(correctclass,-correctresponse,mean), width=0.1),alpha=0.5)+
-  xlab("\nadjective class")+
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(predicate,-correctresponse,mean), width=0.1),alpha=0.5)+
+  xlab("\nadjective")+
   ylab("distance from noun\n")+
   ylim(0,1)+
   #labs("order\npreference")+
-  theme_bw()#+
-
+  theme_bw() +
+  theme(axis.text.x=element_text(angle=90,vjust=0.35,hjust=1))
+#ggsave("../results/adjective_distance.pdf",height=5)
 
 # full violin plot with data points
 ggplot(data=agr,aes(x=reorder(correctclass,-correctresponse,mean),y=correctresponse))+
@@ -133,6 +135,29 @@ ggplot(data=agr,aes(x=reorder(correctclass,-correctresponse,mean),y=correctrespo
   ylab("distance from noun\n")+
   #ylim(0,1)+
   #labs("order\npreference")+
-  theme_bw()#+
+  theme_bw()
 #ggsave("../results/class_violin_jitter.pdf",height=3)
 
+
+
+#### comparison with faultless disgareement
+
+f = read.csv("../../4-faultless-disagreement/results/pred-subjectivity.csv",header=T)
+
+adj_agr$subjectivity = f$response[match(adj_agr$predicate,f$predicate)]
+
+gof(adj_agr$correctresponse,adj_agr$subjectivity)
+# r = -0.07, r2 = 0.01
+results <- boot(data=adj_agr, statistic=rsq, R=10000, formula=correctresponse~subjectivity)
+boot.ci(results, type="bca") 
+# 95%   ( 0.0000,  0.0619 ) 
+
+ggplot(adj_agr, aes(x=subjectivity,y=correctresponse)) +
+  geom_point() +
+  #geom_smooth()+
+  stat_smooth(method="lm")+
+  geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
+  ylab("naturalness\n")+
+  xlab("\nsubjectivity")+
+  theme_bw()
+#ggsave("../results/naturalness-subjectivity.pdf",height=3,width=4)
