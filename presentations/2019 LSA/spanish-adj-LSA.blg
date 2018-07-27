@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: spanish-adj-LSA.aux
+The style file: chicago.bst
+Database file #1: greg.bib
+You've used 6 entries,
+            2861 wiz_defined-function locations,
+            653 strings with 5884 characters,
+and the built_in function-call counts, 3991 in all, are:
+= -- 340
+> -- 251
+< -- 1
++ -- 72
+- -- 90
+* -- 329
+:= -- 730
+add.period$ -- 19
+call.type$ -- 6
+change.case$ -- 39
+chr.to.int$ -- 6
+cite$ -- 6
+duplicate$ -- 120
+empty$ -- 266
+format.name$ -- 102
+if$ -- 751
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 7
+newline$ -- 33
+num.names$ -- 62
+pop$ -- 28
+preamble$ -- 1
+purify$ -- 76
+quote$ -- 0
+skip$ -- 128
+stack$ -- 0
+substring$ -- 226
+swap$ -- 42
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 110
+warning$ -- 0
+while$ -- 64
+width$ -- 0
+write$ -- 84

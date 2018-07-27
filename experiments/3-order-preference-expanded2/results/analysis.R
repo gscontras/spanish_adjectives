@@ -2,6 +2,7 @@ library(ggplot2)
 library(lme4)
 library(hydroGOF)
 library(dplyr)
+library(lmerTest)
 #library(tidyr)
 
 #setwd("~/Documents/git/spanish_adjectives/experiments/3-order-preference-expanded2/Submiterator-master")
@@ -50,7 +51,9 @@ t = t[t$describe!="L2",]
 
 t$response = as.numeric(as.character(t$response))
 
-summary(t) # 48 indicated "spanish" as native language
+#summary(t) 
+
+length(unique(t$workerid))# 48 indicated "spanish" as native language
 
 #write.csv(t,"~/git/spanish_adjectives/experiments/3-order-preference-expanded2/results/order-preference-spanish-only.csv")
 
@@ -79,18 +82,23 @@ agr$class2 = NULL
 nrow(agr) #2860
 #write.csv(agr,"~/git/spanish_adjectives/experiments/3-order-preference-expanded2/results/naturalness-duplicated.csv")
 
-adj_agr = aggregate(correctresponse~predicate*correctclass,FUN=mean,data=agr)
+agr$response = 1-agr$correctresponse
+
+spanish_agr <- agr
+
+adj_agr = aggregate(response~predicate*correctclass,FUN=mean,data=agr)
 adj_agr
 
-class_agr = aggregate(correctresponse~correctclass,FUN=mean,data=agr)
+class_agr = aggregate(response~correctclass,FUN=mean,data=agr)
 
 source("../results/helpers.r")
 
-class_s = bootsSummary(data=agr, measurevar="correctresponse", groupvars=c("correctclass"))
+class_s = bootsSummary(data=agr, measurevar="response", groupvars=c("correctclass"))
 
-ggplot(data=class_s,aes(x=reorder(correctclass,-correctresponse,mean),y=correctresponse))+
-  geom_bar(stat="identity")+
-  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(correctclass,-correctresponse,mean), width=0.1),alpha=0.5)+
+ggplot(data=class_s,aes(x=reorder(correctclass,-response,mean),y=response))+
+  geom_bar(stat="identity",fill="lightgray",color="black")+
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(correctclass,-response,mean), width=0.1),alpha=0.5)+
+  geom_hline(yintercept=0.5,linetype="dashed") + 
   xlab("\nadjective class")+
   ylab("distance from noun\n")+
   ylim(0,1)+
@@ -139,6 +147,37 @@ ggplot(data=agr,aes(x=reorder(correctclass,-correctresponse,mean),y=correctrespo
 #ggsave("../results/class_violin_jitter.pdf",height=3)
 
 
+#### comparison with English results
+
+eng_conj_agr$response = eng_conj_agr$correctresponse
+eng_conj_agr$expt = "English conjunction" #n = 59
+eng_agr$response = eng_agr$correctresponse
+eng_agr$expt = "English (Scontras et al., 2017)" # n= 45
+spanish_agr$expt = "Spanish conjunction" # n = 48
+
+d_all = rbind(eng_agr,eng_conj_agr,spanish_agr)
+
+d_all = na.omit(d_all)
+
+d_all$class = as.character(d_all$correctclass)
+
+d_all[d_all$correctclass=="nationality"|d_all$correctclass=="material",]$class <- "nationality/\nmaterial"
+
+#summary(lmer(response~class*expt+(1|workerid)+(1|noun),data=d_all))
+
+class_s = bootsSummary(data=d_all, measurevar="response", groupvars=c("class","expt"))
+
+ggplot(data=class_s,aes(x=reorder(class,-response,mean),y=response,fill=expt))+
+  geom_bar(stat="identity",position=position_dodge(),color="black")+
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(class,-response,mean), width=0.2), position=position_dodge(width=0.9))+
+  geom_hline(yintercept=0.5,linetype="dashed") + 
+  xlab("adjective class")+
+  ylab("preferred\ndistance from noun\n")+
+  ylim(0,1)+
+  labs(fill="experiment")+
+  theme_bw()#+
+#theme(axis.text.x=element_text(angle=90,vjust=0.35,hjust=1))
+#ggsave("../results/LSA-class-distance.png",height=2)
 
 #### comparison with faultless disgareement
 
