@@ -109,13 +109,15 @@ ggplot(data=class_s,aes(x=reorder(correctclass,-response,mean),y=response))+
 
 
 # class plot with adjectives
-ggplot(data=class_s,aes(x=reorder(correctclass,-correctresponse,mean),y=correctresponse))+
-  geom_bar(stat="identity",fill="white",color="grey")+
-  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(correctclass,-correctresponse,mean), width=0.1),alpha=0.5)+
-  geom_jitter(data=adj_agr,aes(y=correctresponse),alpha=.25,color="red") +
+class_s$correctclass = factor(class_s$correctclass,levels=c("size","quality","texture","age","shape","color","nationality"))
+ggplot(data=class_s,aes(x=correctclass,y=response))+
+  geom_bar(stat="identity",fill="lightgrey",color="black")+
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=correctclass, width=0.1),alpha=1)+
+  geom_jitter(data=adj_agr,aes(y=response),alpha=.75,color="red") +
   #geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(correctclass,-correctresponse,mean), width=0.1),alpha=0.5)+
+  geom_hline(yintercept=0.5,linetype="dashed") +
   xlab("\nadjective class")+
-  ylab("distance from noun\n")+
+  ylab("preferred istance from noun\n")+
   ylim(0,1)+
   #labs("order\npreference")+
   theme_bw()#+
@@ -152,10 +154,11 @@ ggplot(data=agr,aes(x=reorder(correctclass,-correctresponse,mean),y=correctrespo
 eng_conj_agr$response = eng_conj_agr$correctresponse
 eng_conj_agr$expt = "English conjunction" #n = 59
 eng_agr$response = eng_agr$correctresponse
-eng_agr$expt = "English (Scontras et al., 2017)" # n= 45
-spanish_agr$expt = "Spanish conjunction" # n = 48
+eng_agr$expt = "English" # n= 45
+spanish_agr$expt = "Spanish" # n = 48
 
-d_all = rbind(eng_agr,eng_conj_agr,spanish_agr)
+#d_all = rbind(eng_agr,eng_conj_agr,spanish_agr)
+d_all = rbind(eng_agr,spanish_agr)
 
 d_all = na.omit(d_all)
 
@@ -172,12 +175,14 @@ ggplot(data=class_s,aes(x=reorder(class,-response,mean),y=response,fill=expt))+
   geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(class,-response,mean), width=0.2), position=position_dodge(width=0.9))+
   geom_hline(yintercept=0.5,linetype="dashed") + 
   xlab("adjective class")+
-  ylab("preferred\ndistance from noun\n")+
+  ylab("preferred distance from noun\n")+
   ylim(0,1)+
   labs(fill="experiment")+
+  scale_fill_manual(values=c("#7376FE", "#FC726F"))+
   theme_bw()#+
 #theme(axis.text.x=element_text(angle=90,vjust=0.35,hjust=1))
 #ggsave("../results/LSA-class-distance.png",height=2)
+#ggsave("../results/frankfurt-class-distance.png",height=3,width=6.5)
 
 #### comparison with faultless disgareement
 
@@ -191,12 +196,13 @@ results <- boot(data=adj_agr, statistic=rsq, R=10000, formula=correctresponse~su
 boot.ci(results, type="bca") 
 # 95%   ( 0.0000,  0.0619 ) 
 
-ggplot(adj_agr, aes(x=subjectivity,y=correctresponse)) +
+ggplot(adj_agr, aes(x=subjectivity,y=response)) +
   geom_point() +
   #geom_smooth()+
-  stat_smooth(method="lm")+
-  geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
-  ylab("naturalness\n")+
-  xlab("\nsubjectivity")+
+  stat_smooth(method="lm",color="black")+
+  #geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
+  ylab("preferred distance from noun\n")+
+  xlab("\nfaultless disagreement score")+
+  ylim(0,1)+
   theme_bw()
-#ggsave("../results/naturalness-subjectivity.pdf",height=3,width=4)
+#ggsave("../results/naturalness-subjectivity.pdf",height=3,width=3.5)
