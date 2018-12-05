@@ -37,7 +37,8 @@ t = t[t$describe!="L2",]
 
 t$response = as.numeric(as.character(t$response))
 
-summary(t) # 21 indicated "spanish" as native language
+summary(t) 
+length(unique(t$workerid)) # 21 indicated "spanish" as native language
 
 t$class <- factor(t$class,levels=c("quality","size","age","texture","color","shape","nationality"))
 

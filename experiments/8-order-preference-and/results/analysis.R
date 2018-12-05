@@ -33,9 +33,10 @@ agr$response = NULL
 agr$rightresponse = NULL
 agr$class1 = NULL
 agr$class2 = NULL
-nrow(agr) #3600
+nrow(agr) #3540
 
 eng_conj_agr <- agr
+#write.csv(eng_conj_agr,"../results/eng_conj_agr.csv")
 
 
 adj_agr = aggregate(correctresponse~predicate*correctclass,FUN=mean,data=agr)
@@ -87,7 +88,7 @@ ggsave("../results/density_plot.pdf")
 
 ## get faultles disagreement ratings
 
-f = read.table("~/Documents/git/cocolab/adjective_ordering/experiments/2-faultless-disagreement/Submiterator-master/faultless-disagreement-2-trials.tsv",sep="\t",header=T)
+f = read.table("~/git/adjective_ordering/experiments/2-faultless-disagreement/Submiterator-master/faultless-disagreement-2-trials.tsv",sep="\t",header=T)
 head(f)
 f_agr = aggregate(response~class,data=f,mean)
 p_agr = aggregate(response~predicate,data=f,mean)
@@ -121,11 +122,38 @@ ggplot(d_s, aes(x=configuration,y=response,color=modification)) +
 ggsave("../results/class_plot.pdf")
 
 
+#### SUBJECTIVITY CORRELATION R2 ANALYSIS #####
 
-s = read.table("~/Documents/git/cocolab/adjective_ordering/experiments/6-subjectivity/Submiterator-master/subjectivity-trials.tsv",sep="\t",header=T)
+s = read.csv("~/git/adjective_ordering/experiments/6-subjectivity/Submiterator-master/subjectivity-trials.csv",header=T)
 head(s)
 s_agr = aggregate(response~class,data=s,mean)
 p_agr = aggregate(response~predicate,data=s,mean)
+
+adj_agr$subjectivity = p_agr$response[match(adj_agr$predicate,p_agr$predicate)]
+
+gof(adj_agr$correctresponse,adj_agr$subjectivity)
+# r = 0.92, r2 = 0.86
+results <- boot(data=adj_agr, statistic=rsq, R=10000, formula=correctresponse~subjectivity)
+boot.ci(results, type="bca") 
+# 95%   ( 0.6939,  0.9314 ) 
+
+ggplot(adj_agr, aes(x=subjectivity,y=correctresponse)) +
+  geom_point() +
+  #geom_smooth()+
+  stat_smooth(method="lm",color="black")+
+  #geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
+  ylab("preferred\ndistance from noun\n")+
+  # ylab("")+
+  xlab("\nsubjectivity score")+
+  ggtitle("English conjunction")+
+  #ylim(0.3,0.8)+
+  # xlim(0.2,0.8)+
+  theme_bw() +
+  theme(plot.title = element_text(hjust = 0.5))
+#ggsave("../results/naturalness-subjectivity-conjunction.png",height=2,width=2.5)
+
+################################################
+
 
 d$class1_s = s_agr$response[match(d$class1,s_agr$class)]
 d$class2_s = s_agr$response[match(d$class2,s_agr$class)]
