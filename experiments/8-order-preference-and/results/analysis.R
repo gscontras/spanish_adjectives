@@ -22,8 +22,8 @@ o$rightpredicate1 = o$predicate2
 o$rightpredicate2 = o$predicate1
 o$rightresponse = 1-o$response
 agr = o %>% 
-  select(predicate1,rightpredicate1,response,rightresponse,workerid,noun,nounclass,class1,class2) %>%
-  gather(predicateposition,predicate,predicate1:rightpredicate1,-workerid,-noun,-nounclass,-class1,-class2)
+  select(predicate1,rightpredicate1,response,rightresponse,workerid,noun,nounclass,modification,class1,class2) %>%
+  gather(predicateposition,predicate,predicate1:rightpredicate1,-workerid,-noun,-nounclass,-modification,-class1,-class2)
 agr$correctresponse = agr$response
 agr[agr$predicateposition == "rightpredicate1",]$correctresponse = agr[agr$predicateposition == "rightpredicate1",]$rightresponse
 agr$correctclass = agr$class1
@@ -39,21 +39,28 @@ eng_conj_agr <- agr
 #write.csv(eng_conj_agr,"../results/eng_conj_agr.csv")
 
 
-adj_agr = aggregate(correctresponse~predicate*correctclass,FUN=mean,data=agr)
+adj_agr = aggregate(correctresponse~predicate*correctclass*modification,FUN=mean,data=agr)
 adj_agr
 
-class_agr = aggregate(correctresponse~correctclass,FUN=mean,data=agr)
+class_agr = aggregate(correctresponse~correctclass*modification,FUN=mean,data=agr)
 
 #source("../results/helpers.r")
 
-class_s = bootsSummary(data=agr, measurevar="correctresponse", groupvars=c("correctclass"))
+class_s = bootsSummary(data=agr, measurevar="correctresponse", groupvars=c("correctclass","modification"))
 
-ggplot(data=class_s,aes(x=reorder(correctclass,-correctresponse,mean),y=correctresponse))+
-  geom_bar(stat="identity")+
-  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(correctclass,-correctresponse,mean), width=0.1),alpha=0.5)+
+class_s$conjunction = class_s$modification
+
+class_s$conjunction = factor(class_s$conjunction,labels=c("without","with"))
+
+ggplot(data=class_s,aes(x=reorder(correctclass,-correctresponse,mean),y=correctresponse,fill=conjunction))+
+  geom_bar(stat="identity",position=position_dodge(),color="black")+
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(correctclass,-correctresponse,mean), width=0.1),alpha=1,position=position_dodge(0.9))+
+  geom_hline(yintercept=0.5,linetype="dashed") +
   xlab("\nadjective class")+
-  ylab("distance from noun\n")+
+  ylab("preferred\ndistance from noun\n")+
   ylim(0,1)+
+  scale_fill_manual(values=c("#F8766D", "#00BA38"))+
+  # facet_grid(.~modification)+
   #labs("order\npreference")+
   theme_bw()#+
 #theme(axis.text.x=element_text(angle=90,vjust=0.35,hjust=1))
@@ -129,15 +136,54 @@ head(s)
 s_agr = aggregate(response~class,data=s,mean)
 p_agr = aggregate(response~predicate,data=s,mean)
 
-adj_agr$subjectivity = p_agr$response[match(adj_agr$predicate,p_agr$predicate)]
+adj_agr_conj = adj_agr[adj_agr$modification=="parallel",]
+adj_agr_NOconj = adj_agr[adj_agr$modification=="hierarchical",]
 
-gof(adj_agr$correctresponse,adj_agr$subjectivity)
-# r = 0.92, r2 = 0.86
-results <- boot(data=adj_agr, statistic=rsq, R=10000, formula=correctresponse~subjectivity)
+adj_agr_conj$subjectivity = p_agr$response[match(adj_agr_conj$predicate,p_agr$predicate)]
+adj_agr_NOconj$subjectivity = p_agr$response[match(adj_agr_NOconj$predicate,p_agr$predicate)]
+
+### CONJUNCTION R2
+gof(adj_agr_conj$correctresponse,adj_agr_conj$subjectivity)
+# r = 0.83, r2 = 0.68
+results <- boot(data=adj_agr_conj, statistic=rsq, R=10000, formula=correctresponse~subjectivity)
 boot.ci(results, type="bca") 
-# 95%   ( 0.6939,  0.9314 ) 
+# 95%   ( 0.40,  0.83 ) 
 
-ggplot(adj_agr, aes(x=subjectivity,y=correctresponse)) +
+### NO CONJUNCTION R1
+gof(adj_agr_NOconj$correctresponse,adj_agr_NOconj$subjectivity)
+# r = 0.95, r2 = 0.89
+results <- boot(data=adj_agr_NOconj, statistic=rsq, R=10000, formula=correctresponse~subjectivity)
+boot.ci(results, type="bca") 
+# 95%   ( 0.81,  0.94 ) 
+
+ggplot(adj_agr_conj, aes(x=subjectivity,y=correctresponse)) +
+  geom_point() +
+  #geom_smooth()+
+  stat_smooth(method="lm",color="black")+
+  # geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
+  ylab("preferred distance from noun\n")+
+  # ylab("")+
+  xlab("\nsubjectivity score")+
+  ylim(0,1)+
+  # xlim(0.2,0.8)+
+  theme_bw()
+#ggsave("../results/naturalness-subjectivity-conjunction-LSA.png",height=3,width=3.5)
+
+ggplot(adj_agr_NOconj, aes(x=subjectivity,y=correctresponse)) +
+  geom_point() +
+  #geom_smooth()+
+  stat_smooth(method="lm",color="black")+
+  geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
+  ylab("preferred distance from noun\n")+
+  # ylab("")+
+  xlab("\nsubjectivity score")+
+  ylim(0,1)+
+  # xlim(0.2,0.8)+
+  theme_bw()
+#ggsave("../results/naturalness-subjectivity-NOconjunction-LSA.png",height=3,width=3.5)
+
+
+ggplot(adj_agr_conj, aes(x=subjectivity,y=correctresponse)) +
   geom_point() +
   #geom_smooth()+
   stat_smooth(method="lm",color="black")+

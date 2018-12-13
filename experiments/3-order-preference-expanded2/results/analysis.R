@@ -151,14 +151,16 @@ ggplot(data=agr,aes(x=reorder(correctclass,-correctresponse,mean),y=correctrespo
 
 #### comparison with English results
 eng_conj_agr = read.csv("~/git/spanish_adjectives/experiments/8-order-preference-and/results/eng_conj_agr.csv")
-eng_agr = read.csv("~/git/adjective_ordering/experiments/analysis/naturalness-duplicated.csv")
+# eng_agr = read.csv("~/git/adjective_ordering/experiments/analysis/naturalness-duplicated.csv")
 tagalog = read.csv("~/git/tagalog_adjectives/experiments/2-tagalog-preference/results/naturalness-duplicated.csv")
-
+tagalog$modification = NA
 eng_conj_agr$response = eng_conj_agr$correctresponse
 eng_conj_agr$expt = "English conjunction" #n = 59
-eng_agr$response = eng_agr$correctresponse
-eng_agr$expt = "English (Scontras et al., 2017)" # n= 45
+eng_conj_agr[eng_conj_agr$modification=="hierarchical",]$expt = "English baseline" #n = 59
+# eng_agr$response = eng_agr$correctresponse
+# eng_agr$expt = "English (Scontras et al., 2017)" # n= 45
 spanish_agr$X = "NA"
+spanish_agr$modification = "NA"
 spanish_agr$expt = "Spanish" # n = 48
 tagalog$expt = "Tagalog"
 tagalog$response = tagalog$correctresponse
@@ -176,20 +178,26 @@ d_all[d_all$correctclass=="nationality"|d_all$correctclass=="material",]$class <
 
 
 ## Spanish, English, and English conjunction
-class_s = bootsSummary(data=d_all, measurevar="response", groupvars=c("class","expt"))
+d_all = rbind(eng_conj_agr,spanish_agr)
+d_all = na.omit(d_all)
+d_all$class = as.character(d_all$correctclass)
+d_all[d_all$correctclass=="nationality"|d_all$correctclass=="material",]$class <- "nationality/\nmaterial"
 
-ggplot(data=class_s,aes(x=reorder(class,-response,mean),y=response,fill=expt))+
+class_s = bootsSummary(data=d_all, measurevar="response", groupvars=c("class","expt"))
+class_s$class = factor(class_s$class,levels=c("size","texture","quality","age","shape","color","nationality/\nmaterial"))
+
+ggplot(data=class_s,aes(x=class,y=response,fill=expt))+
   geom_bar(stat="identity",position=position_dodge(),color="black")+
-  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(class,-response,mean), width=0.2), position=position_dodge(width=0.9))+
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=class, width=0.2), position=position_dodge(width=0.9))+
   geom_hline(yintercept=0.5,linetype="dashed") + 
   xlab("adjective class")+
-  ylab("preferred distance from noun\n")+
+  ylab("preferred\ndistance from noun\n")+
   ylim(0,1)+
   labs(fill="experiment")+
   # scale_fill_manual(values=c("#7376FE", "#FC726F"))+
   theme_bw()#+
 #theme(axis.text.x=element_text(angle=90,vjust=0.35,hjust=1))
-#ggsave("../results/LSA-class-distance.png",height=2)
+#ggsave("../results/LSA-class-distance.png",height=3)
 #ggsave("../results/frankfurt-class-distance.png",height=3,width=6.5)
 
 
@@ -240,12 +248,14 @@ ggplot(adj_agr, aes(x=subjectivity,y=response)) +
   #geom_smooth()+
   stat_smooth(method="lm",color="black")+
   #geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
-  ylab("preferred\ndistance from noun\n")+
+  ylab("preferred distance from noun\n")+
   xlab("\nsubjectivity score")+
   ylim(0.3,0.8)+
+  geom_text(label=adj_agr$predicate) +
   # xlim(0.2,0.8)+
   theme_bw()
 #ggsave("../results/naturalness-subjectivity-spanish.png",height=2,width=3)
+#ggsave("../results/naturalness-subjectivity-spanish-LSA.png",height=3,width=3.5)
 
 ggplot(adj_agr, aes(x=subjectivity,y=response)) +
   geom_point() +
