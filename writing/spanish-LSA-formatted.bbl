@@ -1,0 +1,196 @@
+\begin{thebibliography}{29}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Barker(2013)}]{Barker2013}
+Barker, Chris. 2013.
+\newblock {Negotiating Taste}.
+\newblock \emph{Inquiry} 56(2-3). 240--257.
+\newblock \doi{10.1080/0020174X.2013.784482}.
+
+\bibitem[{Byrne(1979)}]{byrne1979}
+Byrne, Brian. 1979.
+\newblock Rules of prenominal adjective order and the interpretation of
+  ``incompatible'' adjective pairs.
+\newblock \emph{Journal of Verbal Learning and Verbal Behavior} 18(1). 73--78.
+\newblock \doi{10.1016/S0022-5371(79)90574-7}.
+
+\bibitem[{Cinque(1994)}]{cinque1994}
+Cinque, Guglielmo. 1994.
+\newblock On the evidence for partial {N}-movement in the {R}omance {DP}.
+\newblock In R.~S. Kayne, G.~Cinque, J.~Koster, J.-Y. Pollock, L.~Rizzi \&
+  R.~Zanuttini (eds.), \emph{Paths towards universal grammar. studies in honor
+  of {Richard S. Kayne}}, 85--110. Washington DC: Georgetown University Press.
+
+\bibitem[{Dixon(1982)}]{dixon1982}
+Dixon, R. M.~W. 1982.
+\newblock \emph{{Where have all the adjectives gone? And other essays in
+  semantics and syntax}}.
+\newblock Berlin: Mouton.
+
+\bibitem[{Ford \& Olson(1975)}]{fordolson1975}
+Ford, William \& David Olson. 1975.
+\newblock The elaboration of the noun phrase in children's description of
+  objects.
+\newblock \emph{Journal of Experimental Child Psychology} 19(3). 371--382.
+\newblock \doi{10.1016/0022-0965(75)90068-5}.
+
+\bibitem[{Franke \& J{\"{a}}ger(2016)}]{frankejaeger2016}
+Franke, Michael \& Gerhard J{\"{a}}ger. 2016.
+\newblock Probabilistic pragmatics, or why {B}ayes' rule is probably important
+  for pragmatics.
+\newblock \emph{Zeitschrift f\"{u}r Sprachwissenschaft} 35(1). 3--44.
+\newblock \doi{10.1515/zfs-2016-0002}.
+
+\bibitem[{Goodman \& Frank(2016)}]{goodmanfrank2016}
+Goodman, Noah~D. \& Michael~C. Frank. 2016.
+\newblock Pragmatic language interpretation as probabilistic inference.
+\newblock \emph{Trends in Cognitive Sciences} 20(11). 818--829.
+\newblock \doi{10.1016/j.tics.2016.08.005}.
+
+\bibitem[{Hahn et~al.(2018)Hahn, Degen, Goodman, Jurafsky \&
+  Futrell}]{hahnetal2018}
+Hahn, Michael, Judith Degen, Noah~D. Goodman, Dan Jurafsky \& Richard Futrell.
+  2018.
+\newblock An information-theoretic explanation of adjective ordering
+  preferences.
+\newblock In \emph{Proceedings of the 40th annual conference of the {C}ognitive
+  {S}cience {S}ociety}, London: Cognitive Science Society.
+
+\bibitem[{Hetzron(1978)}]{hetzron1978}
+Hetzron, Robert. 1978.
+\newblock {On the relative order of adjectives}.
+\newblock In Hansjakob Seiler (ed.), \emph{Language universals}, 165--184.
+  T{\"{u}}bingen: Narr.
+
+\bibitem[{Hill(2012)}]{hill2012}
+Hill, Felix. 2012.
+\newblock {Beauty Before Age? Applying Subjectivity to Automatic English
+  Adjective Ordering}.
+\newblock In \emph{Proceedings of the {NAACL} {HLT} 2012 student research
+  workshop}, 11--16.
+
+\bibitem[{Kennedy(2013)}]{Kennedy2013}
+Kennedy, Christopher. 2013.
+\newblock {Two Sources of Subjectivity: Qualitative Assessment and Dimensional
+  Uncertainty}.
+\newblock \emph{Inquiry} 56(2-3). 258--277.
+\newblock \doi{10.1080/0020174X.2013.784483}.
+
+\bibitem[{K{\"{o}}lbel(2004)}]{Kolbel2004}
+K{\"{o}}lbel, Max. 2004.
+\newblock {Faultless Disagreement}.
+\newblock \emph{Proceedings of the Aristotelian Society} 104. 53--73.
+\newblock \doi{10.1111/j.0066-7373.2004.00081.x}.
+
+\bibitem[{Laenzlinger(2005)}]{laenzlinger2005}
+Laenzlinger, Christopher. 2005.
+\newblock French adjective ordering: perspectives on {DP}-internal movement
+  types.
+\newblock \emph{Lingua} 115. 645--689.
+\newblock \doi{10.1016/j.lingua.2003.11.003}.
+
+\bibitem[{MacFarlane(2014)}]{MacFarlane2014}
+MacFarlane, John. 2014.
+\newblock \emph{{Assessment Sensitivity}}.
+\newblock Oxford: Clarendon Press.
+
+\bibitem[{Martin(1969)}]{Martin1969competence}
+Martin, J.~E. 1969.
+\newblock Some competence-process relationships in noun phrases with prenominal
+  and postnominal adjectives.
+\newblock \emph{Journal of Verbal Learning and Verbal Behavior} 8. 471--480.
+\newblock \doi{10.1016/S0022-5371(69)80091-5}.
+
+\bibitem[{McNally \& Boleda(2004)}]{mcnallyboleda2004}
+McNally, Louise \& Gemma Boleda. 2004.
+\newblock {Relational adjectives as properties of kinds}.
+\newblock \emph{Empirical Issues in Formal Syntax and Semantics 5} 5. 179--196.
+
+\bibitem[{Quirk et~al.(1985)Quirk, Greenbaum, Leech \&
+  Svartvik}]{quirketal1985}
+Quirk, Randolph, Sidney Greenbaum, Geoffrey Leech \& Jan Svartvik. 1985.
+\newblock \emph{{A Comprehensive Grammar of the English Language}}.
+\newblock London: Longman.
+
+\bibitem[{Samonte \& Scontras(2019)}]{samontescontras2019}
+Samonte, Suttera \& Gregory Scontras. 2019.
+\newblock Adjective ordering in {T}agalog: A cross-linguistic comparison of
+  subjectivity-based preferences.
+\newblock In \emph{Proceedings of the {Linguistic Society of America}}, vol.~4,
+  1--13.
+
+\bibitem[{Scontras et~al.(2017)Scontras, Degen \&
+  Goodman}]{scontrasetal2017adjectives}
+Scontras, Gregory, Judith Degen \& Noah~D. Goodman. 2017.
+\newblock Subjectivity predicts adjective ordering preferences.
+\newblock \emph{Open Mind: Discoveries in Cognitive Science} 1(1). 53--65.
+\newblock \doi{10.1162/OPMI\textunderscore a\textunderscore 00005}.
+
+\bibitem[{Scontras et~al.(to appear)Scontras, Degen \&
+  Goodman}]{scontrasetalSPadjectives}
+Scontras, Gregory, Judith Degen \& Noah~D. Goodman. to appear.
+\newblock On the grammatical source of adjective ordering preferences.
+\newblock \emph{Semantics and Pragmatics} .
+
+\bibitem[{Scott(2002)}]{scott2002}
+Scott, Gary-John. 2002.
+\newblock {Stacked adjectival modification and the structure of nominal
+  phrases}.
+\newblock In Guglielmo Cinque (ed.), \emph{The cartography of syntactic
+  structures, volume 1: Functional structure in the {DP} and {IP}}, 91--120.
+  Oxford: Oxford University Press.
+
+\bibitem[{Seiler(1978)}]{seiler1978}
+Seiler, Hansjakob. 1978.
+\newblock Determination: A functional dimension for interlanguage comparison.
+\newblock In Hansjakob Seiler (ed.), \emph{Language universals}, 301--328.
+  T{\"{u}}bingen: Narr.
+
+\bibitem[{Simoni\v{c}(2018)}]{simonic2018}
+Simoni\v{c}, Mihael. 2018.
+\newblock \emph{Functional explanation of adjective ordering preferences using
+  probabilistic programming}: University of T\"{u}bingen MA thesis.
+
+\bibitem[{Sproat \& Shih(1991)}]{sproatshih1991}
+Sproat, Richard \& Chilin Shih. 1991.
+\newblock {The cross-linguistic distribution of adjective ordering
+  restrictions}.
+\newblock In C.~Georgopoulos \& R.~Ishihara (eds.), \emph{Interdisciplinary
+  approaches to language: Essays in honor of {S.-Y.} {K}uroda}, 565--593.
+  Dordrecht: Kluwer Academic Publishers.
+
+\bibitem[{Sweet(1898)}]{Sweet1898}
+Sweet, Henry. 1898.
+\newblock \emph{{A New English Grammar, Logical and Historical}}.
+\newblock London: Clarendon Press.
+
+\bibitem[{Truswell(2009)}]{truswell2009}
+Truswell, Robert. 2009.
+\newblock Attributive adjectives and nominal templates.
+\newblock \emph{Linguistic Inquiry} 40. 525--533.
+\newblock \doi{10.1162/ling.2009.40.3.525}.
+
+\bibitem[{Tucker(1998)}]{tucker1998}
+Tucker, Gordon. 1998.
+\newblock \emph{The lexicogrammar of adjectives: A systemic functional approach
+  to lexis}.
+\newblock London: Cassell Academic.
+
+\bibitem[{Whorf(1945)}]{whorf1945}
+Whorf, Benjamin~Lee. 1945.
+\newblock {Grammatical Categories}.
+\newblock \emph{Language} 21(1). 1--11.
+\newblock \doi{10.2307/410199}.
+
+\bibitem[{Ziff(1960)}]{ziff1960}
+Ziff, Paul. 1960.
+\newblock \emph{{Semantic Analysis}}.
+\newblock Ithaca, NY: Cornell University Press.
+
+\end{thebibliography}

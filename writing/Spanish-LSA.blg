@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Spanish-LSA.aux
+The style file: sp.bst.bst
+Database file #1: greg.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 29 entries,
+            3147 wiz_defined-function locations,
+            792 strings with 8609 characters,
+and the built_in function-call counts, 16426 in all, are:
+= -- 1357
+> -- 510
+< -- 26
++ -- 184
+- -- 149
+* -- 982
+:= -- 2546
+add.period$ -- 120
+call.type$ -- 29
+change.case$ -- 215
+chr.to.int$ -- 29
+cite$ -- 29
+duplicate$ -- 1365
+empty$ -- 1394
+format.name$ -- 212
+if$ -- 3368
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 276
+newline$ -- 153
+num.names$ -- 126
+pop$ -- 571
+preamble$ -- 1
+purify$ -- 162
+quote$ -- 0
+skip$ -- 497
+stack$ -- 0
+substring$ -- 756
+swap$ -- 613
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 243
+warning$ -- 0
+while$ -- 128
+width$ -- 0
+write$ -- 382

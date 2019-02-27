@@ -149,7 +149,7 @@ results <- boot(data=adj_agr_conj, statistic=rsq, R=10000, formula=correctrespon
 boot.ci(results, type="bca") 
 # 95%   ( 0.40,  0.83 ) 
 
-### NO CONJUNCTION R1
+### NO CONJUNCTION R2
 gof(adj_agr_NOconj$correctresponse,adj_agr_NOconj$subjectivity)
 # r = 0.95, r2 = 0.89
 results <- boot(data=adj_agr_NOconj, statistic=rsq, R=10000, formula=correctresponse~subjectivity)
@@ -173,14 +173,16 @@ ggplot(adj_agr_NOconj, aes(x=subjectivity,y=correctresponse)) +
   geom_point() +
   #geom_smooth()+
   stat_smooth(method="lm",color="black")+
-  geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
-  ylab("preferred distance from noun\n")+
+  #geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
+  ylab("preferred distance\n")+
+  ggtitle("without conjunction")+
   # ylab("")+
-  xlab("\nsubjectivity score")+
+  xlab("\nperceived subjectivity")+
   ylim(0,1)+
   # xlim(0.2,0.8)+
-  theme_bw()
-#ggsave("../results/naturalness-subjectivity-NOconjunction-LSA.png",height=3,width=3.5)
+  theme_bw() +
+  theme(plot.title = element_text(hjust = 0.5))
+#ggsave("../results/naturalness-subjectivity-NOconjunction-LSA.png",height=2.9,width=3)
 
 
 ggplot(adj_agr_conj, aes(x=subjectivity,y=correctresponse)) +
@@ -188,15 +190,15 @@ ggplot(adj_agr_conj, aes(x=subjectivity,y=correctresponse)) +
   #geom_smooth()+
   stat_smooth(method="lm",color="black")+
   #geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
-  ylab("preferred\ndistance from noun\n")+
+  ylab("preferred distance\n")+
   # ylab("")+
-  xlab("\nsubjectivity score")+
-  ggtitle("English conjunction")+
-  #ylim(0.3,0.8)+
+  xlab("\nperceived subjectivity")+
+  ggtitle("with conjunction")+
+  ylim(0,1)+
   # xlim(0.2,0.8)+
   theme_bw() +
   theme(plot.title = element_text(hjust = 0.5))
-#ggsave("../results/naturalness-subjectivity-conjunction.png",height=2,width=2.5)
+#ggsave("../results/naturalness-subjectivity-conjunction.png",height=2.9,width=3)
 
 ################################################
 

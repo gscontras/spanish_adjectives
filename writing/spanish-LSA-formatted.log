@@ -1,0 +1,756 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=latex 2016.5.22)  26 FEB 2019 10:17
+entering extended mode
+ restricted \write18 enabled.
+ Source specials enabled.
+ %&-line parsing enabled.
+**spanish-LSA-formatted.tex
+(./spanish-LSA-formatted.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/Users/greg/Library/texmf/tex/latex/linguex.sty
+Package: linguex 2013/05/28 Example formatting for linguistics v. 4.3
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/Users/greg/Library/texmf/tex/latex/cgloss4e.sty
+\lineone=\box26
+\linetwo=\box27
+\linethree=\box28
+\wordone=\box29
+\wordtwo=\box30
+\wordthree=\box31
+\gline=\box32
+\glossglue=\skip43
+)
+\c@ExNo=\count87
+\c@SubExNo=\count88
+\c@SubSubExNo=\count89
+\c@FnExNo=\count90
+\c@ABC=\count91
+\currentlabel=\skip44
+\lessthanten=\skip45
+\lessthanhundred=\skip46
+\lessthanthousand=\skip47
+\@Exleftmargin=\skip48
+\Exlabelwidth=\skip49
+\Extopsep=\skip50
+\Exindent=\skip51
+\SubExleftmargin=\skip52
+\SubSubExleftmargin=\skip53
+\Exlabelsep=\skip54
+\alignSubExnegindent=\skip55
+\Exredux=\skip56
+\digitwidth=\skip57
+\mindigitwidth=\skip58
+\c@ExDepth=\count92
+\c@TempExDepth=\count93
+\CollectTokens=\toks14
+LaTeX Info: Redefining \b on input line 307.
+LaTeX Info: Redefining \c on input line 311.
+LaTeX Info: Redefining \d on input line 313.
+\c@tmpaEx=\count94
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip59
+\bibsep=\skip60
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count95
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count96
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip61
+\RaggedLeftLeftskip=\skip62
+\RaggedRightLeftskip=\skip63
+\CenteringRightskip=\skip64
+\RaggedLeftRightskip=\skip65
+\RaggedRightRightskip=\skip66
+\CenteringParfillskip=\skip67
+\RaggedLeftParfillskip=\skip68
+\RaggedRightParfillskip=\skip69
+\JustifyingParfillskip=\skip70
+\CenteringParindent=\skip71
+\RaggedLeftParindent=\skip72
+\RaggedRightParindent=\skip73
+\JustifyingParindent=\skip74
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 96.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/Users/greg/Library/texmf/tex/latex/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen105
+\lightrulewidth=\dimen106
+\cmidrulewidth=\dimen107
+\belowrulesep=\dimen108
+\belowbottomsep=\dimen109
+\aboverulesep=\dimen110
+\abovetopsep=\dimen111
+\cmidrulesep=\dimen112
+\cmidrulekern=\dimen113
+\defaultaddspace=\dimen114
+\@cmidla=\count97
+\@cmidlb=\count98
+\@aboverulesep=\dimen115
+\@belowrulesep=\dimen116
+\@thisruleclass=\count99
+\@lastruleclass=\count100
+\@thisrulewidth=\dimen117
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box33
+\UL@hyphenbox=\box34
+\UL@skip=\skip75
+\UL@hook=\toks17
+\UL@height=\dimen118
+\UL@pe=\count101
+\UL@pixel=\dimen119
+\ULC@box=\box35
+Package: ulem 2012/05/18
+\ULdepth=\dimen120
+)
+(/Users/greg/Library/texmf/tex/latex/qtree.sty
+Package: 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
+Package: qtree 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2016/02/05 v0.3b Improved picture commands (HjG,RN,JT)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: dvips.def on input line 119.
+Package pict2e Info: Driver file for pict2e: p2e-dvips.def on input line 121.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pict2e/p2e-dvips.def
+File: p2e-dvips.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks18
+\@arclen=\dimen121
+\@arcrad=\dimen122
+\@tempdimd=\dimen123
+)
+\c@treecount=\count102
+\c@branchcount=\count103
+\parentbox=\box36
+\treebox=\box37
+\treeboxone=\box38
+\treeboxtwo=\box39
+\treeboxthree=\box40
+\treeboxfour=\box41
+\treeboxfive=\box42
+\treeboxsix=\box43
+\treeboxseven=\box44
+\treeboxeight=\box45
+\treeboxnine=\box46
+\treeboxten=\box47
+\treeboxeleven=\box48
+\treeboxtwelve=\box49
+\treeboxthirteen=\box50
+\treeboxfourteen=\box51
+\treeboxfifteen=\box52
+\treeboxsixteen=\box53
+\treeboxseventeen=\box54
+\treeboxeighteen=\box55
+\treeboxnineteen=\box56
+\treeboxtwenty=\box57
+\treeoffsetone=\skip76
+\treeoffsettwo=\skip77
+\treeoffsetthree=\skip78
+\treeoffsetfour=\skip79
+\treeoffsetfive=\skip80
+\treeoffsetsix=\skip81
+\treeoffsetseven=\skip82
+\treeoffseteight=\skip83
+\treeoffsetnine=\skip84
+\treeoffsetten=\skip85
+\treeoffseteleven=\skip86
+\treeoffsettwelve=\skip87
+\treeoffsetthirteen=\skip88
+\treeoffsetfourteen=\skip89
+\treeoffsetfifteen=\skip90
+\treeoffsetsixteen=\skip91
+\treeoffsetseventeen=\skip92
+\treeoffseteighteen=\skip93
+\treeoffsetnineteen=\skip94
+\treeoffsettwenty=\skip95
+\treeshiftone=\skip96
+\treeshifttwo=\skip97
+\treeshiftthree=\skip98
+\treeshiftfour=\skip99
+\treeshiftfive=\skip100
+\treeshiftsix=\skip101
+\treeshiftseven=\skip102
+\treeshifteight=\skip103
+\treeshiftnine=\skip104
+\treeshiftten=\skip105
+\treeshifteleven=\skip106
+\treeshifttwelve=\skip107
+\treeshiftthirteen=\skip108
+\treeshiftfourteen=\skip109
+\treeshiftfifteen=\skip110
+\treeshiftsixteen=\skip111
+\treeshiftseventeen=\skip112
+\treeshifteighteen=\skip113
+\treeshiftnineteen=\skip114
+\treeshifttwenty=\skip115
+\treewidthone=\skip116
+\treewidthtwo=\skip117
+\treewidththree=\skip118
+\treewidthfour=\skip119
+\treewidthfive=\skip120
+\treewidthsix=\skip121
+\treewidthseven=\skip122
+\treewidtheight=\skip123
+\treewidthnine=\skip124
+\treewidthten=\skip125
+\treewidtheleven=\skip126
+\treewidthtwelve=\skip127
+\treewidththirteen=\skip128
+\treewidthfourteen=\skip129
+\treewidthfifteen=\skip130
+\treewidthsixteen=\skip131
+\treewidthseventeen=\skip132
+\treewidtheighteen=\skip133
+\treewidthnineteen=\skip134
+\treewidthtwenty=\skip135
+\daughteroffsetone=\skip136
+\daughteroffsettwo=\skip137
+\daughteroffsetthree=\skip138
+\daughteroffsetfour=\skip139
+\branchwidthone=\skip140
+\branchwidthtwo=\skip141
+\branchwidththree=\skip142
+\branchwidthfour=\skip143
+\parentoffset=\skip144
+\treeoffset=\skip145
+\daughteroffset=\skip146
+\branchwidth=\skip147
+\parentwidth=\skip148
+\treewidth=\skip149
+\qta=\toks19
+\qtb=\toks20
+\nbranches=\count104
+\qroofx=\count105
+\qroofy=\count106
+\@qrscratchbox=\box58
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip150
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box59
+\beforetitleunit=\skip151
+\aftertitleunit=\skip152
+\ttl@plus=\dimen124
+\ttl@minus=\dimen125
+\ttl@toksa=\toks21
+\titlewidth=\dimen126
+\titlewidthlast=\dimen127
+\titlewidthfirst=\dimen128
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: dvips.def on input line 144.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen129
+\Hy@linkcounter=\count107
+\Hy@pagecounter=\count108
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count109
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4322.
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count110
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen130
+\Fld@menulength=\count111
+\Field@Width=\dimen131
+\Fld@charsize=\dimen132
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring ON on input line 6316.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count112
+\c@Item=\count113
+\c@Hfootnote=\count114
+)
+
+Package hyperref Message: Driver (default): hdvips.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2016/05/05 v6.83n Hyperref driver for dvips
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2016/05/05 v6.83n Hyperref definitions for pdfmark specials
+\pdf@docset=\toks22
+\pdf@box=\box60
+\pdf@toks=\toks23
+\pdf@defaulttoks=\toks24
+\HyField@AnnotCount=\count115
+\Fld@listcount=\count116
+\c@bookmark@seq@number=\count117
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip153
+))
+(./spanish-LSA-formatted.aux)
+\openout1 = `spanish-LSA-formatted.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 91.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 91.
+\AtBeginShipoutBox=\box61
+Package hyperref Info: Link coloring ON on input line 91.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count118
+)
+LaTeX Info: Redefining \ref on input line 91.
+LaTeX Info: Redefining \pageref on input line 91.
+LaTeX Info: Redefining \nameref on input line 91.
+
+(./spanish-LSA-formatted.out) (./spanish-LSA-formatted.out)
+\@outlinefile=\write3
+\openout3 = `spanish-LSA-formatted.out'.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
+LaTeX Font Info:    Try loading font information for U+msa on input line 100.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 100.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 100.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 100.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 100.
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[][]\OT1/ptm/m/n/10 Authors: Ce-sar Manuel Ros-ales Jr., Uni-ver-sity of Cal-i-
+for-nia, Irvine ([][][][][][]), Gre-gory Scon-tras,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+ [][]\OT1/ptm/b/n/12 Abstract. \OT1/ptm/m/n/12 Ad-jec-tive or-der-ing pref-er-e
+nces are ro-bustly at-tested in En-glish and many 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+ \OT1/ptm/m/n/12 un-re-lated lan-guages. In nom-i-nals with multi-adjective str
+ings (e.g., \OT1/ptm/m/it/12 big blue box\OT1/ptm/m/n/12 ), 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+ \OT1/ptm/m/n/12 chances are the or-der of the ad-jec-tives is non-arbitrary. H
+ow-ever, or-der-ing pref-er- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+ \OT1/ptm/m/n/12 ences are claimed to neu-tral-ize in cases where multi-adjecti
+ve strings are formed 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+ \OT1/ptm/m/n/12 via con-junc-tion (e.g., \OT1/ptm/m/it/12 blue |   [] big box\
+OT1/ptm/m/n/12 ). We pro-vide em-pir-i-cal ev-i-dence in sup-port 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+ \OT1/ptm/m/n/12 of this claim, but with an im-por-tant caveat: con-junc-tion n
+eu-tral-izes ad-jec-tive or-der- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+ \OT1/ptm/m/n/12 ing pref-er-ences in lan-guages like Span-ish where multi-adje
+ctive strings obli-ga-to-rily 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+ \OT1/ptm/m/n/12 fea-ture con-junc-tion. In En-glish, where multi-adjective str
+ings op-tion-ally fea-ture 
+ []
+
+[1
+
+]
+Overfull \hbox (0.88144pt too wide) in paragraph at lines 128--129
+\OT1/ptm/m/n/12 the Ra-tio-nal Speech Act mod-el-ing frame-work ([] []; [] []).
+ 
+ []
+
+
+Overfull \hbox (11.15675pt too wide) in paragraph at lines 133--134
+[]\OT1/ptm/m/n/12 With the goal of es-tab-lish-ing reference---in other words, 
+sig-nal-ing a spe-cific ob-ject to a listener--- 
+ []
+
+[2] [3]
+Overfull \hbox (22.25008pt too wide) in paragraph at lines 141--142
+[][]\OT1/ptm/m/n/12 Conjunction has been claimed to neu-tral-ize or-der-ing pre
+f-er-ences in En-glish (e.g., [] 
+ []
+
+
+Overfull \hbox (22.22319pt too wide) in paragraph at lines 141--142
+[]\OT1/ptm/m/n/12 ; [] []). In ef-fect, this neu-tral-iza-tion leads to the ac-
+cept-abil-ity of otherwise-unacceptable 
+ []
+
+
+Overfull \hbox (7.73364pt too wide) in paragraph at lines 148--149
+[][]\OT1/ptm/m/n/12 We there-fore set out to test the pre-dic-tions of lin-ear 
+vs. hi-er-ar-chi-cal ac-counts of subjectivity- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+[][][][][][][]\OT1/ptm/m/n/10 Some ad-jec-tives in Span-ish may oc-cur pre-nomi
+nally. How-ever, this strat-egy is not fully pro-duc-tive in the lan-
+ []
+
+
+Overfull \hbox (37.2043pt too wide) in paragraph at lines 163--164
+\OT1/ptm/m/n/12 er-ences. To do so, we repli-cated the method-ol-ogy of \OT1/pt
+m/m/it/12 Expt. 1: Or-der-ing pref-er-ences \OT1/ptm/m/n/12 from [] 
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[][]\OT1/ptm/m/n/12 Table 1: [][][][][]  Span-ish ad-jec-tives and nouns used i
+n Ex-per-i-ment 1. Words in ital-ics in-di-cate cases
+ []
+
+[5]
+File: class_distance_jitter.eps Graphic file (type eps)
+ <class_distance_jitter.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
+[][]\OT1/ptm/m/n/12 Figure 1: [][][][][]  Nat-u-ral-ness rat-ings from Ex-per-i
+-ment 1 grouped by ad-jec-tive se-man-tic class. Higher
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
+\OT1/ptm/m/n/12 val-ues in-di-cate that a class's ad-jec-tives are pre-ferred f
+ar-ther from the mod-i-fied noun; lower val-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
+\OT1/ptm/m/n/12 ues in-di-cate that a class's ad-jec-tives are pre-ferred close
+r. The dashed line in-di-cates chance level,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
+\OT1/ptm/m/n/12 or the ab-sence of sta-ble pref-er-ences. Er-ror bars rep-re-se
+nt boot-strapped 95% con-fi-dence in-ter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
+\OT1/ptm/m/n/12 vals drawn from 10,000 sam-ples of the data. Red dots rep-re-se
+nt point es-ti-mates for in-di-vid-ual
+ []
+
+[6]
+File: class_subjectivity_jitter.eps Graphic file (type eps)
+ <class_subjectivity_jitter.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
+[][]\OT1/ptm/m/n/12 Figure 2: [][][][][]  Fault-less dis-agree-ment rat-ings fr
+om Ex-per-i-ment 1 grouped by ad-jec-tive se-man-tic class.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
+\OT1/ptm/m/n/12 Higher val-ues in-di-cate that a class's ad-jec-tives are more 
+sub-jec-tive. Er-ror bars rep-re-sent boot-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
+\OT1/ptm/m/n/12 strapped 95% con-fi-dence in-ter-vals drawn from 10,000 sam-ple
+s of the data. Red dots rep-re-sent
+ []
+
+File: naturalness-subjectivity-spanish-LSA-proceedings.eps Graphic file (type e
+ps)
+<naturalness-subjectivity-spanish-LSA-proceedings.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 249--249
+[][]\OT1/ptm/m/n/12 Figure 3: [][][][][]  Span-ish or-der-ing pref-er-ences plo
+t-ted against sub-jec-tiv-ity scores for each of the 26
+ []
+
+[7]
+Overfull \hbox (24.48616pt too wide) in paragraph at lines 268--269
+\OT1/ptm/m/n/12 and nouns were cho-sen at ran-dom and came from the orig-i-nal 
+En-glish ma-te-ri-als from [] 
+ []
+
+File: naturalness-subjectivity-NOconjunction-LSA.eps Graphic file (type eps)
+<naturalness-subjectivity-NOconjunction-LSA.eps>
+File: naturalness-subjectivity-conjunction.eps Graphic file (type eps)
+
+<naturalness-subjectivity-conjunction.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
+[][]\OT1/ptm/m/n/12 Figure 4: [][][][][]  En-glish or-der-ing pref-er-ences bot
+h with (\OT1/ptm/m/it/12 right\OT1/ptm/m/n/12 ) and with-out (\OT1/ptm/m/it/12 
+left\OT1/ptm/m/n/12 ) con-junc-tion plot-ted
+ []
+
+[8]
+Overfull \hbox (1.27594pt too wide) in paragraph at lines 291--292
+\OT1/ptm/m/n/12 quire con-junc-tion to form its multi-adjective strings. Thus, 
+we find it un-likely that post-nominal 
+ []
+
+[9] (./spanish-LSA-formatted.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 11--15
+[][]\OT1/ptm/m/n/12 Barker, Chris. 2013.  Ne-go-ti-at-ing Taste.  \OT1/ptm/m/it
+/12 In-quiry \OT1/ptm/m/n/12 56(2-3). 240--257. 
+ []
+
+[10]
+Underfull \hbox (badness 2626) in paragraph at lines 51--55
+[][]\OT1/ptm/m/n/12 Goodman, Noah D. & Michael C. Frank. 2016.  Prag-matic lan-
+guage in-ter-pre-ta- 
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 51--55
+\OT1/ptm/m/n/12 tion as prob-a-bilis-tic in-fer-ence.  \OT1/ptm/m/it/12 Trends 
+in Cog-ni-tive Sci-ences \OT1/ptm/m/n/12 20(11). 818--829. 
+ []
+
+
+Underfull \hbox (badness 5578) in paragraph at lines 79--84
+[][]\OT1/ptm/m/n/12 Kennedy, Christo-pher. 2013.  Two Sources of Sub-jec-tiv-it
+y: Qual-i-ta-tive As- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--84
+\OT1/ptm/m/n/12 sess-ment and Di-men-sional Un-cer-tainty.  \OT1/ptm/m/it/12 In
+-quiry \OT1/ptm/m/n/12 56(2-3). 258--277. 
+ []
+
+[11]
+Underfull \hbox (badness 2065) in paragraph at lines 186--190
+[][]\OT1/ptm/m/n/12 Whorf, Ben-jamin Lee. 1945.  Gram-mat-i-cal Cat-e-gories.  
+\OT1/ptm/m/it/12 Lan-guage \OT1/ptm/m/n/12 21(1). 1--11. 
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
+ (./spanish-LSA-formatted.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 312.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
+Package rerunfilecheck Info: File `spanish-LSA-formatted.out' has not changed.
+(rerunfilecheck)             Checksum: C6DF7E59061696E4D5D27FA5447FFEFD;661.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 312.
+ ) 
+Here is how much of TeX's memory you used:
+ 6903 strings out of 493015
+ 99464 string characters out of 6133377
+ 294170 words of memory out of 5000000
+ 10350 multiletter control sequences out of 15000+600000
+ 13831 words of font info for 48 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 31i,11n,33p,1461b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on spanish-LSA-formatted.dvi (12 pages, 105688 bytes).

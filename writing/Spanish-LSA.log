@@ -1,0 +1,642 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=latex 2016.5.22)  22 FEB 2019 11:43
+entering extended mode
+ restricted \write18 enabled.
+ Source specials enabled.
+ %&-line parsing enabled.
+**Spanish-LSA.tex
+(./Spanish-LSA.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/Users/greg/Library/texmf/tex/latex/linguex.sty
+Package: linguex 2013/05/28 Example formatting for linguistics v. 4.3
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/Users/greg/Library/texmf/tex/latex/cgloss4e.sty
+\lineone=\box26
+\linetwo=\box27
+\linethree=\box28
+\wordone=\box29
+\wordtwo=\box30
+\wordthree=\box31
+\gline=\box32
+\glossglue=\skip43
+)
+\c@ExNo=\count87
+\c@SubExNo=\count88
+\c@SubSubExNo=\count89
+\c@FnExNo=\count90
+\c@ABC=\count91
+\currentlabel=\skip44
+\lessthanten=\skip45
+\lessthanhundred=\skip46
+\lessthanthousand=\skip47
+\@Exleftmargin=\skip48
+\Exlabelwidth=\skip49
+\Extopsep=\skip50
+\Exindent=\skip51
+\SubExleftmargin=\skip52
+\SubSubExleftmargin=\skip53
+\Exlabelsep=\skip54
+\alignSubExnegindent=\skip55
+\Exredux=\skip56
+\digitwidth=\skip57
+\mindigitwidth=\skip58
+\c@ExDepth=\count92
+\c@TempExDepth=\count93
+\CollectTokens=\toks14
+LaTeX Info: Redefining \b on input line 307.
+LaTeX Info: Redefining \c on input line 311.
+LaTeX Info: Redefining \d on input line 313.
+\c@tmpaEx=\count94
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 96.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/Users/greg/Library/texmf/tex/latex/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen105
+\lightrulewidth=\dimen106
+\cmidrulewidth=\dimen107
+\belowrulesep=\dimen108
+\belowbottomsep=\dimen109
+\aboverulesep=\dimen110
+\abovetopsep=\dimen111
+\cmidrulesep=\dimen112
+\cmidrulekern=\dimen113
+\defaultaddspace=\dimen114
+\@cmidla=\count95
+\@cmidlb=\count96
+\@aboverulesep=\dimen115
+\@belowrulesep=\dimen116
+\@thisruleclass=\count97
+\@lastruleclass=\count98
+\@thisrulewidth=\dimen117
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/Users/greg/Library/texmf/tex/latex/qtree.sty
+Package: 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
+Package: qtree 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2016/02/05 v0.3b Improved picture commands (HjG,RN,JT)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: dvips.def on input line 119.
+Package pict2e Info: Driver file for pict2e: p2e-dvips.def on input line 121.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pict2e/p2e-dvips.def
+File: p2e-dvips.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks17
+\@arclen=\dimen118
+\@arcrad=\dimen119
+\@tempdimd=\dimen120
+)
+\c@treecount=\count99
+\c@branchcount=\count100
+\parentbox=\box33
+\treebox=\box34
+\treeboxone=\box35
+\treeboxtwo=\box36
+\treeboxthree=\box37
+\treeboxfour=\box38
+\treeboxfive=\box39
+\treeboxsix=\box40
+\treeboxseven=\box41
+\treeboxeight=\box42
+\treeboxnine=\box43
+\treeboxten=\box44
+\treeboxeleven=\box45
+\treeboxtwelve=\box46
+\treeboxthirteen=\box47
+\treeboxfourteen=\box48
+\treeboxfifteen=\box49
+\treeboxsixteen=\box50
+\treeboxseventeen=\box51
+\treeboxeighteen=\box52
+\treeboxnineteen=\box53
+\treeboxtwenty=\box54
+\treeoffsetone=\skip59
+\treeoffsettwo=\skip60
+\treeoffsetthree=\skip61
+\treeoffsetfour=\skip62
+\treeoffsetfive=\skip63
+\treeoffsetsix=\skip64
+\treeoffsetseven=\skip65
+\treeoffseteight=\skip66
+\treeoffsetnine=\skip67
+\treeoffsetten=\skip68
+\treeoffseteleven=\skip69
+\treeoffsettwelve=\skip70
+\treeoffsetthirteen=\skip71
+\treeoffsetfourteen=\skip72
+\treeoffsetfifteen=\skip73
+\treeoffsetsixteen=\skip74
+\treeoffsetseventeen=\skip75
+\treeoffseteighteen=\skip76
+\treeoffsetnineteen=\skip77
+\treeoffsettwenty=\skip78
+\treeshiftone=\skip79
+\treeshifttwo=\skip80
+\treeshiftthree=\skip81
+\treeshiftfour=\skip82
+\treeshiftfive=\skip83
+\treeshiftsix=\skip84
+\treeshiftseven=\skip85
+\treeshifteight=\skip86
+\treeshiftnine=\skip87
+\treeshiftten=\skip88
+\treeshifteleven=\skip89
+\treeshifttwelve=\skip90
+\treeshiftthirteen=\skip91
+\treeshiftfourteen=\skip92
+\treeshiftfifteen=\skip93
+\treeshiftsixteen=\skip94
+\treeshiftseventeen=\skip95
+\treeshifteighteen=\skip96
+\treeshiftnineteen=\skip97
+\treeshifttwenty=\skip98
+\treewidthone=\skip99
+\treewidthtwo=\skip100
+\treewidththree=\skip101
+\treewidthfour=\skip102
+\treewidthfive=\skip103
+\treewidthsix=\skip104
+\treewidthseven=\skip105
+\treewidtheight=\skip106
+\treewidthnine=\skip107
+\treewidthten=\skip108
+\treewidtheleven=\skip109
+\treewidthtwelve=\skip110
+\treewidththirteen=\skip111
+\treewidthfourteen=\skip112
+\treewidthfifteen=\skip113
+\treewidthsixteen=\skip114
+\treewidthseventeen=\skip115
+\treewidtheighteen=\skip116
+\treewidthnineteen=\skip117
+\treewidthtwenty=\skip118
+\daughteroffsetone=\skip119
+\daughteroffsettwo=\skip120
+\daughteroffsetthree=\skip121
+\daughteroffsetfour=\skip122
+\branchwidthone=\skip123
+\branchwidthtwo=\skip124
+\branchwidththree=\skip125
+\branchwidthfour=\skip126
+\parentoffset=\skip127
+\treeoffset=\skip128
+\daughteroffset=\skip129
+\branchwidth=\skip130
+\parentwidth=\skip131
+\treewidth=\skip132
+\qta=\toks18
+\qtb=\toks19
+\nbranches=\count101
+\qroofx=\count102
+\qroofy=\count103
+\@qrscratchbox=\box55
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box56
+\UL@hyphenbox=\box57
+\UL@skip=\skip133
+\UL@hook=\toks20
+\UL@height=\dimen121
+\UL@pe=\count104
+\UL@pixel=\dimen122
+\ULC@box=\box58
+Package: ulem 2012/05/18
+\ULdepth=\dimen123
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip134
+\bibsep=\skip135
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count105
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip136
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box59
+\beforetitleunit=\skip137
+\aftertitleunit=\skip138
+\ttl@plus=\dimen124
+\ttl@minus=\dimen125
+\ttl@toksa=\toks21
+\titlewidth=\dimen126
+\titlewidthlast=\dimen127
+\titlewidthfirst=\dimen128
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: dvips.def on input line 144.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen129
+\Hy@linkcounter=\count106
+\Hy@pagecounter=\count107
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count108
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4322.
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count109
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen130
+\Fld@menulength=\count110
+\Field@Width=\dimen131
+\Fld@charsize=\dimen132
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring ON on input line 6316.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count111
+\c@Item=\count112
+\c@Hfootnote=\count113
+)
+
+Package hyperref Message: Driver (default): hdvips.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2016/05/05 v6.83n Hyperref driver for dvips
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2016/05/05 v6.83n Hyperref definitions for pdfmark specials
+\pdf@docset=\toks22
+\pdf@box=\box60
+\pdf@toks=\toks23
+\pdf@defaulttoks=\toks24
+\HyField@AnnotCount=\count114
+\Fld@listcount=\count115
+\c@bookmark@seq@number=\count116
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip139
+))
+(./Spanish-LSA.aux)
+\openout1 = `Spanish-LSA.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 100.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 100.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+\AtBeginShipoutBox=\box61
+Package hyperref Info: Link coloring ON on input line 100.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count117
+)
+LaTeX Info: Redefining \ref on input line 100.
+LaTeX Info: Redefining \pageref on input line 100.
+LaTeX Info: Redefining \nameref on input line 100.
+
+(./Spanish-LSA.out) (./Spanish-LSA.out)
+\@outlinefile=\write3
+\openout3 = `Spanish-LSA.out'.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 110.
+LaTeX Font Info:    Try loading font information for U+msa on input line 110.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 110.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 110.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [1
+
+] [2]
+Overfull \hbox (9.6406pt too wide) in paragraph at lines 151--152
+[][]\OT1/ptm/m/n/12 Conjunction has been claimed to neu-tral-ize or-der-ing pre
+f-er-ences in En-glish (e.g., []
+ []
+
+
+Overfull \hbox (3.20801pt too wide) in paragraph at lines 151--152
+[]\OT1/ptm/m/n/12 ; [] []). In ef-fect, this neu-tral-iza-tion leads to the ac-
+cept-abil-ity of otherwise-unacceptable
+ []
+
+
+Overfull \hbox (19.40796pt too wide) in paragraph at lines 151--152
+[] \OT1/ptm/m/n/12 ([]) of-fer a ready ex-pla-na-tion. To re-it-er-ate the pro-
+posed mech-a-nism: subjectivity-
+ []
+
+[3]
+Overfull \hbox (6.86865pt too wide) in paragraph at lines 173--174
+\OT1/ptm/m/n/12 ences. To do so, we repli-cated the method-ol-ogy of \OT1/ptm/m
+/it/12 Expt. 1: Or-der-ing pref-er-ences \OT1/ptm/m/n/12 from []
+ []
+
+[4]
+File: class_distance_jitter.eps Graphic file (type eps)
+ <class_distance_jitter.eps> [5] [6]
+File: class_subjectivity_jitter.eps Graphic file (type eps)
+ <class_subjectivity_jitter.eps>
+File: naturalness-subjectivity-spanish-LSA-proceedings.eps Graphic file (type e
+ps)
+
+<naturalness-subjectivity-spanish-LSA-proceedings.eps>
+Overfull \hbox (4.33011pt too wide) in paragraph at lines 263--264
+[] []|\OT1/ptm/m/sc/12 3.3 Com-par-ing or-der-ing pref-er-ences with sub-jec-ti
+v-ity.[] []\OT1/ptm/m/n/12 Fi-nally, we com-pare the Span-
+ []
+
+[7]
+File: naturalness-subjectivity-NOconjunction-LSA.eps Graphic file (type eps)
+ <naturalness-subjectivity-NOconjunction-LSA.eps>
+File: naturalness-subjectivity-conjunction.eps Graphic file (type eps)
+
+<naturalness-subjectivity-conjunction.eps> [8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 305--307
+
+ []
+
+(./Spanish-LSA.bbl [10] [11])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 324.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 324.
+ (./Spanish-LSA.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 324.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 324.
+Package rerunfilecheck Info: File `Spanish-LSA.out' has not changed.
+(rerunfilecheck)             Checksum: C6DF7E59061696E4D5D27FA5447FFEFD;661.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 324.
+ ) 
+Here is how much of TeX's memory you used:
+ 7072 strings out of 493015
+ 102182 string characters out of 6133377
+ 194512 words of memory out of 5000000
+ 10520 multiletter control sequences out of 15000+600000
+ 14459 words of font info for 50 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 29i,11n,33p,1451b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on Spanish-LSA.dvi (12 pages, 102004 bytes).

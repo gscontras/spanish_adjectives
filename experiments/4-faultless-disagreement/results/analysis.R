@@ -13,7 +13,7 @@ df = do.call(rbind, lapply(1:num_round_dirs, function(i) {
     'round', i, '/faultless-disagreement.csv', sep=''),stringsAsFactors=FALSE) %>% 
       mutate(workerid = (workerid + (i-1)*9)))}))
 
-d = subset(df, select=c("workerid","firstutterance","noun","nounclass","slide_number", "predicate",  "class","response","language","school","age","assess","education","lived","level","family","years","describe","classes"))
+d = subset(df, select=c("workerid","firstutterance","noun","nounclass","slide_number", "predicate",  "class","response","language","school","age","assess","education","lived","level","family","years","describe","classes","gender.1"))
 
 # re-factorize
 d[] <- lapply( d, factor) 
@@ -36,6 +36,7 @@ t = t[t$describe!="L2",]
 #         d$language=="ESPAÑOL E ITALIANO",]
 
 t$response = as.numeric(as.character(t$response))
+t$age = as.numeric(as.character(t$age))
 
 summary(t) 
 length(unique(t$workerid)) # 21 indicated "spanish" as native language
@@ -62,3 +63,26 @@ class_plot
 agr_pred = aggregate(response~predicate*class,data=t,mean)
 
 #write.csv(agr_pred,"../results/pred-subjectivity.csv")
+
+
+
+
+
+adj_agr = aggregate(response~predicate*class,FUN=mean,data=t)
+adj_agr
+class_s = bootsSummary(data=t, measurevar="response", groupvars=c("class"))
+
+# class plot with adjectives
+class_s$class = factor(class_s$class,levels=c("size","quality","texture","age","shape","color","nationality"))
+ggplot(data=class_s,aes(x=reorder(class,-response,mean),y=response))+
+  geom_bar(stat="identity",fill="lightgrey",color="black")+
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(class,-response,mean), width=0.1),alpha=1)+
+  geom_jitter(data=adj_agr,aes(y=response),alpha=.75,color="red") +
+  #geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(correctclass,-correctresponse,mean), width=0.1),alpha=0.5)+
+  #geom_hline(yintercept=0.5,linetype="dashed") +
+  xlab("\nadjective class")+
+  ylab("perceived subjectivity\n")+
+  ylim(0,1)+
+  #labs("order\npreference")+
+  theme_bw()#+
+#ggsave("../results/class_subjectivity_jitter.png",height=2.7)

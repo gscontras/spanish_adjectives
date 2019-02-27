@@ -16,7 +16,7 @@ df1 = do.call(rbind, lapply(1:num_round_dirs, function(i) {
       mutate(workerid = (workerid + (i-1)*9)))}))
 df1$workerid = paste("vi.",df1$workerid)
 
-d1 = subset(df1, select=c("workerid","noun","gender","nounclass","slide_number", "predicate1", "predicate2", "class1","class2","response","language","school","age","assess","education","lived","level","family","years","describe","classes"))
+d1 = subset(df1, select=c("workerid","noun","gender","nounclass","slide_number", "predicate1", "predicate2", "class1","class2","response","language","school","age","assess","education","lived","level","family","years","describe","classes","gender.1"))
 
 #### second run of experiment
 num_round_dirs = 22
@@ -25,7 +25,7 @@ df = do.call(rbind, lapply(1:num_round_dirs, function(i) {
     'round', i, '/spanish-order-expanded.csv', sep=''),stringsAsFactors=FALSE) %>% 
       mutate(workerid = (workerid + (i-1)*9)))}))
 
-d = subset(df, select=c("workerid","noun","gender","nounclass","slide_number", "predicate1", "predicate2", "class1","class2","response","language","school","age","assess","education","lived","level","family","years","describe","classes"))
+d = subset(df, select=c("workerid","noun","gender","nounclass","slide_number", "predicate1", "predicate2", "class1","class2","response","language","school","age","assess","education","lived","level","family","years","describe","classes","gender.1"))
 
 d = rbind(d1,d)
 
@@ -50,10 +50,12 @@ t = t[t$describe!="L2",]
 #         d$language=="ESPAÑOL E ITALIANO",]
 
 t$response = as.numeric(as.character(t$response))
-
+t$age = as.numeric(as.character(t$age))
+mean(t[!is.na(t$age),]$age)
 #summary(t) 
 
 length(unique(t$workerid))# 48 indicated "spanish" as native language
+
 
 #write.csv(t,"~/git/spanish_adjectives/experiments/3-order-preference-expanded2/results/order-preference-spanish-only.csv")
 
@@ -110,18 +112,18 @@ ggplot(data=class_s,aes(x=reorder(correctclass,-response,mean),y=response))+
 
 # class plot with adjectives
 class_s$correctclass = factor(class_s$correctclass,levels=c("size","quality","texture","age","shape","color","nationality"))
-ggplot(data=class_s,aes(x=correctclass,y=response))+
+ggplot(data=class_s,aes(x=reorder(correctclass,-response,mean),y=response))+
   geom_bar(stat="identity",fill="lightgrey",color="black")+
-  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=correctclass, width=0.1),alpha=1)+
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(correctclass,-response,mean), width=0.1),alpha=1)+
   geom_jitter(data=adj_agr,aes(y=response),alpha=.75,color="red") +
   #geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(correctclass,-correctresponse,mean), width=0.1),alpha=0.5)+
   geom_hline(yintercept=0.5,linetype="dashed") +
   xlab("\nadjective class")+
-  ylab("preferred istance from noun\n")+
+  ylab("preferred distance from noun\n")+
   ylim(0,1)+
   #labs("order\npreference")+
   theme_bw()#+
-#ggsave("../results/class_distance_jitter.pdf",height=3)
+#ggsave("../results/class_distance_jitter.png",height=2.7)
 
 # adjectives plot
 adj_s = bootsSummary(data=agr, measurevar="correctresponse", groupvars=c("correctclass","predicate"))
@@ -248,14 +250,15 @@ ggplot(adj_agr, aes(x=subjectivity,y=response)) +
   #geom_smooth()+
   stat_smooth(method="lm",color="black")+
   #geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
-  ylab("preferred distance from noun\n")+
-  xlab("\nsubjectivity score")+
+  ylab("preferred distance\n")+
+  xlab("\nperceived subjectivity")+
   ylim(0.3,0.8)+
-  geom_text(label=adj_agr$predicate) +
+  #geom_text(label=adj_agr$predicate) +
   # xlim(0.2,0.8)+
   theme_bw()
 #ggsave("../results/naturalness-subjectivity-spanish.png",height=2,width=3)
 #ggsave("../results/naturalness-subjectivity-spanish-LSA.png",height=3,width=3.5)
+#ggsave("../results/naturalness-subjectivity-spanish-LSA-proceedings.png",height=2.7,width=3)
 
 ggplot(adj_agr, aes(x=subjectivity,y=response)) +
   geom_point() +
