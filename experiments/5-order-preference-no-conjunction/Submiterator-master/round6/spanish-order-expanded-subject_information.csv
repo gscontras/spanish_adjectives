@@ -1,0 +1,10 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,small,over8,eng,english,int,1,Female,33,L2,Hay algunas faltas de ortografia.,shortlive,Yes,yes,onesem,4
+1,none,neverlived,eng,English,basic,1,Female,31,SpanEng,,neverlived,Yes,no,nocollege,1
+2,most,over8,span,Espanol,native,1,Male,26,SpanSpan,,mostlive,Yes,yes,midsem,4
+3,none,both8,span,español,native,2,Male,29,SpanSpan,"muy buen hit, sencillo y práctico. felicidades, espero haber sido de ayuda en su investigación.",mostlive,Yes,no,nocollege,3
+4,none,neverlived,eng,espanol,advanced,1,Male,32,SpanEng,,neverlived,Yes,no,nocollege,1
+5,none,both8,span,Español,native,2,Male,25,SpanSpan,,mostlive,Yes,no,nocollege,3
+6,small,under8,span,ENGHLISH,near native,1,Male,31,SpanSpan,,shortlive,Yes,no,midsem,2
+7,mid,over8,spaneng,english,advanced,2,Female,31,SpanSpan,,shortlive,Yes,no,nocollege,2
+8,small,both8,span,english,near native,1,Female,46,L2,,midlive,Yes,no,onesem,1

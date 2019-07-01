@@ -1,0 +1,251 @@
+<html>
+
+<head>
+    <title>Oraciones de espa&ntilde;ol</title>
+
+    <!--JS-->
+
+    <!-- external general utilities -->
+    <script src="../_shared/js/jquery-1.11.1.min.js "></script>
+    <script src="../_shared/full-projects/jquery-ui/jquery-ui.min.js"></script>
+    <script src="../_shared/js/underscore-min.js"></script>
+    <!-- if you want to draw stuff: -->
+    <script src="../_shared/js/raphael-min.js"></script>
+
+    <!-- cocolab experiment logic -->
+    <script src="../_shared/js/exp-V2.js"></script>
+    <script src="../_shared/js/stream-V2.js"></script>
+
+    <!-- cocolab general utilities -->
+    <script src="../_shared/js/mmturkey.js "></script>
+    <script src="../_shared/js/browserCheck.js"></script>
+    <script src="../_shared/js/utils.js"></script>
+    <!-- if you want to draw cute creatures (depends on raphael): -->
+    <!-- <script src="../_shared/js/ecosystem.js"></script> -->
+
+    <!-- experiment specific helper functions -->
+    <!-- <script src="js/local-utils.js"></script> -->
+
+    <!--CSS-->
+    <link href="../_shared/full-projects/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../_shared/css/meaninglab-style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/local-style.css" rel="stylesheet" type="text/css"/>
+
+    <!-- experiment file -->
+    <script src="js/order-preference.js"></script>
+    <script src="expt-files/corpus.js"></script>
+    <script src="expt-files/names.js"></script>
+
+    <!-- check unique turkers -->
+    <script src="../_shared/js/uniqueturker.js"></script>
+
+    
+</head>
+
+<body onload="init();">
+  <noscript>Esta tarea requiere Javascript.</noscript>
+
+  <div class="slide" id="i0" >
+    <img src="../_shared/images/meaningLab.png" alt="UCI meaning lab" id="meaningLabLogo"></img>
+    <p id="instruct-text">Este HIT implica la interpretaci&oacute;n de oraciones de espa&ntilde;ol. La tarea deber&iacute;a tomar alrededor de seis minutos. Por favor ponga atenci&oacute;n. &#161;Gracias!</p>
+    <button id="start_button" type="button">Comenzar Experimento</button>
+    <p id="legal">Informaci&oacute;n legal: Al contestar a las siguientes preguntas, participa en un estudio realizado por cient&iacute;ficos cognitivos de la Universidad de California, Irvine. Si tiene preguntas sobre esta investigaci&oacute;n, comun&iacute;quese con Cesar Manuel Rosales Jr. al cesarmr@uci.edu o Greg Scontras al g.scontras@uci.edu. Debe tener al menos 18 a&ntilde;os para participar. Su participaci&oacute;n en esta investigaci&oacute;n es voluntaria. Puede negar a responder a una o a todas las siguientes preguntas. Puede dejar de participar en cualquier momento sin consecuencias adversas. Su anonimato est&aacute; asegurado. Los investigadores que han solicitado su participaci&oacute;n no recibir&aacute;n informaci&oacute;n personal sobre usted.</p>
+  </div>
+
+  <div class="slide" id="instructions1">
+    <h3>Instrucciones</h3>
+    <p> Ver&aacute; 26 pares de descripciones cortas de objetos.
+Su tarea es decidir qu&eacute; descripci&oacute;n suena mejor.</p>
+    <!-- <p class="instruction_condition">{{}}</p> -->
+    <button onclick="_s.button()">Continuar</button>
+  </div>
+
+  <div class="slide" id="multi_slider">
+
+  <p class="name_said"></p>
+
+    <!-- <p>Consider the following situation:</p> -->
+
+<!--    <p><span class = "woman">{{}}</span> sold a <span class="noun">{{}}</span> in her store.</p>
+
+    <p><span class="man1">{{}}</span> entered <span class = "woman">{{}}</span>'s store, noticed the <span class="noun">{{}}</span>, and said:</p>
+    -->
+    <!-- <p><span class="man1">{{}}</span> and <span class="man2">{{}}</span> see the same <span class="noun">{{}}</span>.</p> 
+    <p><span class="man1">{{}}</span> says: <b><span class="utterance1">{{}}</span></b></p>
+
+    <p><span class="man2">{{}}</span> responds: <b><span class="utterance2">{{}}</span></b></p> -->
+
+<!--     <p>Do the statements make sense?</p>
+    <label><input type="radio"  name="sense" value="Yes"/>Yes</label>
+    <label><input type="radio"  name="sense" value="No"/>No</label>
+    </br></br>
+ -->
+    <br>
+
+    <p>&#191;Qu&eacute; descripci&oacute;n <span class="noun">{{}}</span> suena m&aacute;s natural?</p>
+
+    <table id="multi_slider_table" class="slider_table">
+<!--      <tr><td class="left">No, somebody must be wrong.</td><td class="right">Yes, it's a matter of opinion.</td></tr> -->
+      <tr><td><span class="low">{{}}</span></td><td>
+      <div id="slider0" class="slider"></div>
+      </td><td><span class="high">{{}}</span></td></tr>
+    </table>
+
+    <p>Ajuste el control deslizante para indicar su preferencia.</p><br>
+
+    <button onclick="_s.button()">Continuar</button>
+    <div class="err">Ajuste el control deslizante antes de continuar</div>
+  </div>
+
+  <div class="slide"  id="subj_info">
+    <div class="long_form">
+      <div class="subj_info_title">Informaci&oacute;n adicional</div>
+      <p class="info">Responder a estas preguntas es opcional, pero nos ayudar&aacute; a entender sus respuestas.</p>
+      <p>Ley&oacute; las instrucciones y cree que hizo el HIT correctamente?</p>
+      <label><input type="radio"  name="assess" value="No"/>No</label>
+      <label><input type="radio"  name="assess" value="Yes"/>S&iacute;</label>
+      <label><input type="radio"  name="assess" value="Confused"/>Me confund&iacute;</label>
+
+      <p>Sexo:
+        <select id="gender">
+          <label><option value=""/></label>
+          <label><option value="Male"/>Hombre</label>
+          <label><option value="Female"/>Mujer</label>
+          <label><option value="Other"/>Otro(a)</label>
+        </select>
+      </p>
+
+      <p>Edad: <input type="text" id="age"/></p>
+
+      <p>Nivel de educaci&oacute;n:
+        <select id="education">
+          <label><option value="-1"/></label>
+          <label><option value="0"/>Assisti&oacute; a la preparatoria</label>
+          <label><option value="1"/>Se gradu&oacute; de la preparatoria</label>
+          <label><option value="2"/>Assisti&oacute; al colegio</label>
+          <label><option value="3"/>Se gradu&oacute; del colegio</label>
+          <label><option value="4"/>Obtuvo t&iacute;tulo de posgrado</label>
+        </select>
+      </p>
+
+      <p>Lengua materna: <input type="text" id="language"/></p>
+      <label>(los idiomas hablados en casa durante su ni&ntilde;ez</label>
+
+      <p>
+        &#191;Cu&aacute;l de los siguientes mejor lo/la describe?<br>
+        <select id="describe">
+          <label><option value=""/></label>
+          <label><option value="SpanEng"/>  Crec&iacute; hablando espa&ntilde;ol pero ahora mi lengua primaria es ingl&eacute;s</label>
+          <label><option value="SpanSpan"/> Crec&iacute; hablando espa&ntilde;ol y todav&iacute;a mantengo el espa&ntilde;ol como mi lengua primaria</label>
+          <label><option value="L2"/> Crec&iacute; hablando ingl&eacute;s y aprend&iacute; espa&ntilde;ol m&aacute;s tarde</label>
+          <label><option value="otherL2"/>  Crec&iacute; hablando un idioma que no era espa&ntilde;ol ni ingl&eacute;s, y aprend&iacute; espa&ntilde;ol m&aacute;s tarde</label>
+      </select>
+      </p>
+
+      <p>
+        Si tom&oacute; clases de espa&ntilde;ol en la escuela, &#191;cu&aacute;ntos a&ntilde;os de espa&ntilde;ol tom&oacute;?<br>
+        <select id="school">
+          <label><option value=""/></label>
+          <label><option value="none"/> Nunca he tomado clases de espa&ntilde;ol en la escuela</label>
+          <label><option value="small"/>  1-2 a&ntilde;os</label>
+          <label><option value="mid"/>  3-4 a&ntilde;os</label>
+          <label><option value="most"/> mas de 4 a&ntilde;os</label>
+       </select>
+      </p>
+
+      <p>
+        &#191;Tom&oacute; clases de espa&ntilde;ol durante la preparatoria?<br>
+        <select id="classes">
+          <label><option value=""/></label>
+          <label><option value="yes"/> s&iacute;</label>
+          <label><option value="no"/>  no</label>
+          <label><option value="noclasses"/> no se aplica </label>
+        </select>
+      </p>
+
+      <p>
+        Si tom&oacute; clases de espa&ntilde;ol en la universidad, &#191;cu&aacute;ntos semestres ha tomado?<br>
+        <select id="college">
+          <label><option value=""/></label>
+          <label><option value="nocollege"/> no se aplica</label>
+          <label><option value="onesem"/>  1 semestre</label>
+          <label><option value="midsem"/>  2-4 semestres</label>
+          <label><option value="mostsem"/> mas de 4 semestres</label>
+        </select>
+      </p>
+
+      <p>
+        &#191;Ha vivido en un pa&iacute;s hispanohablante?<br>
+        <select id="lived">
+          <label><option value=""/></label>
+          <label><option value="neverlived"/>  no, nunca he vivido en un pa&iacute;s hispanohablante</label>
+          <label><option value="under8"/>  s&iacute;, cuando ten&iacute;a MENOS de 8 a&ntilde;os</label>
+          <label><option value="over8"/> s&iacute;, cuando ten&iacute;a MAS de 8 a&ntilde;os</label>
+          <label><option value="both8"/> s&iacute;, cuando ten&iacute;a MENOS de 8 a&ntilde;os y cuando ten&iacute;a MAS de 8 a&ntilde;os</label>
+        </select>
+      </p>
+
+      <p>
+        &#191;Cu&aacute;ntos a&ntilde;os vivi&oacute; en un pa&iacute;s hispanohablante?<br>
+        <select id="years">
+          <label><option value=""/></label>
+          <label><option value="neverlived"/>  nunca he vivido en un pa&iacute;s hispanohablante</label>
+          <label><option value="shortlive"/> menos de un a&ntilde;o</label>
+          <label><option value="midlive"/> 1-5 a&ntilde;os</label>
+          <label><option value="mostlive"/>  mas de 5 a&ntilde;os</label>
+        </select>
+      </p>
+
+      <p>
+        &#191;Qu&eacute; idioma habla con su familia?<br>
+        <select id="family">
+          <label><option value=""/></label>
+          <label><option value="eng"/>  ingl&eacute;s</label>
+          <label><option value="span"/> espa&ntilde;ol</label>
+          <label><option value="spaneng"/>  espa&ntilde;ol e ingl&eacute;s</label>
+          <label><option value="other"/>  otro idioma</label>
+        </select>
+      </p>
+
+      <p>
+        &#191;C&oacute;mo evaluar&iacute;a su nivel de proficiencia en espa&ntilde;ol?<br>
+        <select id="level">
+          <label><option value=""/></label>
+          <label><option value="basic"/> b&aacute;sico</label>
+          <label><option value="int"/> intermedio</label>
+          <label><option value="advanced"> avanzado</option>/label>
+          <label><option value="near native"/> casi nativo</label>
+          <label><option value="native"/> nativo</label>
+          <label><option value="none"/> prefiero no responder</label>
+        </select>
+      </p>
+
+      <p>&#191;Le gust&oacute; el HIT?</p>
+      <select id="enjoyment">
+        <label><option value="-1"></option></label>
+        <label><option value="0">Peor que el promedio</option></label>
+        <label><option value="1" >Promedio</option></label>
+        <label><option value="2">Mejor que el promedio</option></label>
+      </select>
+
+      <p>Nos interesa los comentarios que tenga sobre este experimento. Por favor escr&iacute;balos aqu&iacute;:</p>
+      <textarea id="comments" rows="3" cols="50"></textarea>
+      <br/>
+      <button onclick="_s.submit()">Enviar</button>
+    </div>
+  </div>
+
+  <div id="thanks" class="slide js" >
+    <p  class="big">&#161;Gracias por su tiempo!</p>
+  </div>
+
+  <div class="progress">
+    <span>Progreso:</span>
+    <div class="bar-wrapper">
+      <div class="bar" width="0%">
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

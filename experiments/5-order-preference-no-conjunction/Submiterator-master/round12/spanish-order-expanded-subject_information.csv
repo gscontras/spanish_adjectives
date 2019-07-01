@@ -1,0 +1,10 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,small,under8,span,ENGLISH,int,0,Female,25,SpanEng,GOOD,neverlived,Yes,yes,midsem,3
+1,mid,under8,span,,advanced,1,Female,29,SpanEng,,midlive,Yes,no,onesem,3
+2,mid,under8,spaneng,,near native,1,Male,34,SpanSpan,interesante,shortlive,NA,no,midsem,3
+3,most,over8,spaneng,spanish,native,2,Female,37,SpanSpan,,mostlive,Yes,yes,mostsem,4
+4,none,neverlived,span,espanol,basic,2,Female,56,SpanEng,,neverlived,Yes,no,nocollege,4
+5,most,both8,span,español,native,2,Female,26,SpanSpan,,mostlive,Yes,yes,mostsem,4
+6,none,both8,span,Espanol,native,1,Male,29,SpanSpan,Los adjetivods utilizados para los objetos y frases en cuestion son muy extranos y por ende muchas veces ninguna de las frases es natural.,mostlive,Yes,noclasses,nocollege,4
+7,most,neverlived,spaneng,Ingles y español,near native,1,Female,,SpanEng,,neverlived,Yes,yes,nocollege,4
+8,none,both8,spaneng,English,int,1,Female,52,SpanSpan,quisiera hacer mas de estos HITS,mostlive,Yes,no,nocollege,2

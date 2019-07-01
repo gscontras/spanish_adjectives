@@ -1,0 +1,10 @@
+workerid,school,lived,family,language,level,enjoyment,gender,age,describe,comments,years,assess,classes,college,education
+0,none,neverlived,spaneng,english ,basic,2,Male,24,SpanEng,me gusto este hit,neverlived,Yes,no,nocollege,4
+1,none,both8,span,ESPAÑOL E ITALIANO,native,1,Female,27,SpanSpan,"TODO BIEN, GRACIAS.",mostlive,Yes,noclasses,nocollege,3
+2,most,neverlived,eng,ingles,advanced,2,Other,33,L2,,neverlived,Yes,yes,midsem,3
+3,most,under8,span,español,near native,2,Male,39,SpanSpan,,mostlive,Yes,yes,midsem,3
+4,most,both8,span,Español e italiano,native,2,Female,53,SpanSpan,Las frases no eran muy naturales.,mostlive,Yes,yes,mostsem,3
+5,most,both8,span,español,native,2,Male,44,SpanSpan,Muchas de las oraciones no tenian sentido y complicaba la resolucion.,mostlive,Yes,noclasses,nocollege,4
+6,small,under8,eng,NOTHING,advanced,0,Male,NO,SpanSpan,NOTHING,neverlived,Yes,yes,onesem,2
+7,mid,neverlived,spaneng,Espanol,advanced,2,Female,34,SpanSpan,buena encuesta,neverlived,Yes,yes,onesem,2
+8,mid,under8,spaneng,english,advanced,1,Male,31,SpanSpan,,shortlive,Confused,noclasses,onesem,4
