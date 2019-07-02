@@ -5,32 +5,18 @@ library(dplyr)
 library(lmerTest)
 #library(tidyr)
 
-#setwd("~/Documents/git/spanish_adjectives/experiments/3-order-preference-expanded2/Submiterator-master")
-setwd("~/git/spanish_adjectives/experiments/3-order-preference-expanded2/Submiterator-master")
+setwd("~/git/spanish_adjectives/experiments/5-order-preference-no-conjunction/Submiterator-master")
 
-#### first run of experiment
-num_round_dirs = 14
-df1 = do.call(rbind, lapply(1:num_round_dirs, function(i) {
-  return (read.csv(paste(
-    '../../2-order-preference-expanded/Submiterator-master/round', i, '/spanish-order-expanded.csv', sep=''),stringsAsFactors=FALSE) %>% 
-      mutate(workerid = (workerid + (i-1)*9)))}))
-df1$workerid = paste("vi.",df1$workerid)
+d = read.csv("spanish-order-no-conjunction-trials.csv",header=T)
+s = read.csv("spanish-order-no-conjunction-subject_information.csv",header=T)
 
-d1 = subset(df1, select=c("workerid","noun","gender","nounclass","slide_number", "predicate1", "predicate2", "class1","class2","response","language","school","age","assess","education","lived","level","family","years","describe","classes","gender.1"))
+d$language = s$language[match(d$workerid,s$workerid)]
+d$describe = s$describe[match(d$workerid,s$workerid)]
+d$lived = s$lived[match(d$workerid,s$workerid)]
+d$age = s$age[match(d$workerid,s$workerid)]
 
-#### second run of experiment
-num_round_dirs = 22
-df = do.call(rbind, lapply(1:num_round_dirs, function(i) {
-  return (read.csv(paste(
-    'round', i, '/spanish-order-expanded.csv', sep=''),stringsAsFactors=FALSE) %>% 
-      mutate(workerid = (workerid + (i-1)*9)))}))
 
-d = subset(df, select=c("workerid","noun","gender","nounclass","slide_number", "predicate1", "predicate2", "class1","class2","response","language","school","age","assess","education","lived","level","family","years","describe","classes","gender.1"))
-
-d = rbind(d1,d)
-
-# re-factorize
-d[] <- lapply( d, factor) 
+## find native speakers
 
 t = d[d$describe=="SpanSpan",]
 
@@ -38,23 +24,16 @@ t = d[d$describe=="SpanSpan",]
 t = t[t$lived=="both8",]
 
 # only look at "español" as the native language
-t = t[t$language!="English"&t$language!="english"&!is.na(t$language)&t$language!=""&t$language!="gbhj",]
+#t = t[t$language!="English"&t$language!="english"&!is.na(t$language)&t$language!=""&t$language!="gbhj",]
 
 # no self-described L2 speakers
 t = t[t$describe!="L2",]
 
-# t = d[d$language=="Espanol"|d$language=="espanol"|d$language=="espanol "|
-#         d$language==" Español"|d$language=="Española"|d$language=="spanish"|d$language=="Castellano"|
-#         d$language=="Español, de España"|d$language=="SPANISH"|d$language=="castellano"|
-#         d$language=="Español, Catalan"|d$language=="espanol, vasco"|d$language=="Español e italiano"|
-#         d$language=="ESPAÑOL E ITALIANO",]
-
-t$response = as.numeric(as.character(t$response))
 t$age = as.numeric(as.character(t$age))
 mean(t[!is.na(t$age),]$age)
 #summary(t) 
 
-length(unique(t$workerid))# 48 indicated "spanish" as native language
+length(unique(t$workerid))# 11 indicated "spanish" as native language
 
 
 #write.csv(t,"~/git/spanish_adjectives/experiments/3-order-preference-expanded2/results/order-preference-spanish-only.csv")

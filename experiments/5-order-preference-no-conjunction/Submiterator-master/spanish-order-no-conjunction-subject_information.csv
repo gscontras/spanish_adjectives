@@ -1,0 +1,187 @@
+lived,school,age,college,education,classes,years,describe,assess,language,family,gender,level,comments,enjoyment,workerid
+neverlived,small,26,nocollege,0,no,shortlive,SpanSpan,Yes,TAMIL,span,Female,int,NICE,1,0
+under8,small,1989,onesem,3,yes,shortlive,otherL2,Confused,,eng,Male,int,,0,1
+,,,,-1,,,,,,,,,,-1,2
+both8,most,35,midsem,4,no,shortlive,otherL2,Yes,Portugues,other,Female,advanced,,2,3
+both8,most,29,mostsem,4,yes,mostlive,SpanSpan,Yes,español,span,Female,native,Ninguno,2,4
+under8,none,22,nocollege,2,noclasses,mostlive,SpanSpan,Yes,Castellano,span,Male,native,Gracias,1,5
+neverlived,small,38,nocollege,3,no,neverlived,L2,Confused,PORTUGUÊS ,other,Male,basic,,1,6
+under8,mid,HS,nocollege,1,no,neverlived,SpanSpan,Confused,Spanish,span,Male,advanced,No,0,7
+neverlived,none,22,nocollege,1,no,neverlived,otherL2,Yes,português,other,Female,basic,"Mi sentis min nekredeble provi la scion
+",2,8
+under8,small,B.A,onesem,2,no,midlive,L2,Confused,MALAYALAM,spaneng,Female,advanced,GOOD,1,9
+neverlived,small,26,midsem,2,yes,midlive,SpanSpan,No,english,spaneng,Female,int,nice,1,10
+under8,most,31,midsem,4,yes,midlive,L2,Yes,Ingles,spaneng,Female,int,,2,11
+both8,most,27,onesem,3,noclasses,shortlive,otherL2,Yes,English,other,Female,int,nice survey,2,12
+over8,small,24,onesem,3,yes,midlive,SpanEng,Yes,espanol,span,Male,int,Todo funciono bien! Gracias!,2,13
+neverlived,mid,23,onesem,3,yes,neverlived,,Yes,portugués,other,Female,basic,"Me gustó mucho el experimento, pero algunas opciones acaba dejando al participante un poco confuso. Espero contribuir otras veces.",2,14
+under8,none,40,nocollege,2,yes,midlive,SpanSpan,Yes,Espanol,,Female,advanced,,2,15
+both8,most,35,nocollege,3,yes,mostlive,SpanSpan,Yes,español,span,Male,native,,2,16
+neverlived,small,24,onesem,1,yes,neverlived,SpanSpan,Yes,espanol,span,Female,advanced,,1,17
+neverlived,mid,24,onesem,3,yes,shortlive,SpanSpan,Yes,NO,eng,Female,advanced,,0,18
+both8,most,38,nocollege,1,yes,mostlive,SpanSpan,Yes,espanol,span,Female,native,,1,19
+both8,most,39,nocollege,4,yes,mostlive,SpanSpan,Yes,"español, gallego",span,Female,native,"Las combinaciones de palabras a evaluar no sonaban naturales, incluso en algunas había falta de concordancia de género entre el sustantivo y alguno de los adjetivos, por lo que resultaba difícil de evaluar.",0,20
+both8,most,25,mostsem,4,yes,mostlive,SpanSpan,Yes,,span,Female,native,,1,21
+over8,most,30,midsem,3,yes,mostlive,L2,Yes,ingles,eng,Female,advanced,,2,22
+,small,29,onesem,3,yes,neverlived,,Yes,SPANISH,eng,Male,basic,NICE,0,23
+neverlived,most,32,nocollege,3,yes,neverlived,SpanSpan,Yes,ESPAÑOL,spaneng,Female,advanced,"
+Importante para mejorar mis conocimientos.",0,24
+under8,small,25,mostsem,3,yes,shortlive,L2,Confused,malayalam,span,Female,near native,nice,2,25
+under8,small,25,onesem,2,yes,shortlive,SpanSpan,Yes,SPANISH,span,Female,basic,GOOD,0,26
+over8,mid,35,onesem,2,no,shortlive,SpanSpan,Confused,India,spaneng,Female,int,good job,1,27
+neverlived,none,33,nocollege,2,noclasses,neverlived,SpanEng,Yes,español,spaneng,Male,int,,2,28
+under8,mid,25,mostsem,3,yes,midlive,L2,Confused,español,span,Female,native,buena tarea,2,29
+neverlived,none,23,nocollege,2,yes,neverlived,SpanEng,Yes,India,eng,Male,basic,aqu,1,30
+under8,small,27,midsem,2,yes,shortlive,SpanSpan,Yes,española,span,Female,near native,buena encuesta,0,31
+over8,most,31,nocollege,4,noclasses,shortlive,otherL2,Yes,Portugués,other,Male,int,,1,32
+neverlived,small,19,nocollege,0,no,neverlived,L2,Yes,ingles,eng,Female,int,,1,33
+over8,most,25,nocollege,3,yes,mostlive,SpanEng,Yes,"Ingles, Español",eng,Female,near native,,1,34
+neverlived,,35,onesem,1,,shortlive,,Yes,Português ,span,Male,int,,0,35
+under8,small,29,onesem,3,yes,neverlived,SpanSpan,,,span,Female,basic,good task,0,36
+under8,small,21,nocollege,2,no,midlive,SpanEng,Yes,"Ingles, Español",spaneng,Female,none,,2,37
+over8,mid,24,nocollege,3,yes,midlive,otherL2,Yes,Portugués,other,Female,advanced,"Me gustó el experimento, pues generalmente hablamos naturalmente y no paramos para pensar en lo que funciona y lo que no funciona.",2,38
+neverlived,small,30,nocollege,4,yes,neverlived,SpanEng,Yes,Inglies,eng,Male,basic,,1,39
+under8,most,25,nocollege,4,yes,shortlive,L2,Yes,ingles,other,Female,advanced,,2,40
+neverlived,none,20,nocollege,2,no,neverlived,otherL2,Yes,Português,other,Female,basic,,2,41
+neverlived,none,31,nocollege,3,no,neverlived,otherL2,Yes,portugues,other,Male,int,,2,42
+both8,most,25,nocollege,3,no,mostlive,SpanEng,Yes,Español,span,Male,native,El experimento es interesante y me gustaría saber más de ello. Me puso a pensar en el orden de los adjetivos.,1,43
+neverlived,most,38,mostsem,4,yes,neverlived,SpanEng,Yes,English,eng,Female,advanced,,1,44
+under8,small,,onesem,3,yes,shortlive,SpanSpan,Yes,,span,Male,int,no comment,0,45
+under8,mid,27,onesem,2,yes,shortlive,SpanSpan,Yes,India,span,Male,advanced,,1,46
+over8,most,23,midsem,2,yes,neverlived,SpanSpan,Yes,PORTUGUES,spaneng,Male,int,,2,47
+neverlived,most,35,midsem,2,yes,neverlived,SpanEng,Yes,"Espanol, Ingles",spaneng,Female,native,,2,48
+neverlived,none,24,nocollege,3,no,neverlived,otherL2,Yes,Albanés,other,Male,basic,Encuesta interesante,2,49
+neverlived,none,,nocollege,-1,yes,neverlived,SpanEng,No,ingles,eng,Male,basic,,1,50
+neverlived,small,28,nocollege,3,yes,neverlived,otherL2,Yes,Português,other,Male,advanced,muy bien,2,51
+neverlived,small,30,nocollege,3,yes,neverlived,otherL2,Yes,Português ,other,Male,int,gran éxito interfaz de fácil comprensión y manejo,2,52
+both8,most,19,midsem,3,yes,shortlive,otherL2,Yes,Português,other,Male,basic,Muito bom,1,53
+over8,mid,28,midsem,2,yes,mostlive,L2,Yes,mallayalam,other,Female,native,good,1,54
+neverlived,small,28,midsem,2,no,neverlived,L2,Yes,,eng,Female,int,,1,55
+neverlived,mid,28,midsem,3,yes,neverlived,L2,Yes,,eng,Female,int,,1,56
+neverlived,mid,32,nocollege,3,yes,neverlived,L2,Yes,English,eng,Male,basic,,1,57
+over8,mid,31,midsem,3,yes,neverlived,SpanSpan,Yes,United States,span,Female,native,,0,58
+neverlived,small,20,nocollege,2,no,neverlived,otherL2,Yes,,other,Male,int,Es un experimento muy interesante,2,59
+both8,most,19,,-1,,mostlive,SpanSpan,Yes,Español,span,Male,native,,2,60
+over8,most,34,mostsem,3,no,midlive,SpanEng,Yes,inglés  y español  ,spaneng,Male,near native,,2,61
+over8,mid,27,midsem,3,yes,shortlive,SpanSpan,Yes,english,span,Male,advanced,,1,62
+both8,small,34,midsem,2,no,shortlive,L2,Yes,United States,spaneng,Female,basic,,1,63
+both8,most,25,mostsem,2,yes,mostlive,SpanEng,Yes,Espanol,spaneng,Female,native,Estuvo divertido. Ojala pueda contribuyir en el futuro.,1,64
+under8,most,29,onesem,3,yes,midlive,SpanSpan,Yes,espanol,spaneng,Male,native,"Nada até agora.
+",2,65
+neverlived,most,38,midsem,3,yes,neverlived,L2,Yes,English,eng,Female,int,,2,66
+under8,mid,34,mostsem,3,yes,midlive,L2,Yes,United States,span,Male,near native,,0,67
+under8,mid,35,midsem,3,yes,mostlive,SpanSpan,Yes,Spanish,span,Male,advanced,,1,68
+over8,most,50,mostsem,3,yes,shortlive,otherL2,Yes,Brasil,spaneng,Male,int,,2,69
+under8,small,30,midsem,3,no,midlive,SpanSpan,Yes,Español,spaneng,Male,native,,2,70
+both8,most,33,mostsem,4,yes,mostlive,SpanSpan,Yes,Español,spaneng,Female,native,Creo que necesitan más comas y un poco mejor la escritura de sus oraciones pues no tienen mucho sentido además de que confunden el femenino del masculino en algunas palabras.,2,71
+under8,small,28,onesem,3,yes,neverlived,SpanEng,Yes,English,eng,Female,int,,0,72
+neverlived,small,28,midsem,3,no,neverlived,SpanEng,Yes,,eng,Female,int,,1,73
+both8,most,33,nocollege,4,no,mostlive,SpanSpan,Yes,Español,span,Male,native,NInguno,1,74
+under8,most,22,nocollege,2,noclasses,mostlive,SpanSpan,Yes,Español,span,Male,native,,1,75
+under8,most,27,mostsem,4,yes,shortlive,otherL2,Yes,Polaco,spaneng,Female,near native,,2,76
+under8,none,27,nocollege,4,no,mostlive,SpanSpan,Yes,Español,eng,Female,native,,2,77
+neverlived,small,37,midsem,3,yes,neverlived,SpanEng,Yes,"Turkish, English",eng,Male,none,,-1,78
+neverlived,mid,19,nocollege,1,no,neverlived,SpanEng,Yes,español/ingles,spaneng,Male,near native,,2,79
+neverlived,most,45,midsem,4,yes,neverlived,L2,Yes,English,eng,Female,int,,1,80
+neverlived,small,29,onesem,1,yes,midlive,SpanSpan,No,mexico,eng,Male,near native,,1,81
+both8,none,30,nocollege,1,no,mostlive,SpanSpan,Yes,Español,span,Male,native,,1,82
+both8,most,28,midsem,4,yes,shortlive,L2,Yes,english,eng,Female,int,,2,83
+under8,mid,43,mostsem,2,yes,shortlive,SpanEng,Yes,Espanol,spaneng,Male,near native,,0,84
+neverlived,mid,27,midsem,3,yes,neverlived,SpanEng,Yes,Espanol,spaneng,Female,native,,2,85
+both8,most,29,midsem,3,yes,mostlive,SpanSpan,Yes,Español,spaneng,Male,native,Me encanta los HITs en lo que puedo proporcionar información lingüística desde mi propia experiencia como hispanohablante,2,86
+under8,small,29,onesem,4,no,mostlive,SpanSpan,Yes,Espanol,span,Male,near native,,1,87
+neverlived,most,59,mostsem,3,no,,L2,Yes,íngles,eng,Female,int,"
+Yo era un profesora bilingüe, pero ya no uso mucho el español. Me gusta hablar español más que inglés, pero de ninguna manera soy una hablante nativo.",2,88
+under8,small,,midsem,2,yes,neverlived,SpanSpan,,,spaneng,Female,basic,,1,89
+under8,mid,12,nocollege,3,no,midlive,L2,Yes, hgdfhy,span,Female,advanced,good,1,90
+neverlived,small,28,nocollege,3,no,,SpanSpan,Yes,Malayalam,other,Female,int,buena,2,91
+over8,mid,27,mostsem,0,yes,midlive,SpanEng,Yes,english,eng,Male,int,very nice,2,92
+neverlived,small,36,nocollege,2,yes,neverlived,SpanSpan,Yes,Espanol,span,Male,native,Gracias!,2,93
+neverlived,none,21,onesem,2,no,neverlived,SpanEng,Yes,Espanol,eng,Female,near native,,1,94
+both8,small,23,nocollege,2,yes,shortlive,L2,Yes,English,eng,Male,basic,,1,95
+both8,most,40,nocollege,4,noclasses,mostlive,SpanSpan,Yes,espanol,span,Female,native,,2,96
+under8,small,28,nocollege,1,yes,shortlive,L2,,Spanish and English,spaneng,Male,basic,Gracias!,2,97
+both8,most,33,nocollege,4,noclasses,mostlive,SpanSpan,Yes,español,span,Male,native,"Soy español, de La Coruña. Me ha parecido curioso el experimento. En teoría el significado es igual en ambas frases pero suena algo mejor dependiendo del orden",2,98
+under8,most,60,nocollege,3,yes,mostlive,SpanEng,Yes,Espanol,span,Female,native,Gracias,1,99
+neverlived,mid,28,midsem,3,yes,neverlived,L2,Yes,,eng,Female,,,1,100
+neverlived,small,25,onesem,0,yes,shortlive,SpanEng,Yes,India,span,Male,int,,1,101
+both8,most,30,midsem,3,yes,mostlive,SpanSpan,Yes,español,spaneng,Male,native,,2,102
+under8,most,28,mostsem,3,yes,midlive,SpanSpan,Yes,espanol,eng,Male,advanced,sin comentarios,2,103
+neverlived,most,20,midsem,2,yes,neverlived,SpanEng,Yes,"Español, Ingles",spaneng,Male,native,N/A.,2,104
+neverlived,none,48,nocollege,1,yes,neverlived,SpanEng,Yes,ingles,eng,Female,int,,1,105
+both8,most,32,midsem,4,yes,mostlive,SpanSpan,Yes,Español/ Ingles,spaneng,Female,native,Es un poco largo para la remuneración.,1,106
+both8,most,18,midsem,1,yes,mostlive,SpanSpan,Yes,Español,span,Male,native,Excelente tarea.,2,107
+neverlived,mid,26,nocollege,2,yes,neverlived,L2,Yes,ingles,eng,Male,basic,,1,108
+both8,most,45,mostsem,3,yes,mostlive,SpanSpan,Yes,Spanish,span,Female,native,,2,109
+over8,most,27,midsem,2,yes,shortlive,SpanEng,Yes,ingles,span,Female,int,no,0,110
+under8,small,27,nocollege,1,no,shortlive,SpanSpan,Yes,United States,span,Male,advanced,,1,111
+neverlived,none,20,nocollege,2,no,neverlived,L2,Yes,English,spaneng,Female,int,No tengo ningun comentario en este tiempo.,2,112
+over8,mid,19,onesem,2,yes,shortlive,SpanEng,Yes,ingles,spaneng,Male,near native,estaba muy interesante el experimento.,2,113
+neverlived,small,24,nocollege,2,yes,neverlived,otherL2,Yes,Português,other,Male,basic,,2,114
+under8,most,40,nocollege,2,no,midlive,SpanSpan,Yes,Espanol,spaneng,Male,native,,2,115
+under8,most,24,nocollege,3,yes,mostlive,SpanEng,Yes,Español ,eng,Male,native,,2,116
+neverlived,small,26,midsem,3,yes,neverlived,SpanSpan,Yes,Malayalam,other,Female,int,most of the languages is best.,2,117
+neverlived,small,26,nocollege,3,no,neverlived,SpanSpan,Yes,Malayalam,other,Female,int,buena,2,118
+both8,none,31,nocollege,2,no,mostlive,SpanSpan,Yes,espanol ,span,Female,native,gracias ,2,119
+under8,mid,25,midsem,3,yes,shortlive,SpanSpan,Yes,,span,Female,advanced,nada,1,120
+under8,most,26,mostsem,3,yes,mostlive,SpanEng,Yes,English,span,Male,advanced,"What are the purpose of this hit?
+abulxya@gmail.com",1,121
+both8,most,48,nocollege,4,yes,mostlive,SpanSpan,Yes,Español,span,Male,native,Muy bonito. Es curioso pensar sobre el orden correcto de los adjetivos.,2,122
+neverlived,small,24,nocollege,3,yes,neverlived,SpanEng,Yes,espanol,eng,Male,int,no,2,123
+over8,mid,28,midsem,2,yes,mostlive,SpanEng,Yes,espanol,span,Female,advanced,,2,124
+under8,mid,30,midsem,2,yes,midlive,L2,Yes,Espanol ,span,Female,near native,,2,125
+neverlived,mid,38,mostsem,4,no,neverlived,L2,Yes,Ingles,eng,Male,advanced,N/A,2,126
+under8,none,23,midsem,2,yes,midlive,SpanEng,Yes,Spanish ,span,Male,advanced,,0,127
+both8,most,31,nocollege,4,noclasses,mostlive,SpanSpan,Yes,español,span,Female,native,,2,128
+neverlived,most,24,nocollege,3,yes,neverlived,otherL2,Yes,Portugês,other,Male,int,,1,129
+over8,most,29,mostsem,3,yes,mostlive,SpanEng,Yes,Español,other,Male,near native,,1,130
+neverlived,small,30,nocollege,3,no,neverlived,SpanEng,Yes,"Ingles, Espanol",spaneng,Male,int,,1,131
+neverlived,mid,34,nocollege,4,no,neverlived,L2,Yes,Ingles,eng,Male,int,,2,132
+over8,most,21,mostsem,3,yes,midlive,L2,Yes,english,eng,Female,advanced,,1,133
+neverlived,none,32,nocollege,4,no,neverlived,otherL2,Yes,Português,other,Female,basic,,1,134
+under8,small,23,onesem,2,yes,shortlive,SpanEng,Yes,,span,Male,int,,0,135
+under8,small,28,midsem,3,no,shortlive,L2,Yes,,spaneng,Female,advanced,,1,136
+,small,28,onesem,3,yes,,SpanEng,,,eng,Female,,,-1,137
+neverlived,mid,28,midsem,3,yes,neverlived,L2,Yes,,eng,Female,int,,0,138
+under8,mid,29,onesem,3,yes,midlive,otherL2,Yes,,other,Female,advanced,,2,139
+under8,none,30,onesem,4,yes,midlive,SpanEng,Yes,español,eng,Female,basic,,2,140
+neverlived,most,,onesem,3,yes,neverlived,SpanEng,Yes,inglês,spaneng,Female,advanced,"no tengo comentarios
+",1,141
+over8,most,32,mostsem,3,yes,shortlive,L2,Yes,Ingles y Espanol,other,Female,near native,,1,142
+neverlived,small,44,onesem,3,yes,neverlived,otherL2,Yes,Portugues Brasil,other,Male,basic,Me gustó trabajar con ustedes,2,143
+neverlived,small,GOOD,,2,yes,midlive,SpanSpan,Yes,,,Other,,,-1,144
+over8,small,35,onesem,3,yes,midlive,L2,Yes,ingles,eng,Male,near native,interesante experimento me gustaria participar en mas hits de este tipo ya que se me da muy bien el español,2,145
+under8,none,21,midsem,2,no,mostlive,SpanEng,Yes,Hespanol,span,Male,near native,,2,146
+neverlived,most,40,midsem,3,yes,shortlive,L2,Confused,turkish,eng,Male,basic,,0,147
+neverlived,most,21,midsem,2,yes,neverlived,L2,Yes,frances,eng,Male,int,,2,148
+neverlived,most,19,nocollege,2,yes,neverlived,L2,Yes,inglés y francés,eng,Female,int,,2,149
+neverlived,small,34,nocollege,3,no,neverlived,otherL2,Yes,Português,other,Male,int,Gracias pelo trabajo.,1,150
+under8,most,39,nocollege,3,yes,mostlive,SpanEng,Yes,espanol ,spaneng,Male,native,,0,151
+neverlived,small,26,onesem,3,yes,neverlived,SpanSpan,Yes,Español,span,Female,native,,2,152
+both8,none,31,nocollege,4,noclasses,mostlive,SpanSpan,Yes,Español,span,Male,native,,2,153
+both8,most,18,mostsem,4,yes,mostlive,otherL2,Yes,"English, Spanish",other,Male,native,,2,154
+under8,small,29,onesem,3,yes,shortlive,SpanSpan,Yes,,span,Male,advanced,,0,155
+neverlived,most,32,nocollege,4,yes,neverlived,SpanEng,Yes,español,span,Female,near native,,2,156
+both8,small,37,nocollege,1,yes,midlive,SpanSpan,Yes,espanol,spaneng,,native,Muy interesante las preguntas.,1,157
+both8,most,28,nocollege,3,yes,mostlive,SpanSpan,Yes,Espanol,span,Male,native,,2,158
+under8,small,33,nocollege,0,yes,mostlive,SpanSpan,Yes,English,eng,Male,int,,2,159
+over8,small,25,midsem,2,yes,shortlive,L2,Yes,ENGLISH,span,Female,basic,GOOD,1,160
+under8,small,23,onesem,2,no,shortlive,SpanSpan,Yes,english,span,Female,basic,no,1,161
+over8,mid,25,onesem,2,yes,shortlive,SpanSpan,Yes,yes,span,Female,near native,none,1,162
+over8,small,29,midsem,3,yes,shortlive,L2,Yes,TAMIL,spaneng,Female,advanced,good,1,163
+over8,small,27,onesem,2,yes,midlive,L2,Yes,ENGLISH,span,Female,near native,GOOD AND NICE,2,164
+neverlived,small,34,nocollege,3,yes,neverlived,SpanEng,Yes,Ingles,spaneng,Male,advanced,ningun comentario en este momento,2,165
+over8,most,41,nocollege,4,noclasses,mostlive,SpanSpan,Yes,espanol,eng,Female,near native,Era muy interesante,2,166
+neverlived,small,Danny,nocollege,0,yes,shortlive,SpanEng,No,Alvarado,span,Male,basic,,0,167
+under8,small,35,onesem,4,no,midlive,L2,Yes,English,eng,Female,int,,1,168
+neverlived,mid,20,nocollege,1,noclasses,neverlived,otherL2,Yes,Portugués,other,Male,int,"Muy agradable, diferente de la mayoría y sencillo!",2,169
+neverlived,none,43,nocollege,3,noclasses,neverlived,otherL2,Confused,português,other,Male,basic,,2,170
+over8,small,28,onesem,3,yes,mostlive,otherL2,Yes,,span,Female,int,,1,171
+over8,most,30,mostsem,3,yes,midlive,SpanEng,Yes,Castellano/ Ingles,span,Male,near native,"Hay reglas oficiales establecidas por el RAE del orden de adjetivos, pero por muchos hispanohablantes, suena mejor decirlos diferentamente.",1,172
+neverlived,most,27,midsem,3,yes,neverlived,L2,Yes,Ingles,eng,Female,advanced,,2,173
+both8,,35,,3,,mostlive,L2,Yes,Ingles,eng,Female,near native,,2,174
+over8,mid,30,mostsem,3,yes,midlive,SpanEng,Yes,English,spaneng,Male,native,,1,175
+under8,mid,39,onesem,2,no,midlive,SpanSpan,No,,span,Female,int,,1,176
+over8,mid,30,midsem,3,yes,shortlive,L2,Yes,spanish,spaneng,Male,near native,,1,177
+neverlived,mid,22,nocollege,2,noclasses,neverlived,otherL2,Yes,,other,Male,int,,2,178
+under8,most,25,nocollege,1,no,neverlived,SpanSpan,Yes,espanol,span,Male,advanced,,2,179
