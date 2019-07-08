@@ -33,7 +33,7 @@ t$age = as.numeric(as.character(t$age))
 mean(t[!is.na(t$age),]$age)
 #summary(t) 
 
-length(unique(t$workerid))# 11 indicated "spanish" as native language
+length(unique(t$workerid))# 22 indicated "spanish" as native language
 
 
 #write.csv(t,"~/git/spanish_adjectives/experiments/3-order-preference-expanded2/results/order-preference-spanish-only.csv")
