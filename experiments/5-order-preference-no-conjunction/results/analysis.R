@@ -33,7 +33,7 @@ t$age = as.numeric(as.character(t$age))
 mean(t[!is.na(t$age),]$age)
 #summary(t) 
 
-length(unique(t$workerid))# 22 indicated "spanish" as native language
+length(unique(t$workerid))# 22 indicated "spanish" as native language (180)
 
 
 #write.csv(t,"~/git/spanish_adjectives/experiments/3-order-preference-expanded2/results/order-preference-spanish-only.csv")
@@ -78,10 +78,10 @@ class_s = bootsSummary(data=agr, measurevar="response", groupvars=c("correctclas
 
 ggplot(data=class_s,aes(x=reorder(correctclass,-response,mean),y=response))+
   geom_bar(stat="identity",fill="lightgray",color="black")+
-  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(correctclass,-response,mean), width=0.1),alpha=0.5)+
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(correctclass,-response,mean), width=0.1))+
   geom_hline(yintercept=0.5,linetype="dashed") + 
   xlab("\nadjective class")+
-  ylab("distance from noun\n")+
+  ylab("preferred distance from noun\n")+
   ylim(0,1)+
   #labs("order\npreference")+
   theme_bw()#+
@@ -219,25 +219,24 @@ f = read.csv("../../4-faultless-disagreement/results/pred-subjectivity.csv",head
 adj_agr$subjectivity = f$response[match(adj_agr$predicate,f$predicate)]
 
 gof(adj_agr$response,adj_agr$subjectivity)
-# r = -0.07, r2 = 0.01
+# r = 0.75, r2 = 0.56
 results <- boot(data=adj_agr, statistic=rsq, R=10000, formula=response~subjectivity)
 boot.ci(results, type="bca") 
-# 95%   ( 0.0000,  0.0589 ) 
+# 95%   ( 0.2305,  0.7272 )  
 
 ggplot(adj_agr, aes(x=subjectivity,y=response)) +
   geom_point() +
   #geom_smooth()+
   stat_smooth(method="lm",color="black")+
   #geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
-  ylab("preferred distance\n")+
-  xlab("\nperceived subjectivity")+
+  ylab("preferred distance from noun\n")+
+  xlab("\nsubjectivity score")+
   ylim(0.3,0.8)+
-  #geom_text(label=adj_agr$predicate) +
+  geom_text(label=adj_agr$predicate) +
   # xlim(0.2,0.8)+
   theme_bw()
-#ggsave("../results/naturalness-subjectivity-spanish.png",height=2,width=3)
-#ggsave("../results/naturalness-subjectivity-spanish-LSA.png",height=3,width=3.5)
-#ggsave("../results/naturalness-subjectivity-spanish-LSA-proceedings.png",height=2.7,width=3)
+#ggsave("../results/naturalness-subjectivity-spanish-no-conjunction.png",height=3,width=3.5)
+####ggsave("../results/naturalness-subjectivity-spanish-LSA-proceedings.png",height=2.7,width=3)
 
 ggplot(adj_agr, aes(x=subjectivity,y=response)) +
   geom_point() +
