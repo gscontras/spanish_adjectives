@@ -115,7 +115,7 @@ class_s$correctclass = factor(class_s$correctclass,levels=c("size","quality","te
 ggplot(data=class_s,aes(x=reorder(correctclass,-response,mean),y=response))+
   geom_bar(stat="identity",fill="lightgrey",color="black")+
   geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(correctclass,-response,mean), width=0.1),alpha=1)+
-  geom_jitter(data=adj_agr,aes(y=response),alpha=.75,color="red") +
+  #geom_jitter(data=adj_agr,aes(y=response),alpha=.75,color="red") +
   #geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=reorder(correctclass,-correctresponse,mean), width=0.1),alpha=0.5)+
   geom_hline(yintercept=0.5,linetype="dashed") +
   xlab("\nadjective class")+
@@ -124,6 +124,7 @@ ggplot(data=class_s,aes(x=reorder(correctclass,-response,mean),y=response))+
   #labs("order\npreference")+
   theme_bw()#+
 #ggsave("../results/class_distance_jitter.png",height=2.7)
+#ggsave("../results/class_distance_no-jitter.png",height=2.7)
 
 # adjectives plot
 adj_s = bootsSummary(data=agr, measurevar="correctresponse", groupvars=c("correctclass","predicate"))
