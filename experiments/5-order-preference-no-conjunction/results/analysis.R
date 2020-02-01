@@ -87,7 +87,7 @@ ggplot(data=class_s,aes(x=reorder(correctclass,-response,mean),y=response))+
   theme_bw()#+
 #theme(axis.text.x=element_text(angle=90,vjust=0.35,hjust=1))
 #ggsave("../results/class_distance.pdf",height=3)
-
+#ggsave("../results/spanish-no-conjunction-ordering.pdf",height=2.5,width=7)
 
 # class plot with adjectives
 class_s$correctclass = factor(class_s$correctclass,levels=c("size","quality","texture","age","shape","color","nationality"))
@@ -232,11 +232,13 @@ ggplot(adj_agr, aes(x=subjectivity,y=response)) +
   ylab("preferred distance from noun\n")+
   xlab("\nsubjectivity score")+
   ylim(0.3,0.8)+
-  geom_text(label=adj_agr$predicate) +
+  #geom_text(label=adj_agr$predicate) +
   # xlim(0.2,0.8)+
   theme_bw()
 #ggsave("../results/naturalness-subjectivity-spanish-no-conjunction.png",height=3,width=3.5)
 ####ggsave("../results/naturalness-subjectivity-spanish-LSA-proceedings.png",height=2.7,width=3)
+#ggsave("../results/spanish-no-conjunction-scatter.pdf",height=2.75,width=3.15)
+
 
 ggplot(adj_agr, aes(x=subjectivity,y=response)) +
   geom_point() +
