@@ -231,7 +231,7 @@ ggplot(adj_agr, aes(x=subjectivity,y=response)) +
   #geom_text(aes(label=predicate),size=2.5,vjust=1.5)+
   ylab("preferred distance from noun\n")+
   xlab("\nsubjectivity score")+
-  ylim(0.3,0.8)+
+  ylim(0,1)+
   #geom_text(label=adj_agr$predicate) +
   # xlim(0.2,0.8)+
   theme_bw()
