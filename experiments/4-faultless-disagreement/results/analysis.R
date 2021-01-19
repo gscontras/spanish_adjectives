@@ -40,6 +40,7 @@ t$age = as.numeric(as.character(t$age))
 
 summary(t) 
 length(unique(t$workerid)) # 21 indicated "spanish" as native language
+#write.csv(t,"../results/spanish-faultless.csv")
 
 t$class <- factor(t$class,levels=c("quality","size","age","texture","color","shape","nationality"))
 
