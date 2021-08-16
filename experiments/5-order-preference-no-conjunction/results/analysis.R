@@ -70,6 +70,8 @@ spanish_agr <- agr
 adj_agr = aggregate(response~predicate*correctclass,FUN=mean,data=agr)
 adj_agr
 
+write.csv(adj_agr,"../results/spanish-no-conjunction-ordering.csv")
+
 class_agr = aggregate(response~correctclass,FUN=mean,data=agr)
 
 source("../results/helpers.r")
